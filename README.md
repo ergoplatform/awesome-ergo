@@ -3,7 +3,7 @@
 A curated list of awesome and useful Ergo resources. If you think your project should be listed here, please file a PR.
 
 ## Channels
-- [Site](https://ergoplatform.org/en/)
+- [Website](https://ergoplatform.org/en/)
 - [Blog](https://ergoplatform.org/en/blog/)
 - [Forum](https://www.ergoforum.org/)
 - [YouTube](https://www.youtube.com/channel/UC7cht_rw6ofX3wTirrQG8kw)
