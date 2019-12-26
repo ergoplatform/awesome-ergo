@@ -17,7 +17,7 @@ A curated list of awesome and useful Ergo resources. If you think your project s
 
 ## Full-node and Wallets
  - [Ergo node scource repository](https://github.com/ergoplatform/ergo)
- - [Ergo node](https://ergoplatform.org/en/blog/2019_12_02_how_to_setup/)
+ - [Ergo node tutorial](https://ergoplatform.org/en/blog/2019_12_02_how_to_setup/) - how to set up a node
  - [Magnum (web and mobile)](https://magnumwallet.co/?coin=erg)
  - [CoinBarn (Chrome extension, currently on moderation)](https://github.com/coinbarn/coinbarn-extension)
  - [Waves.exchange (Ergo on Waves blockchain exchanged via trusted gateway)](https://waves.exchange/)
