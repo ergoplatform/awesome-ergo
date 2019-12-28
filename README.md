@@ -35,8 +35,9 @@ A curated list of awesome and useful Ergo resources. If you think your project s
  - [Miner rewards script](https://github.com/lorien/ergotools) Simple command-line tool to find miner rewards not spent and form withdrawing transaction requests for them
 
 ## Tools and Libraries
- - [Ergo Appkit (Polyglot library)](https://github.com/aslesarenko/ergo-appkit) - Appkit: A Library for Polyglot Development of Ergo Applications using GraalVM
+ - [Ergo Appkit (Polyglot library)](https://github.com/aslesarenko/ergo-appkit) - Appkit: A Library for Polyglot Development of Ergo Applications using [GraalVM](https://www.graalvm.org/)
  - [Appkit Examples](https://github.com/aslesarenko/ergo-appkit-examples) - Examples of using Ergo Appkit for Polyglot Development of Ergo Applications
+ - [ErgoTool](https://github.com/aslesarenko/ergo-tool) - A Command Line Interface for Ergo based on Appkit and [GraalVM](https://www.graalvm.org/)
  - [ergo-ts (TypeScript)](https://github.com/coinbarn/ergo-ts)
  - [ergo-js (JavaScript)](https://github.com/ergoplatform/ergo-js) 
  - [Kiosk](https://github.com/scalahub/Kiosk) - interface to Ergo node with additional features for a developer. See this [forum post](https://www.ergoforum.org/t/ergoscript-playground-using-kiosk/96) about particular example 
