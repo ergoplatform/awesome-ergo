@@ -4,7 +4,7 @@ A curated list of awesome and useful Ergo resources. If you think your project s
 
 ## Channels
 - [Website](https://ergoplatform.org/en/)
-- [Discord](https://discord.gg/3M3hjR)
+- [Discord](https://discordapp.com/invite/gYrVrjS)
 - [Blog](https://ergoplatform.org/en/blog/)
 - [Forum](https://www.ergoforum.org/)
 - [YouTube](https://www.youtube.com/channel/UC7cht_rw6ofX3wTirrQG8kw)
