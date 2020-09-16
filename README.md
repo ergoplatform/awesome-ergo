@@ -11,6 +11,8 @@ A curated list of awesome and useful Ergo resources. If you think your project s
 - [Twitter](https://twitter.com/ergoplatformorg)
 - [GitHub](https://github.com/ergoplatform)
 - [Telegram (English)](https://t.me/ergoplatform)
+- [Telegram (Persian)](https://t.me/ergoplatform_IR)
+- [Telegram (Indonesian)](https://t.me/Ergo_Indonesian)
 - [Telegram (Chinese)](https://t.me/ergoplatform_CH)
 - [Telegram (Russian)](https://t.me/ergoplatform_ru)
 - [Telegram (Mining)](https://t.me/ergo_mining)
@@ -22,11 +24,13 @@ A curated list of awesome and useful Ergo resources. If you think your project s
  - [Magnum (web and mobile)](https://magnumwallet.co/?coin=erg)
  - [CoinBarn (Chrome extension, currently on moderation)](https://github.com/coinbarn/coinbarn-extension)
  - [Waves.exchange (Ergo on Waves blockchain exchanged via trusted gateway)](https://waves.exchange/)
+ - [URL Wallet (Your key is in the URL, use this wallet for temporary use cases only!)](https://erg.urlwallet.org/)
 
 ## Miners
  - [CUDA-based GPU miner for Ergo](https://github.com/ergoplatform/Autolykos-GPU-miner) for NVidia cards
  - [OpenCL miner for ERGO](https://github.com/mhssamadani/ergoAMDminer) for AMD cards 
  - [Mining Ergo for Fun and Profit](https://github.com/ergoplatform/ergo/wiki/Mining-Ergo-for-Fun-and-Profit) - this article will help you start mining Ergo using a GPU
+ - [ErgoPool - mining pool for self-sovereign Ergo miners!](https://ergopool.io/)
 
 ## Scripts 
  - [Ergo notary](https://github.com/sininen-taivas/ergo-notary) - simple command-line tool to certificate files on the Ergo blockchain. 
