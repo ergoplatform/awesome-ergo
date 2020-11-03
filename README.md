@@ -17,6 +17,7 @@ A curated list of awesome and useful Ergo resources. If you think your project s
 - [Telegram (Russian)](https://t.me/ergoplatform_ru)
 - [Telegram (Mining)](https://t.me/ergo_mining)
 - [ErgoCast](https://ergocast.io/) - a podcast on Ergo 
+- [Ergo101](https://ergo101.org/) - A handpicked collection of information, videos and links all about ERGO.
 
 ## Full-node and Wallets
  - [Ergo node source code repository](https://github.com/ergoplatform/ergo)
