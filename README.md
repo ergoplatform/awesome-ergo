@@ -18,6 +18,7 @@ A curated list of awesome and useful Ergo resources. If you think your project s
 - [Telegram (Mining)](https://t.me/ergo_mining)
 - [ErgoCast](https://ergocast.io/) - a podcast on Ergo 
 - [Ergo101](https://ergo101.org/) - A handpicked collection of information, videos and links all about ERGO.
+- [Ergonaut](https://ergonaut.space/en/home) - Community gathered resources for the Ergo blockchain
 
 ## Full-node and Wallets
  - [Ergo node source code repository](https://github.com/ergoplatform/ergo)
@@ -36,6 +37,7 @@ A curated list of awesome and useful Ergo resources. If you think your project s
  - [Oracle Core](https://github.com/ergoplatform/oracle-core) - Run your oracle pools!
  - [Ergo Auctions House](http://ergoauctions.org/#/auction/active) - Buy and sell collectible tokens and not only! [Source code](https://github.com/anon-real/ErgoAuctionHouse)
  - ZK Treasury: [Server](https://github.com/anon-real/DistributedSigsServer) and [Client](https://github.com/anon-real/DistributedSigsClient) - a tool for joint spendings with on-chain privacy 
+ - [ErgoDEX](https://ergodex.io/) - Decentralized exchange on Ergo and Cardano
 
 ## Miners
  - [CUDA-based GPU miner for Ergo](https://github.com/ergoplatform/Autolykos-GPU-miner) for NVidia cards
@@ -44,21 +46,23 @@ A curated list of awesome and useful Ergo resources. If you think your project s
  - [ErgoPool - mining pool for self-sovereign Ergo miners!](https://ergopool.io/)
 
 ## Contracts and Scripts 
+ - [ErgoScript tutorial](https://ergoplatform.org/docs/ErgoScript.pdf) - describes an Ergo Scripting Language supporting Noninteractive Zero-Knowledge Proofs
  - [ErgoScript by Example](https://github.com/ergoplatform/ergoscript-by-example) - repository with ErgoScript examples you can play with in Ergo Playground 
+ - [A Quick Primer on ErgoScript](https://github.com/ergoplatform/ergo/wiki/ErgoScript-Overview) Learn the basics of ErgoScript quickly and create your first contract
  - [Ergo notary](https://github.com/sininen-taivas/ergo-notary) - simple command-line tool to certificate files on the Ergo blockchain. 
  See also [forum topic](https://www.ergoforum.org/t/ergo-notary-command-line-tool/75) on a particular example
  - [Ergo oracles](https://github.com/sininen-taivas/ergo-oracle) - simple command-line tool to launch oracles. Inbuilt implementations for USD/ERG, EUR/ERG, BTC/ERG, AUG/ERG (gold) prices delivery. See also a [forum topic with example](https://www.ergoforum.org/t/erg-usd-oracle-on-top-of-ergo/119)
  - [Ergo Crowdfunding CLI](https://github.com/robkorn/ergo-crowdfunding-cli) Command-line tool which enables participating and interacting with crowdfunding campaigns on Ergo 
  - [Miner rewards script](https://github.com/lorien/ergotools) Simple command-line tool to find miner rewards not spent and form withdrawing transaction requests for them
- - [A Quick Primer on ErgoScript](https://github.com/ergoplatform/ergo/wiki/ErgoScript-Overview) Learn the basics of ErgoScript quickly and create your first contract
 
 ## Tools and Libraries
  - [Sigma-Rust](https://github.com/ergoplatform/sigma-rust/) - Alternative and simple implementation of ErgoTree interpreter and transaction building tools
  - [Ergo Utilities](https://github.com/robkorn/ergo-utilities-rust/) - General utilities to make writing off-chain Ergo code in Rust simpler 
- - [Ergo Appkit (Polyglot library)](https://github.com/aslesarenko/ergo-appkit) - Appkit: A Library for Polyglot Development of Ergo Applications using [GraalVM](https://www.graalvm.org/)
+ - [Ergo Appkit](https://github.com/aslesarenko/ergo-appkit) - Appkit is a Java7/Java8A Library for Development of Ergo Applications (also supports [GraalVM](https://www.graalvm.org/), Android and JavaFX)
  - [ergo-ts (TypeScript)](https://github.com/coinbarn/ergo-ts)
  - [ergo-js (JavaScript)](https://github.com/ergoplatform/ergo-js) 
  - [Kiosk](https://github.com/scalahub/Kiosk) - interface to Ergo node with additional features for a developer. See this [forum post](https://www.ergoforum.org/t/ergoscript-playground-using-kiosk/96) about particular example 
  - [Appkit Examples](https://github.com/aslesarenko/ergo-appkit-examples) - Examples of using Ergo Appkit for Polyglot Development of Ergo Applications
- - [ErgoTool](https://github.com/aslesarenko/ergo-tool) - A Command Line Interface for Ergo based on Appkit and [GraalVM](https://www.graalvm.org/)
+ - [Ergo Android](https://github.com/aslesarenko/ergo-android) - Example Android application which uses [Appkit](https://github.com/aslesarenko/ergo-appkit)
+ - [ErgoTool](https://github.com/aslesarenko/ergo-tool) - A Command Line Interface for Ergo based on Appkit and [GraalVM native-image](https://www.graalvm.org/examples/native-image-examples/)
  - [Ergo P2S Playground](https://wallet.plutomonkey.com/p2s/?source=dHJ1ZQ==) - A web-based tool to quickly get the address corresponding to some script  
