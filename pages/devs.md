@@ -1,14 +1,14 @@
-- [Developers](#developers)
+- [Developer Resources](#developer-resources)
   - [Hackathons](#hackathons)
-  - [Resources](#resources)
 - [GitHubs](#githubs)
   - [Devs](#devs)
-  - [Resources](#resources-1)
+  - [Resources](#resources)
     - [Future applications](#future-applications)
 - [Contracts and Scripts](#contracts-and-scripts)
   - [ErgoScript](#ergoscript)
 - [Tools and Libraries](#tools-and-libraries)
   - [Services](#services)
+  - [Testnet](#testnet)
   - [Utilities](#utilities)
   - [JS/TS](#jsts)
 - [Kits](#kits)
@@ -23,7 +23,7 @@
   - [SigmaUSD](#sigmausd)
   - [ErgoDex](#ergodex)
   - [ErgoFund](#ergofund)
-# Developers
+# Developer Resources 
 
 
 
@@ -31,13 +31,6 @@
 
 - May (Completed) - see [ErgoHack](https://ergoplatform.org/en/blog/2021-06-19-ergohack/)
 - September (TBC)
-
-## Resources
-
-- Using [Ergo-TestNet](https://github.com/ergoplatform/ergo/wiki/Ergo-Testnet)
-- [Building Ergo: Developer Tools](https://ergoplatform.org/en/blog/2021-06-10-building-ergo-developer-tools/)
-- [Building Ergo: ErgoScript](https://ergoplatform.org/en/blog/2021-06-09-building-ergo-ergoscript/)
-- [LETS start the discussion](https://ergoplatform.org/en/blog/2021-07-01-lets-start-the-discussion/)
 
 # GitHubs
 - [ergoplatform](https://github.com/ergoplatform/) | Ergo protocol description & reference client implementation.
@@ -63,8 +56,11 @@ See the [Ergo: Decentralized Applications Framework](https://ergoplatform.org/en
 - [A Local Exchange Trading System On Top Of Ergo](https://github.com/ergoplatform/ergo/wiki/A-Local-Exchange-Trading-System-On-Top-Of-Ergo)
 - [A Trustless Local Exchange Trading System](https://github.com/ergoplatform/ergo/wiki/A-Trustless-Local-Exchange-Trading-System)
 - [(E)mail Client for Limited or Blocked Internet](https://www.ergoforum.org/t/e-mail-client-for-limited-or-blocked-internet/134)
+- [LETS start the discussion](https://ergoplatform.org/en/blog/2021-07-01-lets-start-the-discussion/)
 
 Loads more on [ergoforum: research & development](https://www.ergoforum.org/c/research-and-development/7?order=views)
+
+- [Building Ergo: Developer Tools](https://ergoplatform.org/en/blog/2021-06-10-building-ergo-developer-tools/)
 
 
 # Contracts and Scripts 
@@ -79,6 +75,7 @@ Loads more on [ergoforum: research & development](https://www.ergoforum.org/c/re
 
 ## ErgoScript
 
+
 Learn [Ergoscript by reading example smart contracts](https://github.com/ergoplatform/ergoscript-by-example) powered by the Ergo Playground. Each contract example includes a `Ergo Playground` link which allows you to instantly edit and run the smart contract code inside of your browser.
 
 - If you ever need clarity about how specific types/functions/operators in ErgoScript work, please reference the [ErgoScript Language Description](https://github.com/ScorexFoundation/sigmastate-interpreter/blob/develop/docs/LangSpec.md).
@@ -91,6 +88,8 @@ Learn [Ergoscript by reading example smart contracts](https://github.com/ergopla
 
 - [Learn ErgoScript By Example Via The Ergo Playground with Robert Kornacki](https://www.youtube.com/watch?v=8l2v1asHgyA)
 
+
+- [Building Ergo: ErgoScript](https://ergoplatform.org/en/blog/2021-06-09-building-ergo-ergoscript/)
 
 
 # Tools and Libraries
@@ -106,6 +105,10 @@ Learn [Ergoscript by reading example smart contracts](https://github.com/ergopla
 - [API Docs](https://api.ergoplatform.com/api/v1/docs/)
 - [Ergo Addresses](https://ergoplatform.org/en/blog/2019_07_24_ergo_address/)
 - [Ergo terminology: a Box and a Register](https://www.ergoforum.org/t/ergo-terminology-a-box-and-a-register/32)
+
+## Testnet
+
+- Using [Ergo-TestNet](https://github.com/ergoplatform/ergo/wiki/Ergo-Testnet)
 
 
 ## Utilities 
