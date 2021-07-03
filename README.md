@@ -2,6 +2,15 @@
 
 A curated list of awesome and useful Ergo resources. If you think your project should be listed here, please make a pull request.
 
+# Pages
+
+- [Community Chats and Content](/community.md)
+- [Developers](/devs.md)
+- [Documentation](/docs.md)
+- [Miners](/miners.md)
+- [Wallets](/wallets.md)
+
+
 # Official Channels
 
 - [Website](https://ergoplatform.org/en/)
@@ -13,12 +22,4 @@ A curated list of awesome and useful Ergo resources. If you think your project s
 - [GitHub](https://github.com/ergoplatform)
 - [Telegram](https://t.me/ergoplatform)
 
-
-# Resource Pages
-
-- [Community](/community.md) | Chats, Community Content
-- [Developers](/devs.md)
-- [Documentation](/docs.md)
-- [Miners](/miners.md)
-- [Wallets](/wallets.md)
 
