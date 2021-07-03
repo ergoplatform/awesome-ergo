@@ -58,4 +58,3 @@ Ergo can also be mined with [Nvidia miner](https://github.com/mhssamadani/Autoly
 
 
 > There are active miner communities for Ergo on [Discord](https://discord.gg/Q86PNMwRsu) and [Telegram](https://t.me/ergo_mining)
-{.is-info}

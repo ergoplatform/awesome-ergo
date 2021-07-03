@@ -1,7 +1,5 @@
 # Documentation
 
-
-
 ### Applications
 - [FlowCards: A Declarative Framework for Development of Ergo dApps](https://ergoplatform.org/en/blog/2020_04_29_flow_cards/)
 - [A Systematic Approach To Cryptocurrency Fees](https://fc18.ifca.ai/bitcoin/papers/bitcoin18-final18.pdf)
@@ -14,8 +12,8 @@
 ### Autolykos
 
 - [Ergo: The Resilient Platform For Contractual Money](https://ergoplatform.org/docs/whitepaper.pdf)
-- [Autolykos PoW scheme specification]( https://docs.ergoplatform.com/ErgoPow.pdf)
-- [Yellow paper (in progress)]( https://docs.ergoplatform.com/YellowPaper.pdf)
+- [Autolykos PoW scheme specification](https://docs.ergoplatform.com/ErgoPow.pdf)
+- [Yellow paper (in progress)](https://docs.ergoplatform.com/YellowPaper.pdf)
 - [The Ergo Platform Project Overview](https://ergoplatform.org/docs/teaser.pdf)
 - [Revisiting Difficulty Control for Blockchain Systems](https://eprint.iacr.org/2017/731.pdf)
 - [Self-reproducing Coins as Universal Turing Machine](https://arxiv.org/pdf/1806.10116)
@@ -26,22 +24,6 @@
 - [Non-Interactive Proofs of Proof-of-Work](https://eprint.iacr.org/2017/963.pdf)
 
 
-
-### Videos
-- [Multi-Stage Contracts in the UTXO Model: Delivery by Alexander Chepurnoy & Amitabh Saxena](https://www.youtube.com/watch?v=g3FlM_WOwBU)
-- [Learn ErgoScript By Example Via The Ergo Playground with Robert Kornacki](https://www.youtube.com/watch?v=8l2v1asHgyA)
-- [Single-Chain Swap Contracts (DEX basis) by Alex Chepurnoy](https://www.youtube.com/watch?v=Wn_w9F_MX8w)
-
-# Ergo Bootstrap
-The Ergo ecosystem is quickly growing with new design patterns, tools, dApps, and more every single month. This is an exciting point in time for developers to jump in and get started.
-
-That said, while building dApps on top of Ergo, vital infrastructure components to develop and run your dApp might be intimidating to set up for someone who is unfamiliar with the existing tooling. Between an Ergo full node, explorer back end, explorer front end, logging, and metrics, it can become quite overwhelming for a nascent dApp developer entering into the ecosystem.
-
-For this reason, we are introducing [ergo-bootstrap](https://github.com/ergoplatform/ergo-bootstrap), an easy-to-use tool that enables quick and clean Ergo blockchain cluster deployments which supports a variety of useful infrastructure components you will need on your path of dApp development. This was developed by Marek of Five Binaries thanks to a grant given by the Ergo Foundation and their latest push to empower the ecosystem via funding key projects.
-
-Ergo bootstrap tool, build on top of ergo-nix, will help you to quickly deploy an Ergo blockchain cluster with a handful of useful tools you might need to start developing your dApps.
-
-Read more on the blog - [Ergo Bootstrap, Streamlining Ergo dApp Infrastructure With One Simple Tool](https://ergoplatform.org/en/blog/2020-12-11-ergo-bootstrap-streamlining-ergo-dapp-infrastructure-with-one-simple-tool/)
 
 
 
