@@ -2,7 +2,7 @@
 
 # Developers
 
-See the [Ergo: Decentralized Applications Framework](https://ergoplatform.org/en/blog/2021-07-02-ergo-decentralized-applications-framework/) articles on the ergo blog for an overview of what's possible on Ergo.io
+See the [Ergo: Decentralized Applications Framework](https://ergoplatform.org/en/blog/2021-07-02-ergo-decentralized-applications-framework/) articles on the ergo blog for an overview of what's possible on Ergo
 
 ## Hackathons
 
@@ -12,14 +12,12 @@ See the [Ergo: Decentralized Applications Framework](https://ergoplatform.org/en
 ## Resources
 
 - Using [Ergo-TestNet](https://github.com/ergoplatform/ergo/wiki/Ergo-Testnet)
-
-### Articles
 - [Building Ergo: Developer Tools](https://ergoplatform.org/en/blog/2021-06-10-building-ergo-developer-tools/)
 - [Building Ergo: ErgoScript](https://ergoplatform.org/en/blog/2021-06-09-building-ergo-ergoscript/)
 - [LETS start the discussion](https://ergoplatform.org/en/blog/2021-07-01-lets-start-the-discussion/)
 
 # GitHubs
-- [ergoplatform](https://github.com/ergoplatform/) | Ergo protocol description & reference client implementation
+- [ergoplatform](https://github.com/ergoplatform/) | Ergo protocol description & reference client implementation.
 - [ergolabs](https://github.com/ergolabs) | ErgoDex
 - [Emurgo](https://github.com/Emurgo/) | AgeUSD, Oracle Pools, Yoroi
 
@@ -41,7 +39,17 @@ See the [Ergo: Decentralized Applications Framework](https://ergoplatform.org/en
 
 ## Oracle Pools
 - [Oracle Core](https://github.com/ergoplatform/oracle-core) - Run your oracle pools!
-- [Ergo oracles](https://github.com/sininen-taivas/ergo-oracle) - simple command-line tool to launch oracles. Inbuilt implementations for USD/ERG, EUR/ERG, BTC/ERG, AUG/ERG (gold) prices delivery. See also a [forum topic with example](https://www.ergoforum.org/t/erg-usd-oracle-on-top-of-ergo/119)
+- [Ergo oracles](https://github.com/sininen-taivas/ergo-oracle) - simple command-line tool to launch oracles. Inbuilt implementations for USD/ERG, EUR/ERG, BTC/ERG, AUG/ERG (gold) prices delivery. 
+- [Oracle Pool List](https://explorer.ergoplatform.com/en/oracle-pools-list)
+
+
+**Articles**
+- [Emurgo Research: Oracle Pools](https://github.com/Emurgo/Emurgo-Research/blob/master/oracles/Oracle-Pools.md)
+- [Chainlink Oracles vs. Ergo Oracle Pools](https://ergoplatform.org/en/blog/2021-04-27-chainlink-oracles-vs-ergo-oracle-pools/)
+- [Oracle Pools - A New Oracle Model](https://www.ergoforum.org/t/oracle-pools-a-new-oracle-model/263)
+- [First steps towards interoperability with Cardano oracles](https://ergoplatform.org/en/blog/2020-11-09-first-steps-towards-interoperability-with-cardano-oracles/)
+- [Ergo Blockchain: Oracle Pool Governance Update](https://curiaregiscrypto.medium.com/ergo-blockchain-oracle-pool-governance-update-d078d58571b0)
+- [The role of Ergo Oracles](https://veriumfellow.medium.com/oracle-special-4e36cfa6a852)
 
 ## ErgoMixer
 
@@ -60,12 +68,25 @@ There have been requests from the community to understand the mixer, why it is a
 
 ## ErgoAuctions
 - [Ergo Auctions House](http://ergoauctions.org/#/auction/active) - Buy and sell collectible tokens and more [Source code](https://github.com/anon-real/ErgoAuctionHouse)
+- [ergonaut.space/en/ErgoAuctions](https://ergonaut.space/en/ErgoAuctions)
 
 ## SigmaUSD
-- [SigmaUSD](https://github.com/anon-real/sigma-usd) | [AgeUSD](https://github.com/Emurgo/age-usd)
+> The first UTxO-based stable coin - an instantiation of the [AgeUSD protocol](https://github.com/Emurgo/age-usd). Its economic model designed in partnership between IOHK, Ergo, and Emurgo maintains the conservative settings for collateral reserves and avoids the need for liquidations. Along with that, it supports a fully decentralised stablecoin emission setup.
+
+- [anon-real/sigma-usd](https://github.com/anon-real/sigma-usd) 
+
+**Resources**
+- [Ergo Summit 2021 - The IOHK Perspective - Designing the AgeUSD StableCoin](https://youtu.be/zG-rxMCDIa0?t=9247)
+- [Overview Video (with diagrams)](https://www.youtube.com/watch?v=O3hPEp3tzoU)
+- [Building Ergo: How the AgeUSD stablecoin works](https://ergoplatform.org/en/blog/2021-02-05-building-ergo-how-the-ageusd-stablecoin-works/)
+- [Emurgo announcement blog post](https://ergoplatform.org/en/blog/2021_02_26-sigmausd-released/)
+- [Finding The Right Balance](https://ergoplatform.org/en/blog/2021_03_04-finding-right-balance/)
+    - [Community Discussion on Reddit](https://www.reddit.com/r/ergonauts/comments/lx7an4/sigmausd_dao_bank_is_a_complex_beast_highlevel/gpr96fq/?context=3)
+- [SigmaUSD (v1) Release](https://ergoplatform.org/en/blog/2021_02_26-sigmausd-released/)
  
 ## ErgoDex
 - [ErgoDex](https://github.com/ergolabs) 
+- [EIP-0014: Decentalized Exchange Contracts](https://github.com/ergoplatform/eips/pull/27)
 
 # ErgoFund
 - [Ergo Crowdfunding CLI](https://github.com/robkorn/ergo-crowdfunding-cli) Command-line tool which enables participating and interacting with crowdfunding campaigns on Ergo
