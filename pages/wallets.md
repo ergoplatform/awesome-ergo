@@ -30,6 +30,7 @@ Wallet in beta testing by developer
 
 [Are you feeling furry and brave? We need guineas for testing the android ergo wallet.](https://www.reddit.com/r/ergonauts/comments/ocbgf8/are_you_feeling_furry_and_brave_we_need_guineas/)
 
+- [MrStahlfelge/ergo-wallet-android](https://github.com/MrStahlfelge/ergo-wallet-android/)
 ## iPhone
 
 iOS wallet in development
