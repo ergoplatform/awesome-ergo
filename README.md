@@ -2,13 +2,16 @@
 
 A curated list of awesome and useful Ergo resources. If you think your project should be listed here, please make a pull request.
 
+
+Logos, infographics and more available in [graphics](graphics)
 # Pages
 
-- [Community Chats and Content](/community.md)
-- [Developers](/devs.md)
-- [Documentation](/docs.md)
-- [Miners](/miners.md)
-- [Wallets](/wallets.md)
+- [Community Chats and Content](pages/community.md)
+- [Developers](pages/devs.md)
+- [Documentation](pages/docs.md)
+- [Miners](pages/miners.md)
+- [Wallets](pages/wallets.md)
+
 
 
 # Official Channels
