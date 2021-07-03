@@ -4,7 +4,7 @@
 - [GitHubs](#githubs)
   - [Devs](#devs)
   - [Resources](#resources-1)
-- [Future applications](#future-applications)
+    - [Future applications](#future-applications)
 - [Contracts and Scripts](#contracts-and-scripts)
   - [ErgoScript](#ergoscript)
 - [Tools and Libraries](#tools-and-libraries)
@@ -13,7 +13,7 @@
   - [JS/TS](#jsts)
 - [Kits](#kits)
   - [Appkit](#appkit)
-- [Ergo Bootstrap](#ergo-bootstrap)
+  - [Ergo Bootstrap](#ergo-bootstrap)
 - [Sigmastate-Interpreter](#sigmastate-interpreter)
   - [Rust](#rust)
 - [Existing Applications](#existing-applications)
@@ -23,7 +23,6 @@
   - [SigmaUSD](#sigmausd)
   - [ErgoDex](#ergodex)
   - [ErgoFund](#ergofund)
-
 # Developers
 
 
@@ -55,7 +54,7 @@
 - [ErgoWiki](https://github.com/ergoplatform/ergo/wiki)
 - [ScorexFoundation](https://github.com/ScorexFoundation/)
 - [/r/ergonauts - FAQ](https://www.reddit.com/r/ergonauts/wiki/faq)
-# Future applications
+### Future applications
 
 See the [Ergo: Decentralized Applications Framework](https://ergoplatform.org/en/blog/2021-07-02-ergo-decentralized-applications-framework/) articles on the ergo blog for an overview of what's possible on Ergo
 
@@ -148,7 +147,7 @@ In addition Appkit is compatible with Android and can be used from Android appli
 - [Ergo Android](https://github.com/aslesarenko/ergo-android) - Example Android application which demonstrates how Ergo Appkit can be used to develop Ergo applications running on Android.
 - [Multi-Stage Contracts in the UTXO Model: Delivery by Alexander Chepurnoy & Amitabh Saxena](https://www.youtube.com/watch?v=g3FlM_WOwBU)
 
-# Ergo Bootstrap
+## Ergo Bootstrap
 The Ergo ecosystem is quickly growing with new design patterns, tools, dApps, and more every single month. This is an exciting point in time for developers to jump in and get started.
 
 That said, while building dApps on top of Ergo, vital infrastructure components to develop and run your dApp might be intimidating to set up for someone who is unfamiliar with the existing tooling. Between an Ergo full node, explorer back end, explorer front end, logging, and metrics, it can become quite overwhelming for a nascent dApp developer entering into the ecosystem.
