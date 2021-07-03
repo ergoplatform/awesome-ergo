@@ -1,4 +1,28 @@
-
+- [Developers](#developers)
+  - [Hackathons](#hackathons)
+  - [Resources](#resources)
+- [GitHubs](#githubs)
+  - [Devs](#devs)
+  - [Resources](#resources-1)
+- [Future applications**](#future-applications)
+- [ErgoScript](#ergoscript)
+  - [Contracts and Scripts](#contracts-and-scripts)
+  - [Tools and Libraries](#tools-and-libraries)
+- [Appkit](#appkit)
+- [Sigmastate-Interpreter](#sigmastate-interpreter)
+  - [Rust](#rust)
+- [JS/TS](#jsts)
+- [Resources](#resources-2)
+  - [Services](#services)
+  - [Ergo Bootstrap](#ergo-bootstrap)
+- [Misc](#misc)
+- [Applications](#applications)
+    - [Oracle Pools](#oracle-pools)
+    - [ErgoMixer](#ergomixer)
+    - [ErgoAuctions](#ergoauctions)
+    - [SigmaUSD](#sigmausd)
+    - [ErgoDex](#ergodex)
+    - [ErgoFund](#ergofund)
 
 # Developers
 
@@ -144,7 +168,7 @@ sigma-rust is an alternative and simple implementation of ErgoTree interpreter a
 
 
 
-### Ergo Bootstrap
+## Ergo Bootstrap
 The Ergo ecosystem is quickly growing with new design patterns, tools, dApps, and more every single month. This is an exciting point in time for developers to jump in and get started.
 
 That said, while building dApps on top of Ergo, vital infrastructure components to develop and run your dApp might be intimidating to set up for someone who is unfamiliar with the existing tooling. Between an Ergo full node, explorer back end, explorer front end, logging, and metrics, it can become quite overwhelming for a nascent dApp developer entering into the ecosystem.
@@ -155,7 +179,7 @@ Ergo bootstrap tool, build on top of ergo-nix, will help you to quickly deploy a
 
 Read more on the blog - [Ergo Bootstrap, Streamlining Ergo dApp Infrastructure With One Simple Tool](https://ergoplatform.org/en/blog/2020-12-11-ergo-bootstrap-streamlining-ergo-dapp-infrastructure-with-one-simple-tool/)
 
-## Misc
+# Misc
 
 **Utilities**
 - [Ergo notary](https://github.com/sininen-taivas/ergo-notary) - simple command-line tool to certificate files on the Ergo blockchain. See also [forum topic](https://www.ergoforum.org/t/ergo-notary-command-line-tool/75) on a particular example
@@ -172,7 +196,7 @@ Read more on the blog - [Ergo Bootstrap, Streamlining Ergo dApp Infrastructure W
 
 
 
-## Applications
+# Applications
 
 
 ### Oracle Pools

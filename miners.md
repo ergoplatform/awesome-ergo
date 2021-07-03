@@ -1,3 +1,7 @@
+- [Miners](#miners)
+- [Requirements](#requirements)
+- [Resources](#resources)
+- [Guides](#guides)
 # Miners
 
 Ergo has a strictly limited supply, an 8‐year emission schedule and a declining rate of emission over these 8 years. All tokens are mined through an original Asic and  Proof‐of‐Work (“PoW”) algorithm called [Autolykos](https://ergonaut.space/en/Autolykos), which employs a [non-linear difficulty algorithm](https://www.docdroid.net/mcoitvK/ergopow-pdf#page=2). Therefore, there are 0 Ergs in existence at launch of mainnet as there was no ICO nor pre‐mine. At the end of 8 years, the final Erg supply will be 97,739,925 Ergs. The Ergo block interval is 2 minutes and for the first 2 years, each block will release a total of 75 Ergs to be shared between the miners and the Treasury (Treasury discussed below). But starting at year 2, the rate of emission will fall by 3.0 Ergs and thereafter further decline every 3 months by an additional 3.0 Ergs, which will result in an end to emission 8 years after launch. There will be no additional inflation and the Erg monetary base will remain fixed. The [emission schedule chart](https://ergoplatform.org/en/blog/2019_05_20-curve/) illustrates this.
