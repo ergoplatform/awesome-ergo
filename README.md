@@ -17,7 +17,7 @@ A curated list of awesome and useful Ergo resources. If you think your project s
 # Resource Pages
 
 - [Community](/community.md) | Chats, Community Content
-- [Developers](/developers.md)
+- [Developers](/devs.md)
 - [Documentation](/docs.md)
 - [Miners](/miners.md)
 - [Wallets](/wallets.md)

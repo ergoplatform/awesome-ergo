@@ -1,13 +1,6 @@
 # Community
 
 ## Channels
-- [Website](https://ergoplatform.org/en/)
-- [Discord](https://discordapp.com/invite/gYrVrjS)
-- [Blog](https://ergoplatform.org/en/blog/)
-- [Forum](https://www.ergoforum.org/)
-- [YouTube](https://www.youtube.com/channel/UC7cht_rw6ofX3wTirrQG8kw)
-- [Twitter](https://twitter.com/ergoplatformorg)
-- [GitHub](https://github.com/ergoplatform)
 - [ErgoCast](https://ergocast.io/) - a podcast on Ergo 
 - [Ergo101](https://ergo101.org/) - A handpicked collection of information, videos and links all about ERGO.
 - [Ergonaut](https://ergonaut.space/en/home) - Community gathered resources for the Ergo blockchain
