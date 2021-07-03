@@ -252,6 +252,4 @@ There have been requests from the community to understand the mixer, why it is a
 ### ErgoFund
 - [Ergo Crowdfunding CLI](https://github.com/robkorn/ergo-crowdfunding-cli) Command-line tool which enables participating and interacting with crowdfunding campaigns on Ergo
 - [Scanner](https://github.com/ergoplatform/scanner)
-
-
 - ZK Treasury: [Server](https://github.com/anon-real/DistributedSigsServer) and [Client](https://github.com/anon-real/DistributedSigsClient) - a tool for joint spendings with on-chain privacy 
