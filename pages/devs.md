@@ -199,7 +199,7 @@ Read more on the blog - [Ergo Bootstrap, Streamlining Ergo dApp Infrastructure W
 # Existing Applications
 > [sigmaverse](sigmaverse.io/) - Your portal to the Ergo Universe
 
-### Oracle Pools
+## Oracle Pools
 - [Oracle Core](https://github.com/ergoplatform/oracle-core) - Run your oracle pools!
 - [Ergo oracles](https://github.com/sininen-taivas/ergo-oracle) - simple command-line tool to launch oracles. Inbuilt implementations for USD/ERG, EUR/ERG, BTC/ERG, AUG/ERG (gold) prices delivery. 
 - [Oracle Pool List](https://explorer.ergoplatform.com/en/oracle-pools-list)
@@ -213,7 +213,7 @@ Read more on the blog - [Ergo Bootstrap, Streamlining Ergo dApp Infrastructure W
 - [Ergo Blockchain: Oracle Pool Governance Update](https://curiaregiscrypto.medium.com/ergo-blockchain-oracle-pool-governance-update-d078d58571b0)
 - [The role of Ergo Oracles](https://veriumfellow.medium.com/oracle-special-4e36cfa6a852)
 
-### ErgoMixer
+## ErgoMixer
 
 > The first working non-custodial, programmable, non-interactive mixer in the cryptocurrency space. 
 
@@ -226,11 +226,11 @@ There have been requests from the community to understand the mixer, why it is a
 - [A solution for staking](https://www.ergoforum.org/t/a-solution-for-staking/1057)
 - [ZeroJoin: Combining Zerocoin and Coinjoin](https://ergoplatform.org/docs/CBT_2020_ZeroJoin_Combining_Zerocoin_and_CoinJoin_v3.pdf)
 
-### ErgoAuctions
+## ErgoAuctions
 - [Ergo Auctions House](http://ergoauctions.org/#/auction/active) - Buy and sell collectible tokens and more [Source code](https://github.com/anon-real/ErgoAuctionHouse)
 - [ergonaut.space/en/ErgoAuctions](https://ergonaut.space/en/ErgoAuctions)
 
-### SigmaUSD
+## SigmaUSD
 > The first UTxO-based stable coin - an instantiation of the [AgeUSD protocol](https://github.com/Emurgo/age-usd). Its economic model designed in partnership between IOHK, Ergo, and Emurgo maintains the conservative settings for collateral reserves and avoids the need for liquidations. Along with that, it supports a fully decentralised stablecoin emission setup.
 
 - [anon-real/sigma-usd](https://github.com/anon-real/sigma-usd) 
@@ -244,12 +244,10 @@ There have been requests from the community to understand the mixer, why it is a
     - [Community Discussion on Reddit](https://www.reddit.com/r/ergonauts/comments/lx7an4/sigmausd_dao_bank_is_a_complex_beast_highlevel/gpr96fq/?context=3)
 - [SigmaUSD (v1) Release](https://ergoplatform.org/en/blog/2021_02_26-sigmausd-released/)
  
-### ErgoDex
+## ErgoDex
 - [ErgoDex](https://github.com/ergolabs) 
 - [EIP-0014: Decentalized Exchange Contracts](https://github.com/ergoplatform/eips/pull/27)
-- [Single-Chain Swap Contracts (DEX basis) by Alex Chepurnoy](https://www.youtube.com/watch?v=Wn_w9F_MX8w)
-
-### ErgoFund
+- [Single-Chain Swap Contracts (DEX basis) by Alex Chepurnoy](https://www.youtube.com/watch
+## ErgoFund
 - [Ergo Crowdfunding CLI](https://github.com/robkorn/ergo-crowdfunding-cli) Command-line tool which enables participating and interacting with crowdfunding campaigns on Ergo
-- [Scanner](https://github.com/ergoplatform/scanner)
-- ZK Treasury: [Server](https://github.com/anon-real/DistributedSigsServer) and [Client](https://github.com/anon-real/DistributedSigsClient) - a tool for joint spendings with on-chain privacy 
+- [Scanner](https://github.com/ergoplatform/scann- ZK Treasury: [Server](https://github.com/anon-real/DistributedSigsServer) and [Client](https://github.com/anon-real/DistributedSigsClient) - a tool for joint spendings with on-chain privacy 
