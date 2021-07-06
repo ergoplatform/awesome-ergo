@@ -1,3 +1,4 @@
+- [Overview](#overview)
 - [Autolykos](#autolykos)
   - [Difficulty](#difficulty)
 - [Requirements](#requirements)
@@ -5,6 +6,14 @@
   - [Other Miners](#other-miners)
 - [Guides](#guides)
 - [Pools](#pools)
+  - [Host A Pool](#host-a-pool)
+    - [Step by Step](#step-by-step)
+
+# Overview
+
+- [Mining Pool Stats](https://miningpoolstats.stream/ergo)
+- [(Repsonses) Hashrates and GPU settings](https://docs.google.com/spreadsheets/d/1NsuoDB27EwCo_BlSjCP3GMLfTSJRPIWIBsL-wPTllUg/edit#gid=1675061291)
+  - [Mining Stats Submission Form](https://docs.google.com/forms/d/e/1FAIpQLSfvRg_I5QumCBmMCwOHzel6bt5OOAA0uvJl_PBdKEtlpbRnVQ/viewform)
 
 
 # Autolykos
@@ -45,11 +54,6 @@ The ERGO explorer can give you various information & stats on mining and the net
 
 
 
-
-- [Mining Pool Stats](https://miningpoolstats.stream/ergo)
-- [Mining Stats Submission Form](https://docs.google.com/forms/d/e/1FAIpQLSfvRg_I5QumCBmMCwOHzel6bt5OOAA0uvJl_PBdKEtlpbRnVQ/viewform)
-- [(Repsonses) Hashrates and GPU settings](https://docs.google.com/spreadsheets/d/1NsuoDB27EwCo_BlSjCP3GMLfTSJRPIWIBsL-wPTllUg/edit#gid=1675061291)
-
 ## Other Miners
 
 - [CUDA-based GPU miner for Ergo](https://github.com/ergoplatform/Autolykos-GPU-miner) for NVidia cards
@@ -89,3 +93,17 @@ The ERGO explorer can give you various information & stats on mining and the net
 
 
 > There are active miner communities for Ergo on [Discord](https://discord.gg/Q86PNMwRsu) and [Telegram](https://t.me/ergo_mining)
+
+## Host A Pool
+
+Currently the [#host-a-pool](https://discord.gg/kxbrHVwnm5) on Discord is the best place to get support configuring a pool. 
+
+- [ErgoStratumProxy](https://github.com/mhssamadani/ErgoStratumProxy) | Miner Connection + Work Management
+- [ErgoStratumServer](https://github.com/mhssamadani/ErgoStratumServer) |  Pool Server
+- [ergo-nomp](https://github.com/btclinux/ergo-nomp) | Node open mining portal configufed for ergo
+
+### Step by Step 
+
+1. Setup a Node
+2. Setup ErgoStratumServer
+3. Point [ergo-nomp](https://github.com/btclinux/ergo-nomp) to (1) and (2).

@@ -25,6 +25,8 @@
 
 This page provides an overview of all relevent links for developers. Please submit a PR if anything is missing!
 
+- See [wallets.md](/wallets.md) for developer resources within that area
+
 # Hackathons
 
 We've just completed our first hackathon, but there's plenty more on the way.
@@ -58,7 +60,7 @@ Loads more on [ergoforum: research & development](https://www.ergoforum.org/c/re
 
 **GitHubs**
 - [ergoplatform](https://github.com/ergoplatform/) | Ergo protocol description & reference client implementation.
-- [ergolabs](https://github.com/ergolabs) | ErgoDex
+- [ergolabs](https://github.com/ergolabs) | ErgoDex 
 - [Emurgo](https://github.com/Emurgo/) | AgeUSD, Oracle Pools, Yoroi
 # Contracts and Scripts 
  - [ErgoScript tutorial](https://ergoplatform.org/docs/ErgoScript.pdf) - describes an Ergo Scripting Language supporting Noninteractive Zero-Knowledge Proofs

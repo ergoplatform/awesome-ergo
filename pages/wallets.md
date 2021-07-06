@@ -24,13 +24,12 @@ Yoroi (on desktop) or a full node is the best solution at the moment. Mobile app
  - [ErgoWallet (desktop)](https://ergowallet.io/)
 # Mobile
 
-## android
+## Android
 
-Wallet in beta testing by developer 
+An android wallet in beta testing by a community developer and is available at [MrStahlfelge/ergo-wallet-android](https://github.com/MrStahlfelge/ergo-wallet-android/)
 
-[Are you feeling furry and brave? We need guineas for testing the android ergo wallet.](https://www.reddit.com/r/ergonauts/comments/ocbgf8/are_you_feeling_furry_and_brave_we_need_guineas/)
-
-- [MrStahlfelge/ergo-wallet-android](https://github.com/MrStahlfelge/ergo-wallet-android/)
+Feedback for this is currently being taken in [#wallet-guineas](https://discord.gg/CQ4MXeNWts) on discord
+- 
 ## iPhone
 
 iOS wallet in development
