@@ -39,7 +39,7 @@ iOS wallet in development
 
 ## Ledger
 
-Integration underway
+Integration underway. Tesseract is moving onto the next stage of development, implementing the ledger specs. Things got a little delayed in the initial spec process. I hope to see the implementation with a very basic UI, at that point they will shift their focus into fully building out the user interface. After that it is test, test, test.
 
 Workaround using [Waves.exchange (Ergo on Waves blockchain exchanged via trusted gateway)](https://waves.exchange/) 
 
