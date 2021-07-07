@@ -3,7 +3,7 @@
 A curated list of awesome and useful Ergo resources. If you think your project should be listed here, please make a pull request.
 
 
-Logos, infographics and more available in [graphics](graphics)
+Logos, infographics and more available in [graphics](graphics). Check out the [Grow Ergo](https://github.com/ergoplatform/grow-ergo/) repository to see bounties available on Ergo.
 # Pages
 
 - [Community Chats and Content](pages/community.md)
@@ -11,8 +11,6 @@ Logos, infographics and more available in [graphics](graphics)
 - [Documentation](pages/docs.md)
 - [Miners](pages/miners.md)
 - [Wallets](pages/wallets.md)
-
-
 
 # Official Channels
 

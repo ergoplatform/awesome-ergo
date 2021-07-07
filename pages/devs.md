@@ -8,6 +8,7 @@
   - [Services](#services)
   - [Utilities](#utilities)
   - [JS/TS](#jsts)
+  - [C](#c)
 - [Kits](#kits)
   - [Appkit](#appkit)
   - [Ergo Bootstrap](#ergo-bootstrap)
@@ -62,6 +63,7 @@ Loads more on [ergoforum: research & development](https://www.ergoforum.org/c/re
 - [ergoplatform](https://github.com/ergoplatform/) | Ergo protocol description & reference client implementation.
 - [ergolabs](https://github.com/ergolabs) | ErgoDex 
 - [Emurgo](https://github.com/Emurgo/) | AgeUSD, Oracle Pools, Yoroi
+- 
 # Contracts and Scripts 
  - [ErgoScript tutorial](https://ergoplatform.org/docs/ErgoScript.pdf) - describes an Ergo Scripting Language supporting Noninteractive Zero-Knowledge Proofs
  - [ErgoScript by Example](https://github.com/ergoplatform/ergoscript-by-example) - repository with ErgoScript examples you can play with in Ergo Playground 
@@ -122,6 +124,15 @@ Learn the basics of ErgoScript quickly and create your first contract
  - [ergo-ts (TypeScript)](https://github.com/coinbarn/ergo-ts) with support of tokens and complex transactions
  - [ergo-js (JavaScript)](https://github.com/ergoplatform/ergo-js) with basic transaction operations
  - [Ergo JS Template](https://github.com/anon-real/ergo-js-template)
+
+
+## C#
+
+
+
+There is a great video series by Razor-sharp Solution -- [Ergo with C# 101](https://www.youtube.com/watch?v=aUuki-fAxwc&list=PLUWruihtE-HtL-JZk8Vb4Yn_H18aE3rb6)
+
+Stay tuned - A C# interpreter, cross-platform wallet, management and miner platform is under development!
 
 
 

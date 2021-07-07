@@ -1,5 +1,16 @@
+
 # Community
 
+Ergo is supported by a vibrants grassroots community and can be found across Reddit, Telegram, Discord and The Ergo Platform Forums. Come join the main [Ergo Community-based marketing](https://t.me/ErgoSocials) chat on Telegram. 
+
+# Table Of Contents
+
+- [Community](#community)
+- [Table Of Contents](#table-of-contents)
+  - [Channels](#channels)
+  - [Mining](#mining)
+  - [Telegram](#telegram)
+    - [Regional Telegrams](#regional-telegrams)
 ## Channels
 - [ErgoCast](https://ergocast.io/) - a podcast on Ergo 
 - [Ergo101](https://ergo101.org/) - A handpicked collection of information, videos and links all about ERGO.
