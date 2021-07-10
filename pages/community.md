@@ -3,19 +3,16 @@
 
 Ergo is supported by a vibrants grassroots community and can be found across Reddit, Telegram, Discord and The Ergo Platform Forums. Come join the main [Ergo Community-based marketing](https://t.me/ErgoSocials) chat on Telegram. 
 
-# Table Of Contents
-
-- [Community](#community)
-- [Table Of Contents](#table-of-contents)
-  - [Channels](#channels)
-  - [Mining](#mining)
-  - [Telegram](#telegram)
-    - [Regional Telegrams](#regional-telegrams)
-## Channels
-- [ErgoCast](https://ergocast.io/) - a podcast on Ergo 
+## Deep Dives
+- [Ergonaut](https://ergonaut.space/en/home) | Community gathered resources for the Ergo blockchain (in markdown format)
 - [Ergo101](https://ergo101.org/) - A handpicked collection of information, videos and links all about ERGO.
-- [Ergonaut](https://ergonaut.space/en/home) - Community gathered resources for the Ergo blockchain
+- [ergosites.github.io](https://ergosites.github.io/) | Resource page which links to various websites and utilities. 
+- [/r/ergonauts - FAQ](https://www.reddit.com/r/ergonauts/wiki/faq)
+## Video
+- [ErgoCast](https://ergocast.io/) - a podcast on Ergo 
 - [Ergo Community Marketing BitTube](https://bittube.tv/profile/Ergo%20Community%20Marketing)
+
+
 
 ## Mining
 

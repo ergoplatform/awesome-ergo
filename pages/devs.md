@@ -14,12 +14,11 @@
   - [Ergo Bootstrap](#ergo-bootstrap)
 - [Sigmastate-Interpreter](#sigmastate-interpreter)
   - [Rust](#rust)
-- [Existing Applications](#existing-applications)
-  - [Oracle Pools](#oracle-pools)
+- [Oracle Pools](#oracle-pools)
+- [dApps](#dapps)
   - [ErgoMixer](#ergomixer)
   - [ErgoAuctions](#ergoauctions)
   - [SigmaUSD](#sigmausd)
-- [Development](#development)
   - [ErgoDex](#ergodex)
   - [ErgoFund](#ergofund)
 # Developer Resources 
@@ -36,6 +35,8 @@ We've just completed our first hackathon, but there's plenty more on the way.
 - September (TBC)
 - Q4 2021 (TBC)
 
+Join the [Discord](https://discord.gg/qxdrHM2eHv) to participate. 
+
 ## 💡 Idea Incubator
 
 See the [Ergo: Decentralized Applications Framework](https://ergoplatform.org/en/blog/2021-07-02-ergo-decentralized-applications-framework/) articles on the ergo blog for an overview of what's possible on Ergo
@@ -51,19 +52,17 @@ Loads more on [ergoforum: research & development](https://www.ergoforum.org/c/re
 
 - [Building Ergo: Developer Tools](https://ergoplatform.org/en/blog/2021-06-10-building-ergo-developer-tools/)
 
-
-
-
 # Resources
 - [ErgoWiki](https://github.com/ergoplatform/ergo/wiki)
-- [ScorexFoundation](https://github.com/ScorexFoundation/)
-- [/r/ergonauts - FAQ](https://www.reddit.com/r/ergonauts/wiki/faq)
+- [ergosites.github.io](https://ergosites.github.io/) | Resource page which links to various websites and utilities. 
+
 
 **GitHubs**
 - [ergoplatform](https://github.com/ergoplatform/) | Ergo protocol description & reference client implementation.
 - [ergolabs](https://github.com/ergolabs) | ErgoDex 
 - [Emurgo](https://github.com/Emurgo/) | AgeUSD, Oracle Pools, Yoroi
-- 
+- [ScorexFoundation](https://github.com/ScorexFoundation/)
+
 # Contracts and Scripts 
  - [ErgoScript tutorial](https://ergoplatform.org/docs/ErgoScript.pdf) - describes an Ergo Scripting Language supporting Noninteractive Zero-Knowledge Proofs
  - [ErgoScript by Example](https://github.com/ergoplatform/ergoscript-by-example) - repository with ErgoScript examples you can play with in Ergo Playground 
@@ -132,7 +131,7 @@ Learn the basics of ErgoScript quickly and create your first contract
 
 There is a great video series by Razor-sharp Solution -- [Ergo with C# 101](https://www.youtube.com/watch?v=aUuki-fAxwc&list=PLUWruihtE-HtL-JZk8Vb4Yn_H18aE3rb6)
 
-Stay tuned - A C# interpreter, cross-platform wallet, management and miner platform is under development!
+Stay tuned - A C# interpreter, cross-platform wallet, management and miner platform is in development!
 
 
 
@@ -192,18 +191,19 @@ To get better understanding on how to use it in your project check out how its b
 - [Ergo Utilities](https://github.com/robkorn/ergo-utilities-rust/) - General utilities to make writing off-chain Ergo code in Rust simpler 
 
 
+# Oracle Pools
 
-# Existing Applications
-> [sigmaverse.io](sigmaverse.io/) - Your portal to the Ergo Universe
+When external oracle data is posted on-chain, it needs to be encoded in a very precise way within a transaction. Furthermore, oracle pools have a bunch of different moving parts which require transactions to be issued to move between the different stages of the pool protocol. [Oracle Core](https://github.com/ergoplatform/oracle-core) creates all of the complex transactions which posts the data on-chain & runs the oracle pool protocol on-chain (such as averaging datapoints). This comes bundled with [Oracle Pool Bootstrap](https://github.com/ergoplatform/oracle-core/tree/master/oracle-pool-bootstrap) and a [Connector Library](https://github.com/ergoplatform/oracle-core/tree/master/connectors/connector-lib). The [ada-usd-oracle](https://github.com/ergoplatform/oracle-core/blob/master/scripts/ada-usd-oracle/oracle-config.yaml) source can be seen here. Currently only the erg-usd-oracle is live as seen in the [Oracle Pool List](https://explorer.ergoplatform.com/en/oracle-pools-list)
 
-## Oracle Pools
 
-[Oracle-Pools](https://github.com/Emurgo/Emurgo-Research/blob/master/oracles/Oracle-Pools.md) overview by Robert Kornacki.
+An [overview](https://github.com/Emurgo/Emurgo-Research/blob/master/oracles/Oracle-Pools.md) by Robert Kornacki.
 
-[Oracle Core](https://github.com/ergoplatform/oracle-core) is the main repository, which comes with a [Oracle Pool Bootstrap](https://github.com/ergoplatform/oracle-core/tree/master/oracle-pool-bootstrap) and [Connector Library](https://github.com/ergoplatform/oracle-core/tree/master/connectors/connector-lib). The [ada-usd-oracle](https://github.com/ergoplatform/oracle-core/blob/master/scripts/ada-usd-oracle/oracle-config.yaml) source can be seen here. Currently only the erg-usd-oracle is live as seen in the [Oracle Pool List](https://explorer.ergoplatform.com/en/oracle-pools-list)
 
+
+
+**Resources**
 - [Ergo oracles](https://github.com/sininen-taivas/ergo-oracle) - simple command-line tool to launch oracles. Inbuilt implementations for USD/ERG, EUR/ERG, BTC/ERG, AUG/ERG (gold) prices delivery. 
-
+- Learn about data inputs and the truly novel innovations they bring to UTXO-based Blockchains like #Cardano by reading our latest research [here](https://github.com/Emurgo/Emurgo-Research/blob/master/smart-contracts/Unlocking%20The%20Potential%20Of%20The%20UTXO%20Model.md)
 
 **Articles**
 - [Chainlink Oracles vs. Ergo Oracle Pools](https://ergoplatform.org/en/blog/2021-04-27-chainlink-oracles-vs-ergo-oracle-pools/)
@@ -211,6 +211,10 @@ To get better understanding on how to use it in your project check out how its b
 - [First steps towards interoperability with Cardano oracles](https://ergoplatform.org/en/blog/2020-11-09-first-steps-towards-interoperability-with-cardano-oracles/)
 - [Ergo Blockchain: Oracle Pool Governance Update](https://curiaregiscrypto.medium.com/ergo-blockchain-oracle-pool-governance-update-d078d58571b0)
 - [The role of Ergo Oracles](https://veriumfellow.medium.com/oracle-special-4e36cfa6a852)
+# dApps
+> [sigmaverse.io](sigmaverse.io/) - Your portal to the Ergo Universe
+
+
 
 ## ErgoMixer
 
@@ -238,8 +242,6 @@ The UI for the front-end is available at [anon-real/sigma-usd](https://github.co
 - [Overview Video (with diagrams)](https://www.youtube.com/watch?v=O3hPEp3tzoU)
 - [Building Ergo: How the AgeUSD stablecoin works](https://ergoplatform.org/en/blog/2021-02-05-building-ergo-how-the-ageusd-stablecoin-works/)
 
-
-# Development
 
 ## ErgoDex
 

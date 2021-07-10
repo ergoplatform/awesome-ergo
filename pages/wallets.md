@@ -8,39 +8,28 @@ Yoroi (on desktop) or a full node is the best solution at the moment. Mobile app
 # Wallets
 
 - [Yoroi Wallet](https://yoroi-wallet.com/#/) | Chrome, Edge, FF, Safari
+  - [EMURGO Launches Beta Version of Yoroi Wallet DApp Connector](https://emurgo.io/blog/emurgo-launches-beta-version-of-yoroi-wallet-dapp-connector)
 - [ErgoWallet](https://ergowallet.io/) | Desktop (mobile in development) | Community
-- [Full Node](https://github.com/ergoplatform/ergo) | Desktop, Pi  | Community
-- [Android Wallet](https://github.com/MrStahlfelge/ergo-wallet-android/)
+- [Full Node](https://github.com/ergoplatform/ergo) | Desktop, Pi  
+- Android Beta | [ergo-wallet-android](https://github.com/MrStahlfelge/ergo-wallet-android/) | Community
 - Ledger Support in development (Soonish)  | Tesseract
-- iOS Support in development (ETA TBC)  | Community x 2
-
-
-## Yoroi
-
-[Yoroi Wallet](https://yoroi-wallet.com/#/) | Chrome, Edge, FF, Safari
-
-- [EMURGO Launches Beta Version of Yoroi Wallet DApp Connector](https://emurgo.io/blog/emurgo-launches-beta-version-of-yoroi-wallet-dapp-connector)
+- iOS Beta | [Ergo Light Client](https://github.com/bjenkinsgit/ErgoIOSLiteClient.git) | Community
+- [URL Wallet (Your key is in the URL, use this wallet for temporary use cases only!)](https://erg.urlwallet.org/)
 
 ## Node
 
  - [Ergo node source code repository](https://github.com/ergoplatform/ergo)
  - [Ergo node tutorial](https://ergoplatform.org/en/blog/2019_12_02_how_to_setup/) - how to set up a node
  - [How to set up and configure a full Ergo node on Windows (VIDEO)](https://www.youtube.com/watch?v=fpEDJ1CM6ns)
- - [Yoroi (browser extensions and mobile)](https://yoroi-wallet.com/#/)
 
-## ergowallet 
 
-- [ErgoWallet](https://ergowallet.io/) | Desktop (mobile in development)
+## Mobile Beta
 
-## Android
+Both an Android and iPhone app are in Beta from Community devs.
 
-An android wallet in beta testing by a community developer and is available at [MrStahlfelge/ergo-wallet-android](https://github.com/MrStahlfelge/ergo-wallet-android/)
+Android one has been checked by morphic, looks in good shape. iOS Beta was made available recently too. 
 
 Feedback for this is currently being taken in [#wallet-guineas](https://discord.gg/CQ4MXeNWts) on discord
-- 
-## iPhone
-
-iOS wallet in development
 
 ## Ledger
 
@@ -49,8 +38,6 @@ Integration underway. Tesseract is moving onto the next stage of development, im
 > 07/07 News from the Tesseract team: We've started the first actual coding milestone. Established project structure. Ledger communication is the current focus. The next step is an implementation of the protocol developed in the previous milestone.
 
 
-Workaround using [Waves.exchange (Ergo on Waves blockchain exchanged via trusted gateway)](https://waves.exchange/) 
+You can load ERG onto Ledger with a workaround using [Waves.exchange (Ergo on Waves blockchain exchanged via trusted gateway)](https://waves.exchange/). (This will be wrapped erg, rather than native)
 
-## Misc
 
-- [URL Wallet (Your key is in the URL, use this wallet for temporary use cases only!)](https://erg.urlwallet.org/)
