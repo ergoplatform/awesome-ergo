@@ -11,9 +11,9 @@ Yoroi (on desktop) or a full node is the best solution at the moment. Mobile app
   - [EMURGO Launches Beta Version of Yoroi Wallet DApp Connector](https://emurgo.io/blog/emurgo-launches-beta-version-of-yoroi-wallet-dapp-connector)
 - [ErgoWallet](https://ergowallet.io/) | Desktop (mobile in development) | Community
 - [Full Node](https://github.com/ergoplatform/ergo) | Desktop, Pi  
-- Android Beta | [ergo-wallet-android](https://github.com/MrStahlfelge/ergo-wallet-android/) | Community
+- Android Beta | [ergo-wallet-android](https://github.com/MrStahlfelge/ergo-wallet-android/) | Vetted by Ergo Team
 - Ledger Support in development (Soonish)  | Tesseract
-- iOS Beta | [Ergo Light Client](https://github.com/bjenkinsgit/ErgoIOSLiteClient.git) | Community
+- iOS (Tethered) Beta | [Ergo Light Client](https://github.com/bjenkinsgit/ErgoIOSLiteClient.git) | Community | Requires a full node
 - [URL Wallet (Your key is in the URL, use this wallet for temporary use cases only!)](https://erg.urlwallet.org/)
 
 ## Node
