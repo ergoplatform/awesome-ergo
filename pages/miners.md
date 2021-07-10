@@ -45,7 +45,7 @@ Ergo can also be mined with [Nvidia miner](https://github.com/mhssamadani/Autoly
 - [CUDA-based GPU miner for Ergo](https://github.com/ergoplatform/Autolykos-GPU-miner) for NVidia cards
 - [OpenCL miner for ERGO](https://github.com/mhssamadani/ergoAMDminer) for AMD cards 
 - [ErgoPool - mining pool for self-sovereign Ergo miners!](https://ergopool.io/)
-- #smartpools
+- [#smartpools](https://discord.gg/qdEpkRQZ4P) 
 
 **Calculators**
 
