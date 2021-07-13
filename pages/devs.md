@@ -4,11 +4,11 @@
   - [💡 Idea Incubator](#-idea-incubator)
 - [Sigma Language](#sigma-language)
   - [ErgoScript](#ergoscript)
-  - [Sigmastate-Interpreter](#sigmastate-interpreter)
-  - [Scala](#scala)
-  - [Rust](#rust)
-  - [JS/TS](#jsts)
-  - [C](#c)
+  - [Languages](#languages)
+    - [Scala](#scala)
+    - [Rust](#rust)
+    - [JS/TS](#jsts)
+    - [C](#c)
 - [Kits](#kits)
   - [Appkit](#appkit)
   - [Ergo Bootstrap](#ergo-bootstrap)
@@ -84,45 +84,29 @@ Learn the basics of ErgoScript quickly and create your first contract
 - [(Video) Learn ErgoScript By Example Via The Ergo Playground with Robert Kornacki](https://www.youtube.com/watch?v=8l2v1asHgyA)
 - [Building Ergo: ErgoScript](https://ergoplatform.org/en/blog/2021-06-09-building-ergo-ergoscript/)
 
-## Sigmastate-Interpreter
+## Languages
+### Scala
 
-
-The Sigmastate-Interpreter is a ErgoScript compiler and ErgoTree Interpreter implementation for Ergo blockchain's *Sigma Language*
-
-For development of Ergo applications using JVM languages a better alternative is to use [Appkit](#appkit).
-
-## Scala
-
-- [sigmastate-interpreter](https://github.com/ScorexFoundation/sigmastate-interpreter)
+- [Sigmastate-Interpreter](https://github.com/ScorexFoundation/sigmastate-interpreter) | The Sigmastate-Interpreter is a ErgoScript compiler and ErgoTree Interpreter implementation for Ergo blockchain's *Sigma Language*  For development of Ergo applications using JVM languages a better alternative is to use [Appkit](#appkit).
 - [ScoreX](https://github.com/scorexfoundation/scorex), the open-source, modular blockchain & cryptocurrency framework.
-  - [Scrypto](https://github.com/input-output-hk/scrypto) | Scrypto is an open source cryptographic toolkit designed to make it easier and safer for developers to use cryptography in their applications based on Scorex
+- [Scrypto](https://github.com/input-output-hk/scrypto) | Scrypto is an open source cryptographic toolkit designed to make it easier and safer for developers to use cryptography in their applications based on Scorex
 
 This library is used internally in [Ergo Node](https://github.com/ergoplatform/ergo) and [ergo-wallet](https://github.com/ergoplatform/ergo/tree/master/ergo-wallet), the public interfaces are subject to change.
 
-## Rust
+### Rust
 > is a implementation of ErgoScript cryptocurrency scripting language. 
 
-[sigma-rust](https://github.com/ergoplatform/sigma-rust)  is an alternative and simple implementation of ErgoTree interpreter and transaction building tools. The goal for the Rust version is to be on par with Scala version feature-wise. At the moment, the Rust version is still significantly behind. Also the goal for the Rust version is to have bindings for web, iOS and Android. The Scala version will continue to be the primary choice for JVM ecosystem with Rust version covering the rest.
+[sigma-rust](https://github.com/ergoplatform/sigma-rust)  is an alternative and simple implementation of ErgoTree interpreter and transaction building tools. The goal for the Rust version is to be on par with Scala version feature-wise. At the moment, the Rust version is still significantly behind. Also the goal for the Rust version is to have bindings for web, iOS and Android. The Scala version will continue to be the primary choice for JVM ecosystem with Rust version covering the rest. To get better understanding on how to use it in your project check see [Usage Examples](https://github.com/ergoplatform/sigma-rust#usage-examples)
 
-To get better understanding on how to use it in your project check out how its being used in the following projects:
+> A list of "*good first*" issues for Sigma-Rust is [available on GitHub](https://github.com/ergoplatform/sigma-rust/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) - @greenhat on [Discord](https://discord.gg/Q86PNMwRsu) is ready to assist anyone who is interested.
 
-- [Ergo Headless dApp Framework](https://github.com/Emurgo/ergo-headless-dapp-framework);
-- [Ergo Node Interface Library](https://github.com/Emurgo/ergo-node-interface);
-- [Oracle Core](https://github.com/ergoplatform/oracle-core);
-- [AgeUSD Stablecoin Protocol](https://github.com/Emurgo/age-usd);
-- [Yoroi wallet](https://github.com/Emurgo/yoroi-frontend) (WASM bindings);
-- [Ergo Desktop Wallet](https://github.com/ErgoWallet/ergowallet-desktop) (WASM bindings);
-- [Ergo Utilities](https://github.com/robkorn/ergo-utilities-rust/) | General utilities to make writing off-chain Ergo code in Rust simpler 
-
-A list of "*good first*" issues for Sigma-Rust is [available on GitHub](https://github.com/ergoplatform/sigma-rust/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) - @greenhat on [Discord](https://discord.gg/Q86PNMwRsu) is ready to assist anyone who is interested.
-
-## JS/TS
+### JS/TS
 
  - [ergo-ts (TypeScript)](https://github.com/coinbarn/ergo-ts) with support of tokens and complex transactions
  - [ergo-js (JavaScript)](https://github.com/ergoplatform/ergo-js) with basic transaction operations
  - [Ergo JS Template](https://github.com/anon-real/ergo-js-template)
 
-## C#
+### C#
 
 There is a great video series by Razor-sharp Solution | [Ergo with C# 101](https://www.youtube.com/watch?v=aUuki-fAxwc&list=PLUWruihtE-HtL-JZk8Vb4Yn_H18aE3rb6)
 
