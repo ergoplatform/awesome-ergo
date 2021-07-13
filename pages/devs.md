@@ -1,9 +1,8 @@
-- [Developer Resources](#developer-resources)
+- [Developers](#developers)
+  - [Resources](#resources)
 - [Hackathons](#hackathons)
   - [💡 Idea Incubator](#-idea-incubator)
-- [Resources](#resources)
 - [Sigma Language](#sigma-language)
-  - [Background](#background)
   - [Sigmastate-Interpreter](#sigmastate-interpreter)
   - [Scala](#scala)
   - [Rust](#rust)
@@ -11,8 +10,8 @@
   - [C](#c)
 - [ErgoScript](#ergoscript)
   - [Other Contracts and Scripts](#other-contracts-and-scripts)
-- [Tools and Libraries](#tools-and-libraries)
   - [Services](#services)
+  - [Articles](#articles)
   - [Utilities](#utilities)
 - [Kits](#kits)
   - [Appkit](#appkit)
@@ -24,11 +23,17 @@
   - [SigmaUSD](#sigmausd)
   - [ErgoDex](#ergodex)
   - [ErgoFund](#ergofund)
-# Developer Resources 
+# Developers 
 
 This page provides an overview of all relevent links for developers. Please submit a PR if anything is missing!
 
 - See [wallets.md](/wallets.md) for developer resources within that area
+
+## Resources
+- [ErgoWiki](https://github.com/ergoplatform/ergo/wiki)
+- [ergosites.github.io](https://ergosites.github.io/) | Resource page which links to various websites and utilities. 
+- [ergoplatform](https://github.com/ergoplatform/) | Ergo protocol description & reference client implementation.
+
 
 # Hackathons
 
@@ -55,23 +60,8 @@ Loads more on [ergoforum: research & development](https://www.ergoforum.org/c/re
 
 - [Building Ergo: Developer Tools](https://ergoplatform.org/en/blog/2021-06-10-building-ergo-developer-tools/)
 - [Multi-Stage Contracts](https://ergoplatform.org/en/blog/2021-04-16-multi-stage-contracts/)
-# Resources
-- [ErgoWiki](https://github.com/ergoplatform/ergo/wiki)
-- [ergosites.github.io](https://ergosites.github.io/) | Resource page which links to various websites and utilities. 
-
-
-**GitHubs**
-- [ergoplatform](https://github.com/ergoplatform/) | Ergo protocol description & reference client implementation.
-- [ergolabs](https://github.com/ergolabs) | ErgoDex 
-- [Emurgo](https://github.com/Emurgo/) | AgeUSD, Oracle Pools, Yoroi
-- [ScorexFoundation](https://github.com/ScorexFoundation/)
-
-
-
 
 # Sigma Language 
-
-## Background
 
 Bitcoin is a stack-based Scripting language wherein everycoin is protected by a program. An interpreter for the language evaluates the program against a context (a few variables containing information about a spending transaction and the blockchain), and produces a single boolean value as a result. While Bitcoin Script allows for some contracts to be programmed, its abilities are limited. Also, to add new cryptographic primitives, for example, ring signatures, a hard-fork is required.
 
@@ -141,7 +131,7 @@ Learn the basics of ErgoScript quickly and create your first contract
 - [ErgoScript tutorial](https://ergoplatform.org/docs/ErgoScript.pdf) | describes an Ergo Scripting Language supporting Noninteractive Zero-Knowledge Proofs
 - [ErgoScript Design patterns](https://www.ergoforum.org/t/ergoscript-design-patterns/222)
 - [Advanced ErgoScript Tutorial](https://ergoplatform.org/docs/AdvancedErgoScriptTutorial.pdf)
-- [ErgoScript advanced tutorial]( https://docs.ergoplatform.com/sigmastate_protocols.pdf)
+- [ErgoScript advanced tutorial](https://docs.ergoplatform.com/sigmastate_protocols.pdf)
 - [Learn ErgoScript By Example Via The Ergo Playground with Robert Kornacki](https://www.youtube.com/watch?v=8l2v1asHgyA)
 - [Building Ergo: ErgoScript](https://ergoplatform.org/en/blog/2021-06-09-building-ergo-ergoscript/)
 
@@ -152,34 +142,27 @@ Learn the basics of ErgoScript quickly and create your first contract
  - [Ergo oracles](https://github.com/sininen-taivas/ergo-oracle) | simple command-line tool to launch oracles. Inbuilt implementations for USD/ERG, EUR/ERG, BTC/ERG, AUG/ERG (gold) prices delivery. See also a [forum topic with example](https://www.ergoforum.org/t/erg-usd-oracle-on-top-of-ergo/119)
  - [Ergo Crowdfunding CLI](https://github.com/robkorn/ergo-crowdfunding-cli) Command-line tool which enables participating and interacting with crowdfunding campaigns on Ergo 
  - [Miner rewards script](https://github.com/lorien/ergotools) Simple command-line tool to find miner rewards not spent and form withdrawing transaction requests for them
-
-
-
-# Tools and Libraries
- - [Ergo Utilities](https://github.com/robkorn/ergo-utilities-rust/) | General utilities to make writing off-chain Ergo code in Rust simpler 
- - [Kiosk](https://github.com/scalahub/Kiosk) | interface to Ergo node with additional features for a developer. See this [forum post](https://www.ergoforum.org/t/ergoscript-playground-using-kiosk/96).
  - [Ergo P2S Playground](https://wallet.plutomonkey.com/p2s/?source=dHJ1ZQ==) | A web-based tool to quickly get the address corresponding to some script  
-
-## Services
-- [Mainnet explorer](https://explorer.ergoplatform.com/)
-- [Using Ergo-Testnet](https://github.com/ergoplatform/ergo/wiki/Ergo-Testnet)
-- [Testnet explorer](https://testnet.ergoplatform.com/) 
-- [Node API](https://git.io/fjqwb)
-- [Explorer API](https://git.io/fjqwN)
-- [API Docs](https://api.ergoplatform.com/api/v1/docs/)
-- [Ergo Addresses](https://ergoplatform.org/en/blog/2019_07_24_ergo_address/)
-- [Ergo terminology: a Box and a Register](https://www.ergoforum.org/t/ergo-terminology-a-box-and-a-register/32)
-
-## Utilities 
-- [Ergo Notary](https://github.com/sininen-taivas/ergo-notary) | simple command-line tool to certificate files on the Ergo blockchain. ([forum topic](https://www.ergoforum.org/t/ergo-notary-command-line-tool/75)).
-- [Kiosk](https://github.com/scalahub/Kiosk) | interface to Ergo node with additional features for a developer. ([forum topic](https://www.ergoforum.org/t/ergoscript-playground-using-kiosk/96)). 
-- [Ergo Utilities](https://github.com/robkorn/ergo-utilities-rust/) | General utilities to make writing off-chain Ergo code in Rust simpler. 
-- [JSON dApp Environment (JDE) first release](https://www.ergoforum.org/t/json-dapp-environment-jde-first-release/1373)
 
  **Test vectors:**
 - [Ergo transaction serialization](https://git.io/fjqwX)
 - [Signature scheme](https://git.io/fjqwH)
 
+## Services
+- [Mainnet explorer](https://explorer.ergoplatform.com/)
+- [Testnet explorer](https://testnet.ergoplatform.com/)
+  - [Using Ergo-Testnet](https://github.com/ergoplatform/ergo/wiki/Ergo-Testnet)
+- [API Docs](https://api.ergoplatform.com/api/v1/docs/)
+  - [Node API](https://git.io/fjqwb)
+  - [Explorer API](https://git.io/fjqwN)
+
+## Articles
+- [Ergo Addresses](https://ergoplatform.org/en/blog/2019_07_24_ergo_address/)
+- [Ergo terminology: a Box and a Register](https://www.ergoforum.org/t/ergo-terminology-a-box-and-a-register/32)
+
+## Utilities 
+- [Ergo Notary](https://github.com/sininen-taivas/ergo-notary) | simple command-line tool to certificate files on the Ergo blockchain. ([forum topic](https://www.ergoforum.org/t/ergo-notary-command-line-tool/75)).
+- [JSON dApp Environment (JDE) first release](https://www.ergoforum.org/t/json-dapp-environment-jde-first-release/1373)
 
 
 
