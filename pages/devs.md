@@ -2,16 +2,18 @@
 - [Hackathons](#hackathons)
   - [💡 Idea Incubator](#-idea-incubator)
 - [Resources](#resources)
-- [Contracts and Scripts](#contracts-and-scripts)
-  - [ErgoScript](#ergoscript)
-- [Sigmastate-Interpreter](#sigmastate-interpreter)
+- [Sigma Language](#sigma-language)
+  - [Background](#background)
+  - [Sigmastate-Interpreter](#sigmastate-interpreter)
   - [Scala](#scala)
   - [Rust](#rust)
   - [JS/TS](#jsts)
+  - [C](#c)
+- [ErgoScript](#ergoscript)
+  - [Other Contracts and Scripts](#other-contracts-and-scripts)
 - [Tools and Libraries](#tools-and-libraries)
   - [Services](#services)
   - [Utilities](#utilities)
-  - [C](#c)
 - [Kits](#kits)
   - [Appkit](#appkit)
   - [Ergo Bootstrap](#ergo-bootstrap)
@@ -64,43 +66,35 @@ Loads more on [ergoforum: research & development](https://www.ergoforum.org/c/re
 - [Emurgo](https://github.com/Emurgo/) | AgeUSD, Oracle Pools, Yoroi
 - [ScorexFoundation](https://github.com/ScorexFoundation/)
 
-# Contracts and Scripts 
- - [ErgoScript tutorial](https://ergoplatform.org/docs/ErgoScript.pdf) - describes an Ergo Scripting Language supporting Noninteractive Zero-Knowledge Proofs
- - [ErgoScript by Example](https://github.com/ergoplatform/ergoscript-by-example) - repository with ErgoScript examples you can play with in Ergo Playground 
- - [A Quick Primer on ErgoScript](https://github.com/ergoplatform/ergo/wiki/ErgoScript-Overview) Learn the basics of ErgoScript quickly and create your first contract
- - [Ergo notary](https://github.com/sininen-taivas/ergo-notary) - simple command-line tool to certificate files on the Ergo blockchain. 
- See also [forum topic](https://www.ergoforum.org/t/ergo-notary-command-line-tool/75) on a particular example
- - [Ergo oracles](https://github.com/sininen-taivas/ergo-oracle) - simple command-line tool to launch oracles. Inbuilt implementations for USD/ERG, EUR/ERG, BTC/ERG, AUG/ERG (gold) prices delivery. See also a [forum topic with example](https://www.ergoforum.org/t/erg-usd-oracle-on-top-of-ergo/119)
- - [Ergo Crowdfunding CLI](https://github.com/robkorn/ergo-crowdfunding-cli) Command-line tool which enables participating and interacting with crowdfunding campaigns on Ergo 
- - [Miner rewards script](https://github.com/lorien/ergotools) Simple command-line tool to find miner rewards not spent and form withdrawing transaction requests for them
-
-## ErgoScript
-
-> [ErgoScript, a Cryptocurrency Scripting Language Supporting Noninteractive Zero-Knowledge Proofs](https://ergoplatform.org/docs/ErgoScript.pdf)
 
 
-Learn [Ergoscript by reading example smart contracts](https://github.com/ergoplatform/ergoscript-by-example) powered by the Ergo Playground. Each contract example includes a `Ergo Playground` link which allows you to instantly edit and run the smart contract code inside of your browser.
 
-If you ever need clarity about how specific types/functions/operators in ErgoScript work, please reference the [ErgoScript Language Description](https://github.com/ScorexFoundation/sigmastate-interpreter/blob/develop/docs/LangSpec.md). For an overarching summary, please reference this [video](https://www.youtube.com/watch?v=8l2v1asHgyA)
+# Sigma Language 
 
-Learn the basics of ErgoScript quickly and create your first contract
+## Background
 
-- [A Quick Primer on ErgoScript](https://github.com/ergoplatform/ergo/wiki/ErgoScript-Overview) 
-- [ErgoScript Design patterns](https://www.ergoforum.org/t/ergoscript-design-patterns/222)
-- [Advanced ErgoScript Tutorial](https://ergoplatform.org/docs/AdvancedErgoScriptTutorial.pdf)
-- [ErgoScript advanced tutorial]( https://docs.ergoplatform.com/sigmastate_protocols.pdf)
-- [Learn ErgoScript By Example Via The Ergo Playground with Robert Kornacki](https://www.youtube.com/watch?v=8l2v1asHgyA)
-- [Building Ergo: ErgoScript](https://ergoplatform.org/en/blog/2021-06-09-building-ergo-ergoscript/)
+Bitcoin is a stack-based Scripting language wherein everycoin is protected by a program. An interpreter for the language evaluates the program against a context (a few variables containing information about a spending transaction and the blockchain), and produces a single boolean value as a result. While Bitcoin Script allows for some contracts to be programmed, its abilities are limited. Also, to add new cryptographic primitives, for example, ring signatures, a hard-fork is required.
 
-# Sigmastate-Interpreter
+Generalizing Bitcoin Script, the ErgoScript compiler and ErgoTree interpreter implement an _authentication language_ which allows to express coin spending
+conditions. The [ErgoScript Compiler](sigmastate/src/main/scala/sigmastate/lang/SigmaCompiler.scala#L48) compiles the source code into [ErgoTree](sigmastate/src/main/scala/sigmastate/Values.scala#L990) byte code, which can be saved in UTXO coins to protect their spending (same as in Bitcoin).
 
-Interpreter for a family of Sigma-State authentication languages.
+ErgoTree, in turn, is a bytecode language and memory representation which can be deterministically interpreted in the given _blockchain context_. 
+ErgoTree defines guarding proposition for a coin as a logic formula which combines predicates over a context and cryptographic statements provable via [Σ-protocols](https://en.wikipedia.org/wiki/Proof_of_knowledge#Sigma_protocols) with AND, OR, k-out-of-n connectives.
+
+## Sigmastate-Interpreter
+
+
+The Sigmastate-Interpreter is a ErgoScript compiler and ErgoTree Interpreter implementation for Ergo blockchain's *Sigma Language*
+
+For development of Ergo applications using JVM languages a better alternative is to use [Appkit](#appkit).
 
 ## Scala
 
-- Smart contract language: [sigmastate-interpreter](https://github.com/ScorexFoundation/sigmastate-interpreter)
+- [sigmastate-interpreter](https://github.com/ScorexFoundation/sigmastate-interpreter)
 - [ScoreX](https://github.com/scorexfoundation/scorex), the open-source, modular blockchain & cryptocurrency framework.
   - [Scrypto](https://github.com/input-output-hk/scrypto) | Scrypto is an open source cryptographic toolkit designed to make it easier and safer for developers to use cryptography in their applications based on Scorex
+
+This library is used internally in [Ergo Node](https://github.com/ergoplatform/ergo) and [ergo-wallet](https://github.com/ergoplatform/ergo/tree/master/ergo-wallet), the public interfaces are subject to change.
 
 ## Rust
 > is a implementation of ErgoScript cryptocurrency scripting language. 
@@ -115,7 +109,7 @@ To get better understanding on how to use it in your project check out how its b
 - [AgeUSD Stablecoin Protocol](https://github.com/Emurgo/age-usd);
 - [Yoroi wallet](https://github.com/Emurgo/yoroi-frontend) (WASM bindings);
 - [Ergo Desktop Wallet](https://github.com/ErgoWallet/ergowallet-desktop) (WASM bindings);
-- [Ergo Utilities](https://github.com/robkorn/ergo-utilities-rust/) - General utilities to make writing off-chain Ergo code in Rust simpler 
+- [Ergo Utilities](https://github.com/robkorn/ergo-utilities-rust/) | General utilities to make writing off-chain Ergo code in Rust simpler 
 
 A list of "*good first*" issues for Sigma-Rust is [available on GitHub](https://github.com/ergoplatform/sigma-rust/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) - @greenhat on [Discord](https://discord.gg/Q86PNMwRsu) is ready to assist anyone who is interested.
 
@@ -125,12 +119,46 @@ A list of "*good first*" issues for Sigma-Rust is [available on GitHub](https://
  - [ergo-js (JavaScript)](https://github.com/ergoplatform/ergo-js) with basic transaction operations
  - [Ergo JS Template](https://github.com/anon-real/ergo-js-template)
 
+## C#
+
+There is a great video series by Razor-sharp Solution | [Ergo with C# 101](https://www.youtube.com/watch?v=aUuki-fAxwc&list=PLUWruihtE-HtL-JZk8Vb4Yn_H18aE3rb6)
+
+Stay tuned - A C# interpreter, cross-platform wallet, management and miner platform is in development!
+
+
+
+# ErgoScript
+
+> [ErgoScript, a Cryptocurrency Scripting Language Supporting Noninteractive Zero-Knowledge Proofs](https://ergoplatform.org/docs/ErgoScript.pdf)
+
+Learn [Ergoscript by reading example smart contracts](https://github.com/ergoplatform/ergoscript-by-example) powered by the Ergo Playground. Each contract example includes a `Ergo Playground` link which allows you to instantly edit and run the smart contract code inside of your browser.
+
+If you ever need clarity about how specific types/functions/operators in ErgoScript work, please reference the [ErgoScript Language Description](https://github.com/ScorexFoundation/sigmastate-interpreter/blob/develop/docs/LangSpec.md). For an overarching summary, please reference this [video](https://www.youtube.com/watch?v=8l2v1asHgyA)
+
+Learn the basics of ErgoScript quickly and create your first contract
+
+- [A Quick Primer on ErgoScript](https://github.com/ergoplatform/ergo/wiki/ErgoScript-Overview) 
+- [ErgoScript tutorial](https://ergoplatform.org/docs/ErgoScript.pdf) | describes an Ergo Scripting Language supporting Noninteractive Zero-Knowledge Proofs
+- [ErgoScript Design patterns](https://www.ergoforum.org/t/ergoscript-design-patterns/222)
+- [Advanced ErgoScript Tutorial](https://ergoplatform.org/docs/AdvancedErgoScriptTutorial.pdf)
+- [ErgoScript advanced tutorial]( https://docs.ergoplatform.com/sigmastate_protocols.pdf)
+- [Learn ErgoScript By Example Via The Ergo Playground with Robert Kornacki](https://www.youtube.com/watch?v=8l2v1asHgyA)
+- [Building Ergo: ErgoScript](https://ergoplatform.org/en/blog/2021-06-09-building-ergo-ergoscript/)
+
+## Other Contracts and Scripts 
+
+ - [Ergo notary](https://github.com/sininen-taivas/ergo-notary) | simple command-line tool to certificate files on the Ergo blockchain. 
+ See also [forum topic](https://www.ergoforum.org/t/ergo-notary-command-line-tool/75) on a particular example
+ - [Ergo oracles](https://github.com/sininen-taivas/ergo-oracle) | simple command-line tool to launch oracles. Inbuilt implementations for USD/ERG, EUR/ERG, BTC/ERG, AUG/ERG (gold) prices delivery. See also a [forum topic with example](https://www.ergoforum.org/t/erg-usd-oracle-on-top-of-ergo/119)
+ - [Ergo Crowdfunding CLI](https://github.com/robkorn/ergo-crowdfunding-cli) Command-line tool which enables participating and interacting with crowdfunding campaigns on Ergo 
+ - [Miner rewards script](https://github.com/lorien/ergotools) Simple command-line tool to find miner rewards not spent and form withdrawing transaction requests for them
+
 
 
 # Tools and Libraries
- - [Ergo Utilities](https://github.com/robkorn/ergo-utilities-rust/) - General utilities to make writing off-chain Ergo code in Rust simpler 
- - [Kiosk](https://github.com/scalahub/Kiosk) - interface to Ergo node with additional features for a developer. See this [forum post](https://www.ergoforum.org/t/ergoscript-playground-using-kiosk/96).
- - [Ergo P2S Playground](https://wallet.plutomonkey.com/p2s/?source=dHJ1ZQ==) - A web-based tool to quickly get the address corresponding to some script  
+ - [Ergo Utilities](https://github.com/robkorn/ergo-utilities-rust/) | General utilities to make writing off-chain Ergo code in Rust simpler 
+ - [Kiosk](https://github.com/scalahub/Kiosk) | interface to Ergo node with additional features for a developer. See this [forum post](https://www.ergoforum.org/t/ergoscript-playground-using-kiosk/96).
+ - [Ergo P2S Playground](https://wallet.plutomonkey.com/p2s/?source=dHJ1ZQ==) | A web-based tool to quickly get the address corresponding to some script  
 
 ## Services
 - [Mainnet explorer](https://explorer.ergoplatform.com/)
@@ -143,11 +171,10 @@ A list of "*good first*" issues for Sigma-Rust is [available on GitHub](https://
 - [Ergo terminology: a Box and a Register](https://www.ergoforum.org/t/ergo-terminology-a-box-and-a-register/32)
 
 ## Utilities 
-- [Ergo Notary](https://github.com/sininen-taivas/ergo-notary) - simple command-line tool to certificate files on the Ergo blockchain. ([forum topic](https://www.ergoforum.org/t/ergo-notary-command-line-tool/75)).
-- [Kiosk](https://github.com/scalahub/Kiosk) - interface to Ergo node with additional features for a developer. ([forum topic](https://www.ergoforum.org/t/ergoscript-playground-using-kiosk/96)). 
-- [Ergo Utilities](https://github.com/robkorn/ergo-utilities-rust/) - General utilities to make writing off-chain Ergo code in Rust simpler. 
+- [Ergo Notary](https://github.com/sininen-taivas/ergo-notary) | simple command-line tool to certificate files on the Ergo blockchain. ([forum topic](https://www.ergoforum.org/t/ergo-notary-command-line-tool/75)).
+- [Kiosk](https://github.com/scalahub/Kiosk) | interface to Ergo node with additional features for a developer. ([forum topic](https://www.ergoforum.org/t/ergoscript-playground-using-kiosk/96)). 
+- [Ergo Utilities](https://github.com/robkorn/ergo-utilities-rust/) | General utilities to make writing off-chain Ergo code in Rust simpler. 
 - [JSON dApp Environment (JDE) first release](https://www.ergoforum.org/t/json-dapp-environment-jde-first-release/1373)
-
 
  **Test vectors:**
 - [Ergo transaction serialization](https://git.io/fjqwX)
@@ -155,17 +182,7 @@ A list of "*good first*" issues for Sigma-Rust is [available on GitHub](https://
 
 
 
-## C#
 
-
-
-There is a great video series by Razor-sharp Solution -- [Ergo with C# 101](https://www.youtube.com/watch?v=aUuki-fAxwc&list=PLUWruihtE-HtL-JZk8Vb4Yn_H18aE3rb6)
-
-Stay tuned - A C# interpreter, cross-platform wallet, management and miner platform is in development!
-
-
-
-  
 # Kits
 
 ## Appkit
@@ -188,7 +205,7 @@ In addition Appkit is compatible with Android and can be used from Android appli
 ## Ergo Bootstrap
 The Ergo ecosystem is quickly growing with new design patterns, tools, dApps, and more every single month. This is an exciting point in time for developers to jump in and get started.
 
-That said, while building dApps on top of Ergo, vital infrastructure components to develop and run your dApp might be intimidating to set up for someone who is unfamiliar with the existing tooling. Between an Ergo full node, explorer back end, explorer front end, logging, and metrics, it can become quite overwhelming for a nascent dApp developer entering into the ecosystem.
+While building dApps on top of Ergo, vital infrastructure components to develop and run your dApp might be intimidating to set up for someone who is unfamiliar with the existing tooling. Between an Ergo full node, explorer back end, explorer front end, logging, and metrics, it can become quite overwhelming for a nascent dApp developer entering into the ecosystem.
 
 For this reason, we are introducing [ergo-bootstrap](https://github.com/ergoplatform/ergo-bootstrap), an easy-to-use tool that enables quick and clean Ergo blockchain cluster deployments which supports a variety of useful infrastructure components you will need on your path of dApp development. This was developed by Marek of Five Binaries thanks to a grant given by the Ergo Foundation and their latest push to empower the ecosystem via funding key projects.
 
@@ -200,12 +217,10 @@ Read more on the blog - [Ergo Bootstrap, Streamlining Ergo dApp Infrastructure W
 
 # Oracle Pools
 
+See this [overview](https://github.com/Emurgo/Emurgo-Research/blob/master/oracles/Oracle-Pools.md) by Robert Kornacki.
+
+
 When external oracle data is posted on-chain, it needs to be encoded in a very precise way within a transaction. Furthermore, oracle pools have a bunch of different moving parts which require transactions to be issued to move between the different stages of the pool protocol. [Oracle Core](https://github.com/ergoplatform/oracle-core) creates all of the complex transactions which posts the data on-chain & runs the oracle pool protocol on-chain (such as averaging datapoints). This comes bundled with [Oracle Pool Bootstrap](https://github.com/ergoplatform/oracle-core/tree/master/oracle-pool-bootstrap) and a [Connector Library](https://github.com/ergoplatform/oracle-core/tree/master/connectors/connector-lib). The [ada-usd-oracle](https://github.com/ergoplatform/oracle-core/blob/master/scripts/ada-usd-oracle/oracle-config.yaml) source can be seen here. Currently only the erg-usd-oracle is live as seen in the [Oracle Pool List](https://explorer.ergoplatform.com/en/oracle-pools-list)
-
-
-An [overview](https://github.com/Emurgo/Emurgo-Research/blob/master/oracles/Oracle-Pools.md) by Robert Kornacki.
-
-
 
 
 **Resources**
