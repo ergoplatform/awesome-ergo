@@ -13,7 +13,6 @@
   - [Appkit](#appkit)
   - [Ergo Bootstrap](#ergo-bootstrap)
 - [Tools, Services & Resources](#tools-services--resources)
-  - [Other Contracts and Scripts](#other-contracts-and-scripts)
   - [Services](#services)
   - [Utilities](#utilities)
   - [Articles](#articles)
@@ -25,12 +24,10 @@ This page provides a curated page of resources for developers. Please submit a P
 - See [apps.md](/apps.md) for developer resources relating to Oracles, Ergo Auctions, SigmaUSD, or any existing applications built ontop Ergo.
 - [Documentation](pages/docs.md)
 
-
 ## Resources
 - [ErgoWiki](https://github.com/ergoplatform/ergo/wiki)
 - [ergosites.github.io](https://ergosites.github.io/) | Resource page which links to various websites and utilities. 
 - [ergoplatform](https://github.com/ergoplatform/) | Ergo protocol description & reference client implementation.
-
 
 # Hackathons
 
@@ -57,6 +54,7 @@ Loads more on [ergoforum: research & development](https://www.ergoforum.org/c/re
 
 - [Building Ergo: Developer Tools](https://ergoplatform.org/en/blog/2021-06-10-building-ergo-developer-tools/)
 - [Multi-Stage Contracts](https://ergoplatform.org/en/blog/2021-04-16-multi-stage-contracts/)
+- [ErgoRaffle documentation](https://github.com/NazeriMahdi2001/Raffle-Doc) can be used as a good guide on how to get contracts in the extended UTXO model done:
 
 # Sigma Language 
 
@@ -72,7 +70,7 @@ ErgoTree defines guarding proposition for a coin as a logic formula which combin
 
 > [ErgoScript, a Cryptocurrency Scripting Language Supporting Noninteractive Zero-Knowledge Proofs](https://ergoplatform.org/docs/ErgoScript.pdf)
 
-Learn [Ergoscript by reading example smart contracts](https://github.com/ergoplatform/ergoscript-by-example) powered by the Ergo Playground. Each contract example includes a `Ergo Playground` link which allows you to instantly edit and run the smart contract code inside of your browser.
+Learn [Ergoscript by reading example smart contracts](https://github.com/ergoplatform/ergoscript-by-example) powered by the Ergo Playground. Each contract example includes a link which allows you to instantly edit and run the smart contract code inside of your browser.
 
 If you ever need clarity about how specific types/functions/operators in ErgoScript work, please reference the [ErgoScript Language Description](https://github.com/ScorexFoundation/sigmastate-interpreter/blob/develop/docs/LangSpec.md). For an overarching summary, please reference this [video](https://www.youtube.com/watch?v=8l2v1asHgyA)
 
@@ -82,8 +80,8 @@ Learn the basics of ErgoScript quickly and create your first contract
 - [ErgoScript tutorial](https://ergoplatform.org/docs/ErgoScript.pdf) | describes an Ergo Scripting Language supporting Noninteractive Zero-Knowledge Proofs
 - [ErgoScript Design patterns](https://www.ergoforum.org/t/ergoscript-design-patterns/222)
 - [Advanced ErgoScript Tutorial](https://ergoplatform.org/docs/AdvancedErgoScriptTutorial.pdf)
-- [ErgoScript advanced tutorial](https://docs.ergoplatform.com/sigmastate_protocols.pdf)
-- [Learn ErgoScript By Example Via The Ergo Playground with Robert Kornacki](https://www.youtube.com/watch?v=8l2v1asHgyA)
+- [SigmaState Protocols](https://docs.ergoplatform.com/sigmastate_protocols.pdf)
+- [(Video) Learn ErgoScript By Example Via The Ergo Playground with Robert Kornacki](https://www.youtube.com/watch?v=8l2v1asHgyA)
 - [Building Ergo: ErgoScript](https://ergoplatform.org/en/blog/2021-06-09-building-ergo-ergoscript/)
 
 ## Sigmastate-Interpreter
@@ -140,8 +138,6 @@ The Appkit library is compatible with GraalVM - a novel next generation approach
 
 Using Appkit Ergo applications can be written in one of the languages supported by GraalVM (i.e. Java, JavaScript, C/C++, Python, Ruby, R) and using this library applications can communicate with Ergo nodes via unified API and programming model provided by Appkit. In addition Appkit based Ergo applications can be compiled into native code using native-image ahead of time compiler and then executed without Java VM with very fast startup time and lower runtime memory overhead compared to a Java VM. This is attractive option for high-performance low-latency microservices.
 
-In addition Appkit is compatible with Android and can be used from Android applications.
-
 **Resources**
 - [Ergo Appkit (Polyglot library)](https://github.com/aslesarenko/ergo-appkit) - Appkit: A Library for Polyglot Development of Ergo Applications using either [GraalVM](https://www.graalvm.org/) or stock Java 1.7 and above. Read the [introduction](https://ergoplatform.org/en/blog/2019_12_03_top5/).
 - [Appkit Examples](https://github.com/aslesarenko/ergo-appkit-examples) - Examples of using Ergo Appkit for Polyglot Development of Ergo Applications
@@ -153,20 +149,13 @@ In addition Appkit is compatible with Android and can be used from Android appli
 
 [ergo-bootstrap](https://github.com/ergoplatform/ergo-bootstrap), build on top of ergo-nix, will help you to quickly deploy an Ergo blockchain cluster with a handful of useful tools you might need to start developing your dApps.
 
-Read more on the blog - [Ergo Bootstrap, Streamlining Ergo dApp Infrastructure With One Simple Tool](https://ergoplatform.org/en/blog/2020-12-11-ergo-bootstrap-streamlining-ergo-dapp-infrastructure-with-one-simple-tool/)
+- Read more on the blog | [Ergo Bootstrap, Streamlining Ergo dApp Infrastructure With One Simple Tool](https://ergoplatform.org/en/blog/2020-12-11-ergo-bootstrap-streamlining-ergo-dapp-infrastructure-with-one-simple-tool/)
 
 
 
 
 
 # Tools, Services & Resources
-
-## Other Contracts and Scripts 
-
- - [Ergo notary](https://github.com/sininen-taivas/ergo-notary) | simple command-line tool to certificate files on the Ergo blockchain. 
- See also [forum topic](https://www.ergoforum.org/t/ergo-notary-command-line-tool/75) on a particular example
- - [Miner rewards script](https://github.com/lorien/ergotools) Simple command-line tool to find miner rewards not spent and form withdrawing transaction requests for them
- - [Ergo P2S Playground](https://wallet.plutomonkey.com/p2s/?source=dHJ1ZQ==) | A web-based tool to quickly get the address corresponding to some script  
 
 ## Services
 - [Mainnet explorer](https://explorer.ergoplatform.com/)
@@ -179,7 +168,8 @@ Read more on the blog - [Ergo Bootstrap, Streamlining Ergo dApp Infrastructure W
 ## Utilities 
 - [Ergo Notary](https://github.com/sininen-taivas/ergo-notary) | simple command-line tool to certificate files on the Ergo blockchain. ([forum topic](https://www.ergoforum.org/t/ergo-notary-command-line-tool/75)).
 - [JSON dApp Environment (JDE) first release](https://www.ergoforum.org/t/json-dapp-environment-jde-first-release/1373)
-
+ - [Miner rewards script](https://github.com/lorien/ergotools) Simple command-line tool to find miner rewards not spent and form withdrawing transaction requests for them
+ - [Ergo P2S Playground](https://wallet.plutomonkey.com/p2s/?source=dHJ1ZQ==) | A web-based tool to quickly get the address corresponding to some script  
 
 **Test vectors:**
 - [Ergo transaction serialization](https://git.io/fjqwX)
