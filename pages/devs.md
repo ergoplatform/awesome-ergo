@@ -4,16 +4,17 @@
 - [Resources](#resources)
 - [Contracts and Scripts](#contracts-and-scripts)
   - [ErgoScript](#ergoscript)
+- [Sigmastate-Interpreter](#sigmastate-interpreter)
+  - [Scala](#scala)
+  - [Rust](#rust)
+  - [JS/TS](#jsts)
 - [Tools and Libraries](#tools-and-libraries)
   - [Services](#services)
   - [Utilities](#utilities)
-  - [JS/TS](#jsts)
   - [C](#c)
 - [Kits](#kits)
   - [Appkit](#appkit)
   - [Ergo Bootstrap](#ergo-bootstrap)
-- [Sigmastate-Interpreter](#sigmastate-interpreter)
-  - [Rust](#rust)
 - [Oracle Pools](#oracle-pools)
 - [dApps](#dapps)
   - [ErgoMixer](#ergomixer)
@@ -51,7 +52,7 @@ See the [Ergo: Decentralized Applications Framework](https://ergoplatform.org/en
 Loads more on [ergoforum: research & development](https://www.ergoforum.org/c/research-and-development/7?order=views)
 
 - [Building Ergo: Developer Tools](https://ergoplatform.org/en/blog/2021-06-10-building-ergo-developer-tools/)
-
+- [Multi-Stage Contracts](https://ergoplatform.org/en/blog/2021-04-16-multi-stage-contracts/)
 # Resources
 - [ErgoWiki](https://github.com/ergoplatform/ergo/wiki)
 - [ergosites.github.io](https://ergosites.github.io/) | Resource page which links to various websites and utilities. 
@@ -91,6 +92,40 @@ Learn the basics of ErgoScript quickly and create your first contract
 - [Learn ErgoScript By Example Via The Ergo Playground with Robert Kornacki](https://www.youtube.com/watch?v=8l2v1asHgyA)
 - [Building Ergo: ErgoScript](https://ergoplatform.org/en/blog/2021-06-09-building-ergo-ergoscript/)
 
+# Sigmastate-Interpreter
+
+Interpreter for a family of Sigma-State authentication languages.
+
+## Scala
+
+- Smart contract language: [sigmastate-interpreter](https://github.com/ScorexFoundation/sigmastate-interpreter)
+- [ScoreX](https://github.com/scorexfoundation/scorex), the open-source, modular blockchain & cryptocurrency framework.
+  - [Scrypto](https://github.com/input-output-hk/scrypto) | Scrypto is an open source cryptographic toolkit designed to make it easier and safer for developers to use cryptography in their applications based on Scorex
+
+## Rust
+> is a implementation of ErgoScript cryptocurrency scripting language. 
+
+[sigma-rust](https://github.com/ergoplatform/sigma-rust)  is an alternative and simple implementation of ErgoTree interpreter and transaction building tools. The goal for the Rust version is to be on par with Scala version feature-wise. At the moment, the Rust version is still significantly behind. Also the goal for the Rust version is to have bindings for web, iOS and Android. The Scala version will continue to be the primary choice for JVM ecosystem with Rust version covering the rest.
+
+To get better understanding on how to use it in your project check out how its being used in the following projects:
+
+- [Ergo Headless dApp Framework](https://github.com/Emurgo/ergo-headless-dapp-framework);
+- [Ergo Node Interface Library](https://github.com/Emurgo/ergo-node-interface);
+- [Oracle Core](https://github.com/ergoplatform/oracle-core);
+- [AgeUSD Stablecoin Protocol](https://github.com/Emurgo/age-usd);
+- [Yoroi wallet](https://github.com/Emurgo/yoroi-frontend) (WASM bindings);
+- [Ergo Desktop Wallet](https://github.com/ErgoWallet/ergowallet-desktop) (WASM bindings);
+- [Ergo Utilities](https://github.com/robkorn/ergo-utilities-rust/) - General utilities to make writing off-chain Ergo code in Rust simpler 
+
+A list of "*good first*" issues for Sigma-Rust is [available on GitHub](https://github.com/ergoplatform/sigma-rust/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) - @greenhat on [Discord](https://discord.gg/Q86PNMwRsu) is ready to assist anyone who is interested.
+
+## JS/TS
+
+ - [ergo-ts (TypeScript)](https://github.com/coinbarn/ergo-ts) with support of tokens and complex transactions
+ - [ergo-js (JavaScript)](https://github.com/ergoplatform/ergo-js) with basic transaction operations
+ - [Ergo JS Template](https://github.com/anon-real/ergo-js-template)
+
+
 
 # Tools and Libraries
  - [Ergo Utilities](https://github.com/robkorn/ergo-utilities-rust/) - General utilities to make writing off-chain Ergo code in Rust simpler 
@@ -118,11 +153,6 @@ Learn the basics of ErgoScript quickly and create your first contract
 - [Ergo transaction serialization](https://git.io/fjqwX)
 - [Signature scheme](https://git.io/fjqwH)
 
-## JS/TS
-
- - [ergo-ts (TypeScript)](https://github.com/coinbarn/ergo-ts) with support of tokens and complex transactions
- - [ergo-js (JavaScript)](https://github.com/ergoplatform/ergo-js) with basic transaction operations
- - [Ergo JS Template](https://github.com/anon-real/ergo-js-template)
 
 
 ## C#
@@ -167,29 +197,6 @@ Ergo bootstrap tool, build on top of ergo-nix, will help you to quickly deploy a
 Read more on the blog - [Ergo Bootstrap, Streamlining Ergo dApp Infrastructure With One Simple Tool](https://ergoplatform.org/en/blog/2020-12-11-ergo-bootstrap-streamlining-ergo-dapp-infrastructure-with-one-simple-tool/)
 
 
-# Sigmastate-Interpreter
-
-Interpreter for a family of Sigma-State authentication languages.
-
-- Smart contract language: [sigmastate-interpreter](https://github.com/ScorexFoundation/sigmastate-interpreter)
-- [ScoreX](https://github.com/scorexfoundation/scorex), The modular blockchain framework
-- Basic cryptography library: [scrypto](https://github.com/input-output-hk/scrypto)
-
-## Rust
-> [sigma-rust](https://github.com/ergoplatform/sigma-rust) - implementation of ErgoScript cryptocurrency scripting language. A list of "*good first*" issues for Sigma-Rust is [available on GitHub](https://github.com/ergoplatform/sigma-rust/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) - @greenhat on [Discord](https://discord.gg/Q86PNMwRsu) is ready to assist anyone who is interested.
-
-sigma-rust is an alternative and simple implementation of ErgoTree interpreter and transaction building tools. The goal for the Rust version is to be on par with Scala version feature-wise. Now Rust version is still significantly behind. Also the goal for the Rust version is to have bindings for web, iOS and Android. The Scala version will continue to be the primary choice for JVM ecosystem with Rust version covering the rest.
-
-To get better understanding on how to use it in your project check out how its being used in the following projects:
-
-- [Ergo Headless dApp Framework](https://github.com/Emurgo/ergo-headless-dapp-framework);
-- [Ergo Node Interface Library](https://github.com/Emurgo/ergo-node-interface);
-- [Oracle Core](https://github.com/ergoplatform/oracle-core);
-- [AgeUSD Stablecoin Protocol](https://github.com/Emurgo/age-usd);
-- [Yoroi wallet](https://github.com/Emurgo/yoroi-frontend) (WASM bindings);
-- [Ergo Desktop Wallet](https://github.com/ErgoWallet/ergowallet-desktop) (WASM bindings);
-- [Ergo Utilities](https://github.com/robkorn/ergo-utilities-rust/) - General utilities to make writing off-chain Ergo code in Rust simpler 
-
 
 # Oracle Pools
 
@@ -212,25 +219,22 @@ An [overview](https://github.com/Emurgo/Emurgo-Research/blob/master/oracles/Orac
 - [Ergo Blockchain: Oracle Pool Governance Update](https://curiaregiscrypto.medium.com/ergo-blockchain-oracle-pool-governance-update-d078d58571b0)
 - [The role of Ergo Oracles](https://veriumfellow.medium.com/oracle-special-4e36cfa6a852)
 # dApps
-> [sigmaverse.io](sigmaverse.io/) - Your portal to the Ergo Universe
-
-
+[sigmaverse.io](sigmaverse.io/) is *your portal to the Ergo Universe*
 
 ## ErgoMixer
 
 > [ErgoMixer](https://github.com/ergoMixer/ergoMixBack)  is the first working non-custodial, programmable, non-interactive mixer in the cryptocurrency space. 
 
 **Resources**
-- [ErgoMixer ELI5](https://ergoplatform.org/en/blog/2021-05-12-ergomixer/)
-- [Ergo: What are *'Mixers'* ?](https://ergoplatform.org/en/blog/2021-05-19-ergo-what-are-bitcoin-mixers/)
+- Tokenisation of the mixer | [A solution for staking](https://www.ergoforum.org/t/a-solution-for-staking/1057)
+- Technical Slides: [ZeroJoin: Combining Zerocoin and Coinjoin](https://ergoplatform.org/docs/CBT_2020_ZeroJoin_Combining_Zerocoin_and_CoinJoin_v3.pdf)
 - [Video tutorial](https://www.youtube.com/watch?v=03_2HH82Plw)
-- [A solution for staking](https://www.ergoforum.org/t/a-solution-for-staking/1057)
-- [ZeroJoin: Combining Zerocoin and Coinjoin](https://ergoplatform.org/docs/CBT_2020_ZeroJoin_Combining_Zerocoin_and_CoinJoin_v3.pdf)
-
 ## ErgoAuctions
-> [Ergo Auctions House](http://ergoauctions.org/#/auction/active) - Buy and sell collectible tokens and more [Source code](https://github.com/anon-real/ErgoAuctionHouse)
 
-More information is available at [ergonaut.space/en/ErgoAuctions](https://ergonaut.space/en/ErgoAuctions)
+The [Ergo Auction House](http://ergoauctions.org/#/auction/active) lets you buy and sell collectible tokens, art and much more 
+
+- [Source code](https://github.com/anon-real/ErgoAuctionHouse)
+- More information available at [ergonaut.space/en/ErgoAuctions](https://ergonaut.space/en/ErgoAuctions)
 
 ## SigmaUSD
 > The first UTxO-based stable coin - an instantiation of the [AgeUSD protocol](https://github.com/Emurgo/age-usd). Its economic model designed in partnership between IOHK, Ergo, and Emurgo maintains the conservative settings for collateral reserves and avoids the need for liquidations. Along with that, it supports a fully decentralised stablecoin emission setup.
@@ -253,4 +257,7 @@ The [ErgoLabs](https://github.com/ergolabs) contains all the related code for Er
 ## ErgoFund
 - [Ergo Crowdfunding CLI](https://github.com/robkorn/ergo-crowdfunding-cli) Command-line tool which enables participating and interacting with crowdfunding campaigns on Ergo
 - [Scanner](https://github.com/ergoplatform/scanner) 
-- ZK Treasury: [Server](https://github.com/anon-real/DistributedSigsServer) and [Client](https://github.com/anon-real/DistributedSigsClient) - a tool for joint spendings with on-chain privacy 
+- ZK Treasury |  a tool for joint spendings with on-chain privacy 
+  - [Server](https://github.com/anon-real/DistributedSigsServer) 
+  - [Client](https://github.com/anon-real/DistributedSigsClient)
+- 'A Collective Spending Appproach' | In development, [more details](https://www.reddit.com/r/ergonauts/comments/ohftim/ergoteam_a_simpler_collective_spending_approach/).
