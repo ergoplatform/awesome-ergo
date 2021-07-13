@@ -3,20 +3,21 @@
 - [Hackathons](#hackathons)
   - [💡 Idea Incubator](#-idea-incubator)
 - [Sigma Language](#sigma-language)
+  - [ErgoScript](#ergoscript)
   - [Sigmastate-Interpreter](#sigmastate-interpreter)
   - [Scala](#scala)
   - [Rust](#rust)
   - [JS/TS](#jsts)
   - [C](#c)
-- [ErgoScript](#ergoscript)
+- [Tools, Services & Resources](#tools-services--resources)
   - [Other Contracts and Scripts](#other-contracts-and-scripts)
   - [Services](#services)
-  - [Articles](#articles)
   - [Utilities](#utilities)
+  - [Articles](#articles)
 - [Kits](#kits)
   - [Appkit](#appkit)
   - [Ergo Bootstrap](#ergo-bootstrap)
-- [Oracle Pools](#oracle-pools)
+- [Oracles](#oracles)
 - [dApps](#dapps)
   - [ErgoMixer](#ergomixer)
   - [ErgoAuctions](#ergoauctions)
@@ -71,6 +72,24 @@ conditions. The [ErgoScript Compiler](sigmastate/src/main/scala/sigmastate/lang/
 ErgoTree, in turn, is a bytecode language and memory representation which can be deterministically interpreted in the given _blockchain context_. 
 ErgoTree defines guarding proposition for a coin as a logic formula which combines predicates over a context and cryptographic statements provable via [Σ-protocols](https://en.wikipedia.org/wiki/Proof_of_knowledge#Sigma_protocols) with AND, OR, k-out-of-n connectives.
 
+## ErgoScript
+
+> [ErgoScript, a Cryptocurrency Scripting Language Supporting Noninteractive Zero-Knowledge Proofs](https://ergoplatform.org/docs/ErgoScript.pdf)
+
+Learn [Ergoscript by reading example smart contracts](https://github.com/ergoplatform/ergoscript-by-example) powered by the Ergo Playground. Each contract example includes a `Ergo Playground` link which allows you to instantly edit and run the smart contract code inside of your browser.
+
+If you ever need clarity about how specific types/functions/operators in ErgoScript work, please reference the [ErgoScript Language Description](https://github.com/ScorexFoundation/sigmastate-interpreter/blob/develop/docs/LangSpec.md). For an overarching summary, please reference this [video](https://www.youtube.com/watch?v=8l2v1asHgyA)
+
+Learn the basics of ErgoScript quickly and create your first contract
+
+- [A Quick Primer on ErgoScript](https://github.com/ergoplatform/ergo/wiki/ErgoScript-Overview) 
+- [ErgoScript tutorial](https://ergoplatform.org/docs/ErgoScript.pdf) | describes an Ergo Scripting Language supporting Noninteractive Zero-Knowledge Proofs
+- [ErgoScript Design patterns](https://www.ergoforum.org/t/ergoscript-design-patterns/222)
+- [Advanced ErgoScript Tutorial](https://ergoplatform.org/docs/AdvancedErgoScriptTutorial.pdf)
+- [ErgoScript advanced tutorial](https://docs.ergoplatform.com/sigmastate_protocols.pdf)
+- [Learn ErgoScript By Example Via The Ergo Playground with Robert Kornacki](https://www.youtube.com/watch?v=8l2v1asHgyA)
+- [Building Ergo: ErgoScript](https://ergoplatform.org/en/blog/2021-06-09-building-ergo-ergoscript/)
+
 ## Sigmastate-Interpreter
 
 
@@ -117,36 +136,15 @@ Stay tuned - A C# interpreter, cross-platform wallet, management and miner platf
 
 
 
-# ErgoScript
 
-> [ErgoScript, a Cryptocurrency Scripting Language Supporting Noninteractive Zero-Knowledge Proofs](https://ergoplatform.org/docs/ErgoScript.pdf)
-
-Learn [Ergoscript by reading example smart contracts](https://github.com/ergoplatform/ergoscript-by-example) powered by the Ergo Playground. Each contract example includes a `Ergo Playground` link which allows you to instantly edit and run the smart contract code inside of your browser.
-
-If you ever need clarity about how specific types/functions/operators in ErgoScript work, please reference the [ErgoScript Language Description](https://github.com/ScorexFoundation/sigmastate-interpreter/blob/develop/docs/LangSpec.md). For an overarching summary, please reference this [video](https://www.youtube.com/watch?v=8l2v1asHgyA)
-
-Learn the basics of ErgoScript quickly and create your first contract
-
-- [A Quick Primer on ErgoScript](https://github.com/ergoplatform/ergo/wiki/ErgoScript-Overview) 
-- [ErgoScript tutorial](https://ergoplatform.org/docs/ErgoScript.pdf) | describes an Ergo Scripting Language supporting Noninteractive Zero-Knowledge Proofs
-- [ErgoScript Design patterns](https://www.ergoforum.org/t/ergoscript-design-patterns/222)
-- [Advanced ErgoScript Tutorial](https://ergoplatform.org/docs/AdvancedErgoScriptTutorial.pdf)
-- [ErgoScript advanced tutorial](https://docs.ergoplatform.com/sigmastate_protocols.pdf)
-- [Learn ErgoScript By Example Via The Ergo Playground with Robert Kornacki](https://www.youtube.com/watch?v=8l2v1asHgyA)
-- [Building Ergo: ErgoScript](https://ergoplatform.org/en/blog/2021-06-09-building-ergo-ergoscript/)
+# Tools, Services & Resources
 
 ## Other Contracts and Scripts 
 
  - [Ergo notary](https://github.com/sininen-taivas/ergo-notary) | simple command-line tool to certificate files on the Ergo blockchain. 
  See also [forum topic](https://www.ergoforum.org/t/ergo-notary-command-line-tool/75) on a particular example
- - [Ergo oracles](https://github.com/sininen-taivas/ergo-oracle) | simple command-line tool to launch oracles. Inbuilt implementations for USD/ERG, EUR/ERG, BTC/ERG, AUG/ERG (gold) prices delivery. See also a [forum topic with example](https://www.ergoforum.org/t/erg-usd-oracle-on-top-of-ergo/119)
- - [Ergo Crowdfunding CLI](https://github.com/robkorn/ergo-crowdfunding-cli) Command-line tool which enables participating and interacting with crowdfunding campaigns on Ergo 
  - [Miner rewards script](https://github.com/lorien/ergotools) Simple command-line tool to find miner rewards not spent and form withdrawing transaction requests for them
  - [Ergo P2S Playground](https://wallet.plutomonkey.com/p2s/?source=dHJ1ZQ==) | A web-based tool to quickly get the address corresponding to some script  
-
- **Test vectors:**
-- [Ergo transaction serialization](https://git.io/fjqwX)
-- [Signature scheme](https://git.io/fjqwH)
 
 ## Services
 - [Mainnet explorer](https://explorer.ergoplatform.com/)
@@ -156,14 +154,18 @@ Learn the basics of ErgoScript quickly and create your first contract
   - [Node API](https://git.io/fjqwb)
   - [Explorer API](https://git.io/fjqwN)
 
-## Articles
-- [Ergo Addresses](https://ergoplatform.org/en/blog/2019_07_24_ergo_address/)
-- [Ergo terminology: a Box and a Register](https://www.ergoforum.org/t/ergo-terminology-a-box-and-a-register/32)
-
 ## Utilities 
 - [Ergo Notary](https://github.com/sininen-taivas/ergo-notary) | simple command-line tool to certificate files on the Ergo blockchain. ([forum topic](https://www.ergoforum.org/t/ergo-notary-command-line-tool/75)).
 - [JSON dApp Environment (JDE) first release](https://www.ergoforum.org/t/json-dapp-environment-jde-first-release/1373)
 
+
+**Test vectors:**
+- [Ergo transaction serialization](https://git.io/fjqwX)
+- [Signature scheme](https://git.io/fjqwH)
+
+## Articles
+- [Ergo Addresses](https://ergoplatform.org/en/blog/2019_07_24_ergo_address/)
+- [Ergo terminology: a Box and a Register](https://www.ergoforum.org/t/ergo-terminology-a-box-and-a-register/32)
 
 
 # Kits
@@ -198,7 +200,7 @@ Read more on the blog - [Ergo Bootstrap, Streamlining Ergo dApp Infrastructure W
 
 
 
-# Oracle Pools
+# Oracles
 
 See this [overview](https://github.com/Emurgo/Emurgo-Research/blob/master/oracles/Oracle-Pools.md) by Robert Kornacki.
 
@@ -209,6 +211,7 @@ When external oracle data is posted on-chain, it needs to be encoded in a very p
 **Resources**
 - [Ergo oracles](https://github.com/sininen-taivas/ergo-oracle) - simple command-line tool to launch oracles. Inbuilt implementations for USD/ERG, EUR/ERG, BTC/ERG, AUG/ERG (gold) prices delivery. 
 - Learn about data inputs and the truly novel innovations they bring to UTXO-based Blockchains like #Cardano by reading our latest research [here](https://github.com/Emurgo/Emurgo-Research/blob/master/smart-contracts/Unlocking%20The%20Potential%20Of%20The%20UTXO%20Model.md)
+
 
 **Articles**
 - [Chainlink Oracles vs. Ergo Oracle Pools](https://ergoplatform.org/en/blog/2021-04-27-chainlink-oracles-vs-ergo-oracle-pools/)
