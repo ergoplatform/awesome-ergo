@@ -9,12 +9,11 @@
     - [Rust](#rust)
     - [JS/TS](#jsts)
     - [C](#c)
-- [Kits](#kits)
   - [Appkit](#appkit)
-  - [Ergo Bootstrap](#ergo-bootstrap)
 - [Tools, Services & Resources](#tools-services--resources)
   - [Services](#services)
   - [Utilities](#utilities)
+  - [Tools](#tools)
   - [Articles](#articles)
 # Developers 
 
@@ -94,7 +93,6 @@ Learn the basics of ErgoScript quickly and create your first contract
 This library is used internally in [Ergo Node](https://github.com/ergoplatform/ergo) and [ergo-wallet](https://github.com/ergoplatform/ergo/tree/master/ergo-wallet), the public interfaces are subject to change.
 
 ### Rust
-> is a implementation of ErgoScript cryptocurrency scripting language. 
 
 [sigma-rust](https://github.com/ergoplatform/sigma-rust)  is an alternative and simple implementation of ErgoTree interpreter and transaction building tools. The goal for the Rust version is to be on par with Scala version feature-wise. At the moment, the Rust version is still significantly behind. Also the goal for the Rust version is to have bindings for web, iOS and Android. The Scala version will continue to be the primary choice for JVM ecosystem with Rust version covering the rest. To get better understanding on how to use it in your project check see [Usage Examples](https://github.com/ergoplatform/sigma-rust#usage-examples)
 
@@ -112,8 +110,6 @@ There is a great video series by Razor-sharp Solution | [Ergo with C# 101](https
 
 Stay tuned - A C# interpreter, cross-platform wallet, management and miner platform is in development!
 
-# Kits
-
 ## Appkit
 
 Appkit has idiomatic Java API and is written in Java/Scala. It is a thin wrapper around core components provided by ErgoScript interpreter and Ergo protocol implementations which are written in Scala. It is [published](https://mvnrepository.com/artifact/org.ergoplatform/ergo-appkit) on maven repository and cross compiled to both Java 7 and Java 8+ jars.
@@ -129,15 +125,6 @@ Using Appkit Ergo applications can be written in one of the languages supported 
 - [Ergo Android](https://github.com/aslesarenko/ergo-android) - Example Android application which demonstrates how Ergo Appkit can be used to develop Ergo applications running on Android.
 - [Multi-Stage Contracts in the UTXO Model: Delivery by Alexander Chepurnoy & Amitabh Saxena](https://www.youtube.com/watch?v=g3FlM_WOwBU)
 
-## Ergo Bootstrap
-
-[ergo-bootstrap](https://github.com/ergoplatform/ergo-bootstrap), build on top of ergo-nix, will help you to quickly deploy an Ergo blockchain cluster with a handful of useful tools you might need to start developing your dApps.
-
-- Read more on the blog | [Ergo Bootstrap, Streamlining Ergo dApp Infrastructure With One Simple Tool](https://ergoplatform.org/en/blog/2020-12-11-ergo-bootstrap-streamlining-ergo-dapp-infrastructure-with-one-simple-tool/)
-
-
-
-
 
 # Tools, Services & Resources
 
@@ -148,17 +135,18 @@ Using Appkit Ergo applications can be written in one of the languages supported 
 - [API Docs](https://api.ergoplatform.com/api/v1/docs/)
   - [Node API](https://git.io/fjqwb)
   - [Explorer API](https://git.io/fjqwN)
-
-## Utilities 
-- [Ergo Notary](https://github.com/sininen-taivas/ergo-notary) | simple command-line tool to certificate files on the Ergo blockchain. ([forum topic](https://www.ergoforum.org/t/ergo-notary-command-line-tool/75)).
-- [JSON dApp Environment (JDE) first release](https://www.ergoforum.org/t/json-dapp-environment-jde-first-release/1373)
- - [Miner rewards script](https://github.com/lorien/ergotools) Simple command-line tool to find miner rewards not spent and form withdrawing transaction requests for them
- - [Ergo P2S Playground](https://wallet.plutomonkey.com/p2s/?source=dHJ1ZQ==) | A web-based tool to quickly get the address corresponding to some script  
-
+  - 
 **Test vectors:**
 - [Ergo transaction serialization](https://git.io/fjqwX)
 - [Signature scheme](https://git.io/fjqwH)
+## Utilities 
+ - [Miner rewards script](https://github.com/lorien/ergotools) Simple command-line tool to find miner rewards not spent and form withdrawing transaction requests for them
+ - [Ergo P2S Playground](https://wallet.plutomonkey.com/p2s/?source=dHJ1ZQ==) | A web-based tool to quickly get the address corresponding to some script  
+## Tools
 
+- [ergo-bootstrap](https://github.com/ergoplatform/ergo-bootstrap), build on top of ergo-nix, will help you to quickly deploy an Ergo blockchain cluster with a handful of useful tools you might need to start developing your dApps.  - Read more on the blog | [Ergo Bootstrap, Streamlining Ergo dApp Infrastructure With One Simple Tool](https://ergoplatform.org/en/blog/2020-12-11-ergo-bootstrap-streamlining-ergo-dapp-infrastructure-with-one-simple-tool/) 
+- [Ergo Notary](https://github.com/sininen-taivas/ergo-notary) | simple command-line tool to certificate files on the Ergo blockchain. ([forum topic](https://www.ergoforum.org/t/ergo-notary-command-line-tool/75)).
+- [JSON dApp Environment (JDE) first release](https://www.ergoforum.org/t/json-dapp-environment-jde-first-release/1373)
 ## Articles
 - [Ergo Addresses](https://ergoplatform.org/en/blog/2019_07_24_ergo_address/)
 - [Ergo terminology: a Box and a Register](https://www.ergoforum.org/t/ergo-terminology-a-box-and-a-register/32)
