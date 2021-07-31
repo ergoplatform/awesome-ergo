@@ -1,7 +1,9 @@
 - [Developers](#developers)
+  - [Other Pages](#other-pages)
+  - [Hackathons](#hackathons)
   - [Resources](#resources)
-- [Hackathons](#hackathons)
-  - [💡 Idea Incubator](#-idea-incubator)
+- [Software Development Kit](#software-development-kit)
+  - [Appkit](#appkit)
 - [Sigma Language](#sigma-language)
   - [ErgoScript](#ergoscript)
   - [Languages](#languages)
@@ -9,7 +11,6 @@
     - [Rust](#rust)
     - [JS/TS](#jsts)
     - [C](#c)
-  - [Appkit](#appkit)
 - [Tools, Services & Resources](#tools-services--resources)
   - [Services](#services)
   - [Utilities](#utilities)
@@ -19,41 +20,46 @@
 
 This page provides a curated page of resources for developers. Please submit a PR if anything is missing!
 
+For most developers, [Appkit](#appkit) is the best entry point unless you're wanting to dive straight into [ErgoScript](#ergoscript).
+
+## Other Pages
+
 - See [wallets.md](/wallets.md) for developer resources within that area
 - See [apps.md](/apps.md) for developer resources relating to Oracles, Ergo Auctions, SigmaUSD, or any existing applications built ontop Ergo.
-- [Documentation](pages/docs.md)
+- [Documentation](pages/docs.md) | Whitepapers
+- [Idea-Incubator](pages/idea-incubator.md) | Ideas to build upon.
 
-## Resources
-- [ErgoWiki](https://github.com/ergoplatform/ergo/wiki)
-- [ergosites.github.io](https://ergosites.github.io/) | Resource page which links to various websites and utilities. 
-- [ergoplatform](https://github.com/ergoplatform/) | Ergo protocol description & reference client implementation.
+## Hackathons
 
-# Hackathons
+We've just completed our first hackathon -- [ErgoHack](https://ergoplatform.org/en/blog/2021-06-19-ergohack/), but there's plenty more on the way.
 
-We've just completed our first hackathon, but there's plenty more on the way.
-
-- May (Completed) - see [ErgoHack](https://ergoplatform.org/en/blog/2021-06-19-ergohack/)
 - September (TBC)
 - Q4 2021 (TBC)
 
 Join the [Discord](https://discord.gg/qxdrHM2eHv) to participate. 
+## Resources
+- [ErgoWiki](https://github.com/ergoplatform/ergo/wiki) | The official ergoplatform GitHub wiki
+- [r/ergonauts/wiki](https://www.reddit.com/r/ergonauts/wiki/index) | Community Wiki
+- [ergosites.github.io](https://ergosites.github.io/) | Resource page which links to various websites and utilities. 
+- [ergoplatform](https://github.com/ergoplatform/) | Ergo protocol description & reference client implementation.
 
-## 💡 Idea Incubator
+# Software Development Kit
+## Appkit
 
-See the [Ergo: Decentralized Applications Framework](https://ergoplatform.org/en/blog/2021-07-02-ergo-decentralized-applications-framework/) articles on the ergo blog for an overview of what's possible on Ergo
+[Appkit: A Library for Polyglot Development of Ergo Applications](https://github.com/aslesarenko/ergo-appkit) has idiomatic Java API and is written in Java/Scala. It is a thin wrapper around core components provided by ErgoScript interpreter and Ergo protocol implementations which are written in Scala. It is published on [maven repository](https://mvnrepository.com/artifact/org.ergoplatform/ergo-appkit)) and cross compiled to both Java 7 and Java 8+ jars.
 
-- [Bonds based on Ergo (or the “Yield protocol”)](https://www.ergoforum.org/t/bonds-based-on-ergo-or-the-yield-protocol/128)
-- [An ICO Example On Top Of Ergo](https://github.com/ergoplatform/ergo/wiki/An-ICO-Example-On-Top-Of-Ergo)
-- [A Local Exchange Trading System On Top Of Ergo](https://github.com/ergoplatform/ergo/wiki/A-Local-Exchange-Trading-System-On-Top-Of-Ergo)
-- [A Trustless Local Exchange Trading System](https://github.com/ergoplatform/ergo/wiki/A-Trustless-Local-Exchange-Trading-System)
-- [(E)mail Client for Limited or Blocked Internet](https://www.ergoforum.org/t/e-mail-client-for-limited-or-blocked-internet/134)
-- [LETS start the discussion](https://ergoplatform.org/en/blog/2021-07-01-lets-start-the-discussion/)
+[AppKit - Using from Java](https://github.com/ergoplatform/ergo-appkit#using-from-java) is the starting point most people will want if using Java.
 
-Loads more on [ergoforum: research & development](https://www.ergoforum.org/c/research-and-development/7?order=views)
+The Appkit library is also compatible with [GraalVM](https://www.graalvm.org/) - a novel next generation approach to implement software which is reusable across several programming languages and execution environments. For example if Node.js application is run on GraalVM, then it can use Appkit to interact with Ergo Blockchain.
 
-- [Building Ergo: Developer Tools](https://ergoplatform.org/en/blog/2021-06-10-building-ergo-developer-tools/)
-- [Multi-Stage Contracts](https://ergoplatform.org/en/blog/2021-04-16-multi-stage-contracts/)
-- [ErgoRaffle documentation](https://github.com/NazeriMahdi2001/Raffle-Doc) can be used as a good guide on how to get contracts in the extended UTXO model done:
+Using Appkit Ergo applications can be written in one of the languages supported by GraalVM (i.e. Java, JavaScript, C/C++, Python, Ruby, R) and using this library applications can communicate with Ergo nodes via unified API and programming model provided by Appkit. In addition Appkit based Ergo applications can be compiled into native code using native-image ahead of time compiler and then executed without Java VM with very fast startup time and lower runtime memory overhead compared to a Java VM. This is attractive option for high-performance low-latency microservices.
+
+**Resources**
+- [ergoplatform.org blog: Introduction](https://ergoplatform.org/en/blog/2019_12_03_top5/).
+- [Appkit Examples](https://github.com/aslesarenko/ergo-appkit-examples) - Examples of using Ergo Appkit for Polyglot Development of Ergo Applications
+- [ErgoTool](https://github.com/aslesarenko/ergo-tool) - A Command Line Interface for Ergo based on Appkit and [GraalVM](https://www.graalvm.org/) native-image. Read the [introduction and overview](https://ergoplatform.org/en/blog/2019_12_31_ergo_tool/).
+- [Ergo Android](https://github.com/aslesarenko/ergo-android) - Example Android application which demonstrates how Ergo Appkit can be used to develop Ergo applications running on Android.
+
 
 # Sigma Language 
 
@@ -82,6 +88,8 @@ Learn the basics of ErgoScript quickly and create your first contract
 - [SigmaState Protocols](https://docs.ergoplatform.com/sigmastate_protocols.pdf)
 - [(Video) Learn ErgoScript By Example Via The Ergo Playground with Robert Kornacki](https://www.youtube.com/watch?v=8l2v1asHgyA)
 - [Building Ergo: ErgoScript](https://ergoplatform.org/en/blog/2021-06-09-building-ergo-ergoscript/)
+- [Multi-Stage Contracts in the UTXO Model: Delivery by Alexander Chepurnoy & Amitabh Saxena](https://www.youtube.com/watch?v=g3FlM_WOwBU)
+
 
 ## Languages
 ### Scala
@@ -110,20 +118,7 @@ There is a great video series by Razor-sharp Solution | [Ergo with C# 101](https
 
 Stay tuned - A C# interpreter, cross-platform wallet, management and miner platform is in development!
 
-## Appkit
 
-Appkit has idiomatic Java API and is written in Java/Scala. It is a thin wrapper around core components provided by ErgoScript interpreter and Ergo protocol implementations which are written in Scala. It is [published](https://mvnrepository.com/artifact/org.ergoplatform/ergo-appkit) on maven repository and cross compiled to both Java 7 and Java 8+ jars.
-
-The Appkit library is compatible with GraalVM - a novel next generation approach to implement software which is reusable across several programming languages and execution environments. For example if Node.js application is run on GraalVM, then it can use Appkit to interact with Ergo Blockchain.
-
-Using Appkit Ergo applications can be written in one of the languages supported by GraalVM (i.e. Java, JavaScript, C/C++, Python, Ruby, R) and using this library applications can communicate with Ergo nodes via unified API and programming model provided by Appkit. In addition Appkit based Ergo applications can be compiled into native code using native-image ahead of time compiler and then executed without Java VM with very fast startup time and lower runtime memory overhead compared to a Java VM. This is attractive option for high-performance low-latency microservices.
-
-**Resources**
-- [Ergo Appkit (Polyglot library)](https://github.com/aslesarenko/ergo-appkit) - Appkit: A Library for Polyglot Development of Ergo Applications using either [GraalVM](https://www.graalvm.org/) or stock Java 1.7 and above. Read the [introduction](https://ergoplatform.org/en/blog/2019_12_03_top5/).
-- [Appkit Examples](https://github.com/aslesarenko/ergo-appkit-examples) - Examples of using Ergo Appkit for Polyglot Development of Ergo Applications
-- [ErgoTool](https://github.com/aslesarenko/ergo-tool) - A Command Line Interface for Ergo based on Appkit and [GraalVM](https://www.graalvm.org/) native-image. Read the [introduction and overview](https://ergoplatform.org/en/blog/2019_12_31_ergo_tool/).
-- [Ergo Android](https://github.com/aslesarenko/ergo-android) - Example Android application which demonstrates how Ergo Appkit can be used to develop Ergo applications running on Android.
-- [Multi-Stage Contracts in the UTXO Model: Delivery by Alexander Chepurnoy & Amitabh Saxena](https://www.youtube.com/watch?v=g3FlM_WOwBU)
 
 
 # Tools, Services & Resources
