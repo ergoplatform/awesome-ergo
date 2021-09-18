@@ -2,34 +2,25 @@ We highly recommend the use of wallets for storing Ergo assets (technically, the
 
 Note that wallets are supported by third parties, we only provide the information below as a courtesy, in order to simplify the overall digital currency experience for you.
 
-Yoroi (on desktop) or a full node is the best solution at the moment. Mobile apps in development. 
-
 
 # Wallets
 
+### Official and stable
 - [Yoroi Wallet](https://yoroi-wallet.com/#/) | Chrome, Edge, FF, Safari
   - [EMURGO Launches Beta Version of Yoroi Wallet DApp Connector](https://emurgo.io/blog/emurgo-launches-beta-version-of-yoroi-wallet-dapp-connector)
-- [ErgoWallet](https://ergowallet.io/) | Desktop (mobile in development) | Community
+- [Ergo Wallet Android](https://github.com/MrStahlfelge/ergo-wallet-android/) [Google Play](https://github.com/MrStahlfelge/ergo-wallet-android/) | Vetted by Ergo Team
 - [Full Node](https://github.com/ergoplatform/ergo) | Desktop, Pi  
-- Android Beta | [ergo-wallet-android](https://github.com/MrStahlfelge/ergo-wallet-android/) | Vetted by Ergo Team
-- Ledger Support in development (Soonish)  | Tesseract
+   - [Ergo node source code repository](https://github.com/ergoplatform/ergo)
+  - [Ergo node tutorial](https://ergoplatform.org/en/blog/2019_12_02_how_to_setup/) - how to set up a node
+  - [How to set up and configure a full Ergo node on Windows (VIDEO)](https://www.youtube.com/watch?v=fpEDJ1CM6ns)
+
+### In development
+- Ledger Support in development (see below)  | Tesseract
+- [Ergo Paper Wallet](https://anon-br.github.io/ergo-paper-wallet/)
 - iOS (Tethered) Beta | [Ergo Light Client](https://github.com/bjenkinsgit/ErgoIOSLiteClient.git) | Community | Requires a full node
+- [ErgoWallet.io](https://ergowallet.io/) | Desktop (mobile in development) | Community
 - [URL Wallet (Your key is in the URL, use this wallet for temporary use cases only!)](https://erg.urlwallet.org/)
 
-## Node
-
- - [Ergo node source code repository](https://github.com/ergoplatform/ergo)
- - [Ergo node tutorial](https://ergoplatform.org/en/blog/2019_12_02_how_to_setup/) - how to set up a node
- - [How to set up and configure a full Ergo node on Windows (VIDEO)](https://www.youtube.com/watch?v=fpEDJ1CM6ns)
-
-
-## Mobile Beta
-
-Both an Android and iPhone app are in Beta from Community devs.
-
-Android one has been checked by morphic, looks in good shape. iOS Beta was made available recently too. 
-
-Feedback for this is currently being taken in [#wallet-guineas](https://discord.gg/CQ4MXeNWts) on discord
 
 ## Ledger
 
