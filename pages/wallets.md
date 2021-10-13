@@ -6,16 +6,17 @@ Note that wallets are supported by third parties, we only provide the informatio
 # Wallets
 
 ### Official and stable
-- [Yoroi Wallet](https://yoroi-wallet.com/#/) | Chrome, Edge, FF, Safari
+- **Browser** | [Yoroi Wallet](https://yoroi-wallet.com/#/) | Chrome, Edge, FF, Safari
   - [EMURGO Launches Beta Version of Yoroi Wallet DApp Connector](https://emurgo.io/blog/emurgo-launches-beta-version-of-yoroi-wallet-dapp-connector)
-- [Ergo Wallet Android](https://github.com/MrStahlfelge/ergo-wallet-android/) [Google Play](https://github.com/MrStahlfelge/ergo-wallet-android/) | Vetted by Ergo Team
-- [Full Node](https://github.com/ergoplatform/ergo) | Desktop, Pi  
+- **Android** | [Ergo Wallet Android](https://github.com/MrStahlfelge/ergo-wallet-android/) [Google Play](https://github.com/MrStahlfelge/ergo-wallet-android/) | Vetted by Ergo Team
+- **Desktop** | [Full Node](https://github.com/ergoplatform/ergo) | Desktop, Pi  
    - [Ergo node source code repository](https://github.com/ergoplatform/ergo)
   - [Ergo node tutorial](https://ergoplatform.org/en/blog/2019_12_02_how_to_setup/) - how to set up a node
   - [How to set up and configure a full Ergo node on Windows (VIDEO)](https://www.youtube.com/watch?v=fpEDJ1CM6ns)
+- **iOS** | Viawallet - **Does not support native assets (NFTS/SigmaUSD/etc)
 
 ### In development
-- Ledger Support in development (see below)  | Tesseract
+- Ledger Support in development (see below)  | Tesseract & Yoroi
 - [Ergo Paper Wallet](https://anon-br.github.io/ergo-paper-wallet/)
 - iOS (Tethered) Beta | [Ergo Light Client](https://github.com/bjenkinsgit/ErgoIOSLiteClient.git) | Community | Requires a full node
 - [ErgoWallet.io](https://ergowallet.io/) | Desktop (mobile in development) | Community

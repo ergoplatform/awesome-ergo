@@ -10,6 +10,8 @@ The [explorer](explorer.ergoplatform.com/) can give you various information & st
 - [(Repsonses) Hashrates and GPU settings](https://docs.google.com/spreadsheets/d/1NsuoDB27EwCo_BlSjCP3GMLfTSJRPIWIBsL-wPTllUg/edit#gid=1675061291)
 - [Mining Stats Submission Form](https://docs.google.com/forms/d/e/1FAIpQLSfvRg_I5QumCBmMCwOHzel6bt5OOAA0uvJl_PBdKEtlpbRnVQ/viewform)
 - [erg_miners/wiki](https://www.reddit.com/r/erg_miners/wiki/index)
+- [Miner rewards script](https://github.com/lorien/ergotools) Simple command-line tool to find miner rewards not spent and form withdrawing transaction requests for the
+
 
 
 ## Difficulty 

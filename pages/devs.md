@@ -22,16 +22,20 @@ This page provides a curated page of resources for developers. Please submit a P
 
 For most developers, [Appkit](#appkit) is the best entry point unless you're wanting to dive straight into [ErgoScript](#ergoscript).
 
+# Resources
+- [ErgoWiki](https://github.com/ergoplatform/ergo/wiki) | The official ergoplatform GitHub wiki
+- [r/ergonauts/wiki](https://www.reddit.com/r/ergonauts/wiki/index) | Community Wiki
+- [ergosites.github.io](https://ergosites.github.io/) | Resource page which links to various websites and utilities. 
+- [ergohack.io/resources](https://ergohack.io/resources)
+
 ## Other Pages
 
 - See this resource page on [ergohack.io](https://ergohack.io/resources)
 - See [wallets.md](/wallets.md) for developer resources within that area
 - See [apps.md](/apps.md) for developer resources relating to Oracles, Ergo Auctions, SigmaUSD, or any existing applications built ontop Ergo.
 - [Documentation](pages/docs.md) | Whitepapers
-- [Idea-Incubator](pages/idea-incubator.md) | Ideas to build upon.
 
-
-# ERGOHACK
+## ERGOHACK
 
 
 - [ERGOHACK I](https://ergoplatform.org/en/blog/2021-06-19-ergohack/) (May, 2021)
@@ -39,58 +43,29 @@ For most developers, [Appkit](#appkit) is the best entry point unless you're wan
 - Q1 2022 (TBC)
 
 Join the [Discord](https://discord.gg/qxdrHM2eHv) to participate. 
-## Resources
-- [ErgoWiki](https://github.com/ergoplatform/ergo/wiki) | The official ergoplatform GitHub wiki
-- [r/ergonauts/wiki](https://www.reddit.com/r/ergonauts/wiki/index) | Community Wiki
-- [ergosites.github.io](https://ergosites.github.io/) | Resource page which links to various websites and utilities. 
+**GitHubs**
 - [ergoplatform](https://github.com/ergoplatform/) | Ergo protocol description & reference client implementation.
+- [Emurgo](https://github.com/Emurgo/) | AgeUSD, Oracle Pools, Yoroi
+- [ScorexFoundation](https://github.com/ScorexFoundation/)
 
 # Software Development Kit
 ## Appkit
 
 [Appkit: A Library for Polyglot Development of Ergo Applications](https://github.com/aslesarenko/ergo-appkit) has idiomatic Java API and is written in Java/Scala. It is a thin wrapper around core components provided by ErgoScript interpreter and Ergo protocol implementations which are written in Scala. It is published on [maven repository](https://mvnrepository.com/artifact/org.ergoplatform/ergo-appkit)) and cross compiled to both Java 7 and Java 8+ jars.
 
-- [Bonds based on Ergo (or the “Yield protocol”)](https://www.ergoforum.org/t/bonds-based-on-ergo-or-the-yield-protocol/128)
-- [An ICO Example On Top Of Ergo](https://github.com/ergoplatform/ergo/wiki/An-ICO-Example-On-Top-Of-Ergo)
-- [A Local Exchange Trading System On Top Of Ergo](https://github.com/ergoplatform/ergo/wiki/A-Local-Exchange-Trading-System-On-Top-Of-Ergo)
-- [A Trustless Local Exchange Trading System](https://github.com/ergoplatform/ergo/wiki/A-Trustless-Local-Exchange-Trading-System)
-- [(E)mail Client for Limited or Blocked Internet](https://www.ergoforum.org/t/e-mail-client-for-limited-or-blocked-internet/134)
-- [LETS start the discussion](https://ergoplatform.org/en/blog/2021-07-01-lets-start-the-discussion/)
-- ErgoFans | Decentralised content producer platform | Patreon/Onlyfans
-- ErgoGigs | Decentralised gigs! (Fiverr)
-- ErgoEarn | earn for learning (Coinbase Earn)
-- ErgoStats | on-chain analysis (glassnode)
-
 The Appkit library is also compatible with [GraalVM](https://www.graalvm.org/) - a novel next generation approach to implement software which is reusable across several programming languages and execution environments. For example if Node.js application is run on GraalVM, then it can use Appkit to interact with Ergo Blockchain.
 
 Using Appkit Ergo applications can be written in one of the languages supported by GraalVM (i.e. Java, JavaScript, C/C++, Python, Ruby, R) and using this library applications can communicate with Ergo nodes via unified API and programming model provided by Appkit. In addition Appkit based Ergo applications can be compiled into native code using native-image ahead of time compiler and then executed without Java VM with very fast startup time and lower runtime memory overhead compared to a Java VM. This is attractive option for high-performance low-latency microservices.
 
-# Resources
-- [ErgoWiki](https://github.com/ergoplatform/ergo/wiki)
-- [ergosites.github.io](https://ergosites.github.io/) | Resource page which links to various websites and utilities. 
-- [ergonaut.space](https://ergonaut.space)
-- [ergohack.io/resources](https://ergohack.io/resources)
+**Resources**
+- [Ergo Appkit (Polyglot library)](https://github.com/aslesarenko/ergo-appkit) - Appkit: A Library for Polyglot Development of Ergo Applications using either [GraalVM](https://www.graalvm.org/) or stock Java 1.7 and above. Read the [introduction](https://ergoplatform.org/en/blog/2019_12_03_top5/).
+- [Appkit Examples](https://github.com/aslesarenko/ergo-appkit-examples) - Examples of using Ergo Appkit for Polyglot Development of Ergo Applications
+- [ErgoTool](https://github.com/aslesarenko/ergo-tool) - A Command Line Interface for Ergo based on Appkit and [GraalVM](https://www.graalvm.org/) native-image. Read the [introduction and overview](https://ergoplatform.org/en/blog/2019_12_31_ergo_tool/).
+- [Ergo Android](https://github.com/aslesarenko/ergo-android) - Example Android application which demonstrates how Ergo Appkit can be used to develop Ergo applications running on Android.
+- [Multi-Stage Contracts in the UTXO Model: Delivery by Alexander Chepurnoy & Amitabh Saxena](https://www.youtube.com/watch?v=g3FlM_WOwBU)
 
 
-**GitHubs**
-- [ergoplatform](https://github.com/ergoplatform/) | Ergo protocol description & reference client implementation.
-- [ErgoLabs](https://github.com/ergolabs) | ErgoDex 
-- [Emurgo](https://github.com/Emurgo/) | AgeUSD, Oracle Pools, Yoroi
-- [ScorexFoundation](https://github.com/ScorexFoundation/)
-- [ErgoLend](https://github.com/Ergo-Lend/)
-- [ErgoRaffle](https://github.com/ErgoRaffle)
-
-# Contracts and Scripts 
- - [ErgoScript tutorial](https://ergoplatform.org/docs/ErgoScript.pdf) - describes an Ergo Scripting Language supporting Noninteractive Zero-Knowledge Proofs
- - [ErgoScript by Example](https://github.com/ergoplatform/ergoscript-by-example) - repository with ErgoScript examples you can play with in Ergo Playground 
- - [A Quick Primer on ErgoScript](https://github.com/ergoplatform/ergo/wiki/ErgoScript-Overview) Learn the basics of ErgoScript quickly and create your first contract
- - [Ergo notary](https://github.com/sininen-taivas/ergo-notary) - simple command-line tool to certificate files on the Ergo blockchain. 
- See also [forum topic](https://www.ergoforum.org/t/ergo-notary-command-line-tool/75) on a particular example
- - [Ergo oracles](https://github.com/sininen-taivas/ergo-oracle) - simple command-line tool to launch oracles. Inbuilt implementations for USD/ERG, EUR/ERG, BTC/ERG, AUG/ERG (gold) prices delivery. See also a [forum topic with example](https://www.ergoforum.org/t/erg-usd-oracle-on-top-of-ergo/119)
- - [Ergo Crowdfunding CLI](https://github.com/robkorn/ergo-crowdfunding-cli) Command-line tool which enables participating and interacting with crowdfunding campaigns on Ergo 
- - [Miner rewards script](https://github.com/lorien/ergotools) Simple command-line tool to find miner rewards not spent and form withdrawing transaction requests for them
-
-## ErgoScript
+# ErgoScript
 
 > [ErgoScript, a Cryptocurrency Scripting Language Supporting Noninteractive Zero-Knowledge Proofs](https://ergoplatform.org/docs/ErgoScript.pdf)
 
@@ -140,24 +115,6 @@ Stay tuned - A C# interpreter, cross-platform wallet, management and miner platf
 
 
   
-# Kits
-
-## Appkit
-
-Appkit has idiomatic Java API and is written in Java/Scala. It is a thin wrapper around core components provided by ErgoScript interpreter and Ergo protocol implementations which are written in Scala. It is [published](https://mvnrepository.com/artifact/org.ergoplatform/ergo-appkit) on maven repository and cross compiled to both Java 7 and Java 8+ jars.
-
-The Appkit library is compatible with GraalVM - a novel next generation approach to implement software which is reusable across several programming languages and execution environments. For example if Node.js application is run on GraalVM, then it can use Appkit to interact with Ergo Blockchain.
-
-Using Appkit Ergo applications can be written in one of the languages supported by GraalVM (i.e. Java, JavaScript, C/C++, Python, Ruby, R) and using this library applications can communicate with Ergo nodes via unified API and programming model provided by Appkit. In addition Appkit based Ergo applications can be compiled into native code using native-image ahead of time compiler and then executed without Java VM with very fast startup time and lower runtime memory overhead compared to a Java VM. This is attractive option for high-performance low-latency microservices.
-
-In addition Appkit is compatible with Android and can be used from Android applications.
-
-**Resources**
-- [Ergo Appkit (Polyglot library)](https://github.com/aslesarenko/ergo-appkit) - Appkit: A Library for Polyglot Development of Ergo Applications using either [GraalVM](https://www.graalvm.org/) or stock Java 1.7 and above. Read the [introduction](https://ergoplatform.org/en/blog/2019_12_03_top5/).
-- [Appkit Examples](https://github.com/aslesarenko/ergo-appkit-examples) - Examples of using Ergo Appkit for Polyglot Development of Ergo Applications
-- [ErgoTool](https://github.com/aslesarenko/ergo-tool) - A Command Line Interface for Ergo based on Appkit and [GraalVM](https://www.graalvm.org/) native-image. Read the [introduction and overview](https://ergoplatform.org/en/blog/2019_12_31_ergo_tool/).
-- [Ergo Android](https://github.com/aslesarenko/ergo-android) - Example Android application which demonstrates how Ergo Appkit can be used to develop Ergo applications running on Android.
-- [Multi-Stage Contracts in the UTXO Model: Delivery by Alexander Chepurnoy & Amitabh Saxena](https://www.youtube.com/watch?v=g3FlM_WOwBU)
 
 # Sigmastate-Interpreter
 
@@ -183,36 +140,6 @@ To get better understanding on how to use it in your project check out how its b
 - [Ergo Utilities](https://github.com/robkorn/ergo-utilities-rust/) - General utilities to make writing off-chain Ergo code in Rust simpler 
 
 
-# Oracle Pools
-
-When external oracle data is posted on-chain, it needs to be encoded in a very precise way within a transaction. Furthermore, oracle pools have a bunch of different moving parts which require transactions to be issued to move between the different stages of the pool protocol. [Oracle Core](https://github.com/ergoplatform/oracle-core) creates all of the complex transactions which posts the data on-chain & runs the oracle pool protocol on-chain (such as averaging datapoints). This comes bundled with [Oracle Pool Bootstrap](https://github.com/ergoplatform/oracle-core/tree/master/oracle-pool-bootstrap) and a [Connector Library](https://github.com/ergoplatform/oracle-core/tree/master/connectors/connector-lib). The [ada-usd-oracle](https://github.com/ergoplatform/oracle-core/blob/master/scripts/ada-usd-oracle/oracle-config.yaml) source can be seen here. Currently only the erg-usd-oracle is live as seen in the [Oracle Pool List](https://explorer.ergoplatform.com/en/oracle-pools-list)
-
-
-An [overview](https://github.com/Emurgo/Emurgo-Research/blob/master/oracles/Oracle-Pools.md) by Robert Kornacki.
-
-
-
-
-**Resources**
-- [Ergo oracles](https://github.com/sininen-taivas/ergo-oracle) - simple command-line tool to launch oracles. Inbuilt implementations for USD/ERG, EUR/ERG, BTC/ERG, AUG/ERG (gold) prices delivery. 
-- Learn about data inputs and the truly novel innovations they bring to UTXO-based Blockchains like #Cardano by reading our latest research [here](https://github.com/Emurgo/Emurgo-Research/blob/master/smart-contracts/Unlocking%20The%20Potential%20Of%20The%20UTXO%20Model.md)
-
-**Articles**
-- [Chainlink Oracles vs. Ergo Oracle Pools](https://ergoplatform.org/en/blog/2021-04-27-chainlink-oracles-vs-ergo-oracle-pools/)
-- [Oracle Pools - A New Oracle Model](https://www.ergoforum.org/t/oracle-pools-a-new-oracle-model/263)
-- [First steps towards interoperability with Cardano oracles](https://ergoplatform.org/en/blog/2020-11-09-first-steps-towards-interoperability-with-cardano-oracles/)
-- [Ergo Blockchain: Oracle Pool Governance Update](https://curiaregiscrypto.medium.com/ergo-blockchain-oracle-pool-governance-update-d078d58571b0)
-- [The role of Ergo Oracles](https://veriumfellow.medium.com/oracle-special-4e36cfa6a852)
-
-
-
-# dApps
-> [sigmaverse.io](sigmaverse.io/) - Your portal to the Ergo Universe
-
-## ErgoMixer
-
-> [ErgoMixer](https://github.com/ergoMixer/ergoMixBack)  is the first working non-custodial, programmable, non-interactive mixer in the cryptocurrency space. 
-
 # Tools, Services & Resources
 
 ## Services
@@ -229,15 +156,6 @@ An [overview](https://github.com/Emurgo/Emurgo-Research/blob/master/oracles/Orac
 ## Utilities 
  - [Miner rewards script](https://github.com/lorien/ergotools) Simple command-line tool to find miner rewards not spent and form withdrawing transaction requests for them
  - [Ergo P2S Playground](https://wallet.plutomonkey.com/p2s/?source=dHJ1ZQ==) | A web-based tool to quickly get the address corresponding to some script  
-## Tools
 
-## ErgoDex
-The [ErgoLabs](https://github.com/ergolabs) contains all the related code for ErgoDex
 
-- [EIP-0014: Decentalized Exchange Contracts](https://github.com/ergoplatform/eips/pull/27)
-- [Single-Chain Swap Contracts (DEX basis) by Alex Chepurnoy](https://www.youtube.com/watch)
 
-## ErgoFund
-- [Ergo Crowdfunding CLI](https://github.com/robkorn/ergo-crowdfunding-cli) Command-line tool which enables participating and interacting with crowdfunding campaigns on Ergo
-- [Scanner](https://github.com/ergoplatform/scanner) 
-- ZK Treasury: [Server](https://github.com/anon-real/DistributedSigsServer) and [Client](https://github.com/anon-real/DistributedSigsClient) - a tool for joint spendings with on-chain privacy 
