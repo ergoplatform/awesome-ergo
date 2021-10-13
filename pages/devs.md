@@ -25,15 +25,16 @@
 
 This page provides an overview of all relevent links for developers. Please submit a PR if anything is missing!
 
+- See this resource page on [ergohack.io](https://ergohack.io/resources)
 - See [wallets.md](/wallets.md) for developer resources within that area
 
-# Hackathons
 
-We've just completed our first hackathon, but there's plenty more on the way.
+# ERGOHACK
 
-- May (Completed) - see [ErgoHack](https://ergoplatform.org/en/blog/2021-06-19-ergohack/)
-- September (TBC)
-- Q4 2021 (TBC)
+
+- [ERGOHACK I](https://ergoplatform.org/en/blog/2021-06-19-ergohack/) (May, 2021)
+- ERGOHACK II (Oct 8-10, 2021)
+- Q1 2022 (TBC)
 
 Join the [Discord](https://discord.gg/qxdrHM2eHv) to participate. 
 
@@ -47,6 +48,10 @@ See the [Ergo: Decentralized Applications Framework](https://ergoplatform.org/en
 - [A Trustless Local Exchange Trading System](https://github.com/ergoplatform/ergo/wiki/A-Trustless-Local-Exchange-Trading-System)
 - [(E)mail Client for Limited or Blocked Internet](https://www.ergoforum.org/t/e-mail-client-for-limited-or-blocked-internet/134)
 - [LETS start the discussion](https://ergoplatform.org/en/blog/2021-07-01-lets-start-the-discussion/)
+- ErgoFans | Decentralised content producer platform | Patreon/Onlyfans
+- ErgoGigs | Decentralised gigs! (Fiverr)
+- ErgoEarn | earn for learning (Coinbase Earn)
+- ErgoStats | on-chain analysis (glassnode)
 
 Loads more on [ergoforum: research & development](https://www.ergoforum.org/c/research-and-development/7?order=views)
 
@@ -55,13 +60,17 @@ Loads more on [ergoforum: research & development](https://www.ergoforum.org/c/re
 # Resources
 - [ErgoWiki](https://github.com/ergoplatform/ergo/wiki)
 - [ergosites.github.io](https://ergosites.github.io/) | Resource page which links to various websites and utilities. 
+- [ergonaut.space](https://ergonaut.space)
+- [ergohack.io/resources](https://ergohack.io/resources)
 
 
 **GitHubs**
 - [ergoplatform](https://github.com/ergoplatform/) | Ergo protocol description & reference client implementation.
-- [ergolabs](https://github.com/ergolabs) | ErgoDex 
+- [ErgoLabs](https://github.com/ergolabs) | ErgoDex 
 - [Emurgo](https://github.com/Emurgo/) | AgeUSD, Oracle Pools, Yoroi
 - [ScorexFoundation](https://github.com/ScorexFoundation/)
+- [ErgoLend](https://github.com/Ergo-Lend/)
+- [ErgoRaffle](https://github.com/ErgoRaffle)
 
 # Contracts and Scripts 
  - [ErgoScript tutorial](https://ergoplatform.org/docs/ErgoScript.pdf) - describes an Ergo Scripting Language supporting Noninteractive Zero-Knowledge Proofs
@@ -155,18 +164,6 @@ In addition Appkit is compatible with Android and can be used from Android appli
 - [Ergo Android](https://github.com/aslesarenko/ergo-android) - Example Android application which demonstrates how Ergo Appkit can be used to develop Ergo applications running on Android.
 - [Multi-Stage Contracts in the UTXO Model: Delivery by Alexander Chepurnoy & Amitabh Saxena](https://www.youtube.com/watch?v=g3FlM_WOwBU)
 
-## Ergo Bootstrap
-The Ergo ecosystem is quickly growing with new design patterns, tools, dApps, and more every single month. This is an exciting point in time for developers to jump in and get started.
-
-That said, while building dApps on top of Ergo, vital infrastructure components to develop and run your dApp might be intimidating to set up for someone who is unfamiliar with the existing tooling. Between an Ergo full node, explorer back end, explorer front end, logging, and metrics, it can become quite overwhelming for a nascent dApp developer entering into the ecosystem.
-
-For this reason, we are introducing [ergo-bootstrap](https://github.com/ergoplatform/ergo-bootstrap), an easy-to-use tool that enables quick and clean Ergo blockchain cluster deployments which supports a variety of useful infrastructure components you will need on your path of dApp development. This was developed by Marek of Five Binaries thanks to a grant given by the Ergo Foundation and their latest push to empower the ecosystem via funding key projects.
-
-Ergo bootstrap tool, build on top of ergo-nix, will help you to quickly deploy an Ergo blockchain cluster with a handful of useful tools you might need to start developing your dApps.
-
-Read more on the blog - [Ergo Bootstrap, Streamlining Ergo dApp Infrastructure With One Simple Tool](https://ergoplatform.org/en/blog/2020-12-11-ergo-bootstrap-streamlining-ergo-dapp-infrastructure-with-one-simple-tool/)
-
-
 # Sigmastate-Interpreter
 
 Interpreter for a family of Sigma-State authentication languages.
@@ -211,10 +208,11 @@ An [overview](https://github.com/Emurgo/Emurgo-Research/blob/master/oracles/Orac
 - [First steps towards interoperability with Cardano oracles](https://ergoplatform.org/en/blog/2020-11-09-first-steps-towards-interoperability-with-cardano-oracles/)
 - [Ergo Blockchain: Oracle Pool Governance Update](https://curiaregiscrypto.medium.com/ergo-blockchain-oracle-pool-governance-update-d078d58571b0)
 - [The role of Ergo Oracles](https://veriumfellow.medium.com/oracle-special-4e36cfa6a852)
+
+
+
 # dApps
 > [sigmaverse.io](sigmaverse.io/) - Your portal to the Ergo Universe
-
-
 
 ## ErgoMixer
 
@@ -244,12 +242,11 @@ The UI for the front-end is available at [anon-real/sigma-usd](https://github.co
 
 
 ## ErgoDex
-
 The [ErgoLabs](https://github.com/ergolabs) contains all the related code for ErgoDex
-
 
 - [EIP-0014: Decentalized Exchange Contracts](https://github.com/ergoplatform/eips/pull/27)
 - [Single-Chain Swap Contracts (DEX basis) by Alex Chepurnoy](https://www.youtube.com/watch)
+
 ## ErgoFund
 - [Ergo Crowdfunding CLI](https://github.com/robkorn/ergo-crowdfunding-cli) Command-line tool which enables participating and interacting with crowdfunding campaigns on Ergo
 - [Scanner](https://github.com/ergoplatform/scanner) 

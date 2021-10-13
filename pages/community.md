@@ -1,7 +1,7 @@
 
 # Community
 
-Ergo is supported by a vibrants grassroots community and can be found across Reddit, Telegram, Discord and The Ergo Platform Forums. Come join the main [Ergo Community-based marketing](https://t.me/ErgoSocials) chat on Telegram. 
+Ergo has a vibrant grassroots community scattered across Reddit, [Telegram](https://t.me/ergoplatform), [Discord](https://discord.gg/yDdb6yH3Zz) and [The Ergo Platform Forums](www.ergoforum.org). Come join the main [Ergo Community-based marketing](https://t.me/ErgoSocials) chat on Telegram. 
 
 ## Deep Dives
 - [Ergonaut](https://ergonaut.space/en/home) | Community gathered resources for the Ergo blockchain (in markdown format)
@@ -18,25 +18,36 @@ Ergo is supported by a vibrants grassroots community and can be found across Red
 
 - [Telegram Mining Chat](https://t.me/ergo_mining)
 - [Facebook Group : Ergo Coin (ERG) GPU MINING](https://www.facebook.com/groups/779328612722261/)
+- [r/erg_miners](https://reddit.com/r/erg_miners)
 
 
 ## Telegram 
 - [Main Chatroom](https://t.me/ergoplatform)
+- [News](https://t.me/ergo_news)
+- [Ergo Community-based marketing](https://t.me/ErgoSocials)
 - [Mining](https://t.me/ergo_mining)
 - [Trading](https://t.me/ERGtrading)
-- [News](https://t.me/ergo_news)
+- [Technical Analysis & Botting](https://t.me/ERGTechnicalAnalysis)
 - [Support](https://t.me/ergosupport)
+- [Ergo x Cardano](https://t.me/ERGOxCARDANO)
+- [Ergo Off-Topic](https://t.me/ErgoOfftopic)
+- [Ergo Agora (Polics/Economics/etc)](https://t.me/ErgoAgora)
+
+
+#### Tokens & dApps
+
+- [ErgoDex](https://t.me/ergodex)
+- [Ergo Token Centre](https://t.me/ErgoTokenCentre)
+- [Erdoge](https://t.me/ErdogeCommunity)
 - [NFTs](https://t.me/ergo_nft_trading)
 - [SigmaUSD](https://t.me/SigmaUSD)
-- [ErgoxCardano](https://t.me/ERGOxCARDANO)
-- [Ergo Community-based marketing](https://t.me/ErgoSocials)
-- [Ergo OffTopic](https://t.me/ErgoOfftopic)
-- [Ergo Agora (Political)](https://t.me/ErgoAgora)
+- [ErgoLend](https://t.me/ErgoLend)
 
-
-### Regional Telegrams
+#### Regional Telegrams
 - [English](https://t.me/ergoplatform)
-- [Armenian](https://t.me/ergo_Armenian)
+- [Romania](https://t.me/ergo_romania)
+- [Italy](https://t.me/Ergo_Italia)
+- [Armenian](https://t.me/ErgoArmeania)
 - [Arabic](https://t.me/ergoplatform_arabic)
 - [Chinese](https://t.me/ergoplatform_CH)
 - [German](https://t.me/ergoplatform_german)
