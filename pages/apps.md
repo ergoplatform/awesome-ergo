@@ -1,6 +1,8 @@
 
 # dApps
-[sigmaverse.io](sigmaverse.io/) is *your portal to the Ergo Universe*
+- [sigmaverse.io](sigmaverse.io/) is *your portal to the Ergo Universe*
+- [Ergo Profit Sharing dApp](https://github.com/mhssamadani/ErgoProfitSharingDapp)
+- [ErgoFaucet](https://github.com/zargarzadehm/ergo-faucet)
 
 # ErgoMixer
 
@@ -17,7 +19,9 @@ The [Ergo Auction House](http://ergoauctions.org/#/auction/active) lets you buy 
 - [Source code](https://github.com/anon-real/ErgoAuctionHouse)
 - More information available at [ergonaut.space/en/ErgoAuctions](https://ergonaut.space/en/ErgoAuctions)
 
-# SigmaUSD
+# Stablecoins
+
+## SigmaUSD
 > The first UTxO-based stable coin - an instantiation of the [AgeUSD protocol](https://github.com/Emurgo/age-usd). Its economic model designed in partnership between IOHK, Ergo, and Emurgo maintains the conservative settings for collateral reserves and avoids the need for liquidations. Along with that, it supports a fully decentralised stablecoin emission setup.
 
 The UI for the front-end is available at [anon-real/sigma-usd](https://github.com/anon-real/sigma-usd) 
@@ -27,7 +31,10 @@ The UI for the front-end is available at [anon-real/sigma-usd](https://github.co
 - [Overview Video (with diagrams)](https://www.youtube.com/watch?v=O3hPEp3tzoU)
 - [Building Ergo: How the AgeUSD stablecoin works](https://ergoplatform.org/en/blog/2021-02-05-building-ergo-how-the-ageusd-stablecoin-works/)
 
+## Dexy
 
+- [Dexy: USD Simplest Stablecoin](https://www.ergoforum.org/t/dexy-usd-simplest-stablecoin-design/1430
+)
 # ErgoDex
 
 The [ErgoLabs](https://github.com/ergolabs) contains all the related code for ErgoDex
@@ -53,12 +60,13 @@ See this [overview](https://github.com/Emurgo/Emurgo-Research/blob/master/oracle
 
 When external oracle data is posted on-chain, it needs to be encoded in a very precise way within a transaction. Furthermore, oracle pools have a bunch of different moving parts which require transactions to be issued to move between the different stages of the pool protocol. [Oracle Core](https://github.com/ergoplatform/oracle-core) creates all of the complex transactions which posts the data on-chain & runs the oracle pool protocol on-chain (such as averaging datapoints). This comes bundled with [Oracle Pool Bootstrap](https://github.com/ergoplatform/oracle-core/tree/master/oracle-pool-bootstrap) and a [Connector Library](https://github.com/ergoplatform/oracle-core/tree/master/connectors/connector-lib). The [ada-usd-oracle](https://github.com/ergoplatform/oracle-core/blob/master/scripts/ada-usd-oracle/oracle-config.yaml) source can be seen here. Currently only the erg-usd-oracle is live as seen in the [Oracle Pool List](https://explorer.ergoplatform.com/en/oracle-pools-list)
 
- - [Ergo oracles](https://github.com/sininen-taivas/ergo-oracle) - simple command-line tool to launch oracles. Inbuilt implementations for USD/ERG, EUR/ERG, BTC/ERG, AUG/ERG (gold) prices delivery. See also a [forum topic with example](https://www.ergoforum.org/t/erg-usd-oracle-on-top-of-ergo/119)
 
 
 **Resources**
+- [eth/usd connector](https://github.com/Luivatra/oracle-core/tree/eth-connector)
 - [Ergo oracles](https://github.com/sininen-taivas/ergo-oracle) - simple command-line tool to launch oracles. Inbuilt implementations for USD/ERG, EUR/ERG, BTC/ERG, AUG/ERG (gold) prices delivery. 
 - Learn about data inputs and the truly novel innovations they bring to UTXO-based Blockchains like #Cardano by reading our latest research [here](https://github.com/Emurgo/Emurgo-Research/blob/master/smart-contracts/Unlocking%20The%20Potential%20Of%20The%20UTXO%20Model.md)
+ - [Ergo oracles](https://github.com/sininen-taivas/ergo-oracle) - simple command-line tool to launch oracles. Inbuilt implementations for USD/ERG, EUR/ERG, BTC/ERG, AUG/ERG (gold) prices delivery. See also a [forum topic with example](https://www.ergoforum.org/t/erg-usd-oracle-on-top-of-ergo/119)
 
 
 **Articles**

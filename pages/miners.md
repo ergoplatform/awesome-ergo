@@ -7,12 +7,20 @@ The [explorer](explorer.ergoplatform.com/) can give you various information & st
 ## Resources
 
 - [Mining Pool Stats](https://miningpoolstats.stream/ergo)
-- [(Repsonses) Hashrates and GPU settings](https://docs.google.com/spreadsheets/d/1NsuoDB27EwCo_BlSjCP3GMLfTSJRPIWIBsL-wPTllUg/edit#gid=1675061291)
 - [Mining Stats Submission Form](https://docs.google.com/forms/d/e/1FAIpQLSfvRg_I5QumCBmMCwOHzel6bt5OOAA0uvJl_PBdKEtlpbRnVQ/viewform)
+     - [(Repsonses) Hashrates and GPU settings](https://docs.google.com/spreadsheets/d/1NsuoDB27EwCo_BlSjCP3GMLfTSJRPIWIBsL-wPTllUg/edit#gid=1675061291)
 - [erg_miners/wiki](https://www.reddit.com/r/erg_miners/wiki/index)
 - [Miner rewards script](https://github.com/lorien/ergotools) Simple command-line tool to find miner rewards not spent and form withdrawing transaction requests for the
+- [Ergo DAG-table size math & Block Rewards Schedule](https://docs.google.com/spreadsheets/d/1c8fa4Qalf49WbdStwNaexLa4qOybwgvDBDiyzrIH9D4/edit?usp=sharing)
+### Solo Mining
 
+- [Autolykos2_NV_Miner](https://https://github.com/mhssamadani/Autolykos2_NV_Miner)
+- [Autolykos2_AMD_Miner](https://github.com/mhssamadani/Autolykos2_AMD_Miner)
 
+In order to used them, you may or may not need to use: Stratum Server and Stratum Proxy. These two projects are here:
+
+- [ErgoStratumServer](https://github.com/mhssamadani/ErgoStratumServer)
+- [ErgoStratumProxy](https://github.com/mhssamadani/ErgoStratumProxy)
 
 ## Difficulty 
 
