@@ -14,9 +14,9 @@
 For most developers, [Appkit](#appkit) is the best entry point unless you're wanting to dive straight into [ErgoScript](#ergoscript).
 
 
-- See [wallets.md](/wallets.md) for developer resources within that area.
-- See [apps.md](/apps.md) for developer resources relating to any existing dApps built ontop Ergo.
-- [docs.md](pages/docs.md) for related whitepapers.
+- See [wallets.md](wallets.md) for developer resources within that area.
+- See [apps.md](apps.md) for developer resources relating to any existing dApps built ontop Ergo.
+- [docs.md](docs.md) for related whitepapers.
 
 **Resources** 
 - [ErgoWiki](https://github.com/ergoplatform/ergo/wiki) | The official ergoplatform GitHub wiki
