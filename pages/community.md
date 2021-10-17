@@ -19,6 +19,9 @@ Ergo has a vibrant grassroots community scattered across Reddit, [Telegram](http
 - [Support](https://t.me/ergosupport)
 
 ## Mining
+
+[The Complete Ergo Mining Handbook](https://ergonaut.space/en/Mining)
+  
 - [Telegram Mining Chat](https://t.me/ergo_mining)
 - [Facebook Group : Ergo Coin (ERG) GPU MINING](https://www.facebook.com/groups/779328612722261/)
 - [r/erg_miners](https://reddit.com/r/erg_miners)

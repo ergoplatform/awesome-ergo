@@ -4,12 +4,15 @@ A curated list of awesome and useful Ergo resources. If you think your project s
 
 
 Logos, infographics and more available in [graphics](graphics). Make sure to check out the [Grow Ergo](https://github.com/ergoplatform/grow-ergo/) repository to see bounties available on Ergo.
+
+
+  
 # Pages
 
 - [Community Chats and Content](pages/community.md)
 - [Developers](pages/devs.md)
-- [Documentation](pages/docs.md)
-- [Miners](pages/miners.md)
+    - [Documentation](pages/docs.md)
+    - [Applications](pages/apps.md) 
 - [Wallets](pages/wallets.md)
 
 # Official Channels

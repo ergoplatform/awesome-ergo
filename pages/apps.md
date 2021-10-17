@@ -1,8 +1,9 @@
 
 # dApps
-- [sigmaverse.io](sigmaverse.io/) is *your portal to the Ergo Universe*
+- [sigmaverse.io](sigmaverse.io/) - *your portal to the Ergo Universe*
 - [Ergo Profit Sharing dApp](https://github.com/mhssamadani/ErgoProfitSharingDapp)
 - [ErgoFaucet](https://github.com/zargarzadehm/ergo-faucet)
+
 
 # ErgoMixer
 
@@ -12,9 +13,12 @@
 - Tokenisation of the mixer | [A solution for staking](https://www.ergoforum.org/t/a-solution-for-staking/1057)
 - Technical Slides: [ZeroJoin: Combining Zerocoin and Coinjoin](https://ergoplatform.org/docs/CBT_2020_ZeroJoin_Combining_Zerocoin_and_CoinJoin_v3.pdf)
 - [Video tutorial](https://www.youtube.com/watch?v=03_2HH82Plw)
-## ErgoAuctions
 
-The [Ergo Auction House](http://ergoauctions.org/#/auction/active) lets you buy and sell collectible tokens, art and much more 
+
+
+# ErgoAuctions
+
+The [Ergo Auction House](http://ergoauctions.org/#/auction/active) lets you buy and sell collectible tokens, art and much more.
 
 - [Source code](https://github.com/anon-real/ErgoAuctionHouse)
 - More information available at [ergonaut.space/en/ErgoAuctions](https://ergonaut.space/en/ErgoAuctions)
@@ -60,6 +64,10 @@ See this [overview](https://github.com/Emurgo/Emurgo-Research/blob/master/oracle
 
 When external oracle data is posted on-chain, it needs to be encoded in a very precise way within a transaction. Furthermore, oracle pools have a bunch of different moving parts which require transactions to be issued to move between the different stages of the pool protocol. [Oracle Core](https://github.com/ergoplatform/oracle-core) creates all of the complex transactions which posts the data on-chain & runs the oracle pool protocol on-chain (such as averaging datapoints). This comes bundled with [Oracle Pool Bootstrap](https://github.com/ergoplatform/oracle-core/tree/master/oracle-pool-bootstrap) and a [Connector Library](https://github.com/ergoplatform/oracle-core/tree/master/connectors/connector-lib). The [ada-usd-oracle](https://github.com/ergoplatform/oracle-core/blob/master/scripts/ada-usd-oracle/oracle-config.yaml) source can be seen here. Currently only the erg-usd-oracle is live as seen in the [Oracle Pool List](https://explorer.ergoplatform.com/en/oracle-pools-list)
 
+
+## v2
+- [Oracle pool 2.0 contracts finalized (for initial draft).](https://github.com/ergoplatform/eips/blob/eip23/eip-0023.md)
+- [Tests for oracle pool 2.0](https://github.com/scalahub/OraclePool/tree/v2/src/test/scala/oraclepool/v2)
 
 
 **Resources**
