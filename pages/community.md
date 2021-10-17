@@ -32,12 +32,6 @@ Ergo has a vibrant grassroots community scattered across Reddit, [Telegram](http
 - [Technical Analysis & Botting](https://t.me/ERGTechnicalAnalysis)
 - [r/ErgoTrading](https://reddit.com/r/ErgoTrading)
 
-## Community
-- [Ergo Community-based marketing](https://t.me/ErgoSocials)
-- [Ergo x Cardano](https://t.me/ERGOxCARDANO)
-- [Ergo Off-Topic](https://t.me/ErgoOfftopic)
-- [Ergo Agora (Polics/Economics/etc)](https://t.me/ErgoAgora)
-
 ## Tokens & dApps
 - [ErgoDex](https://t.me/ergodex)
 - [Ergo Token Centre](https://t.me/ErgoTokenCentre)
@@ -45,6 +39,13 @@ Ergo has a vibrant grassroots community scattered across Reddit, [Telegram](http
 - [NFTs](https://t.me/ergo_nft_trading)
 - [SigmaUSD](https://t.me/SigmaUSD)
 - [ErgoLend](https://t.me/ErgoLend)
+
+## Misc
+- [Ergo Agora (Polics/Economics/etc)](https://t.me/ErgoAgora)
+- [Ergo Community-based marketing](https://t.me/ErgoSocials)
+- [Ergo x Cardano](https://t.me/ERGOxCARDANO)
+- [Ergo Off-Topic](https://t.me/ErgoOfftopic)
+
 
 ## Regional Telegrams
 - [English](https://t.me/ergoplatform)
@@ -70,7 +71,7 @@ Ergo has a vibrant grassroots community scattered across Reddit, [Telegram](http
 # Community-ran resources
 
 
-# Community Channels
+##  Community Channels
 - [Ergo Platform Facebook Page](https://www.facebook.com/Ergo-Platform-108753484685015)
 - [Ergo Platform Instagram](https://www.instagram.com/ergo_platform/)
 - [Ergo News Twitter](https://twitter.com/NewsErgo)
