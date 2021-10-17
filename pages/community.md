@@ -3,28 +3,29 @@
 
 Ergo has a vibrant grassroots community scattered across Reddit, [Telegram](https://t.me/ergoplatform), [Discord](https://discord.gg/yDdb6yH3Zz) and [The Ergo Platform Forums](www.ergoforum.org). Come join the main [Ergo Community-based marketing](https://t.me/ErgoSocials) chat on Telegram. 
 
+# Official Channels
 
+- [Website](https://ergoplatform.org/en/)
+- [Discord](https://discordapp.com/invite/gYrVrjS)
+- [Blog](https://ergoplatform.org/en/blog/)
+- [Forum](https://www.ergoforum.org/)
+- [YouTube](https://www.youtube.com/channel/UC7cht_rw6ofX3wTirrQG8kw)
+- [Twitter](https://twitter.com/ergoplatformorg)
+- [GitHub](https://github.com/ergoplatform)
+- [Telegram](https://t.me/ergoplatform)
 
-## News
+**Official Chatrooms**
 - [Telegram Announcement Channel](https://t.me/ergo_news)
-- [Ergo Platform Facebook Page](https://www.facebook.com/Ergo-Platform-108753484685015)
-- [Ergo Platform Twitter](https://twitter.com/ergoplatformorg)
-- [Ergo Platform Youtube](https://www.youtube.com/c/ErgoPlatform)
-- [Ergo Platform Instagram (Community-ran)](https://www.instagram.com/ergo_platform/)
-- [Ergo News Twitter (Community-ran)](https://twitter.com/NewsErgo)
-
-## General  
 - [Ergo Platform Telegram](https://t.me/ergoplatform)
 - [Ergo Platform Discord](https://discord.gg/yDdb6yH3Zz)
-- [Support](https://t.me/ergosupport)
+- [Support Telegram](https://t.me/ergosupport)
 
 ## Mining
-
-[The Complete Ergo Mining Handbook](https://ergonaut.space/en/Mining)
   
 - [Telegram Mining Chat](https://t.me/ergo_mining)
 - [Facebook Group : Ergo Coin (ERG) GPU MINING](https://www.facebook.com/groups/779328612722261/)
 - [r/erg_miners](https://reddit.com/r/erg_miners)
+- Make sure to check out [The Complete Ergo Mining Handbook](https://ergonaut.space/en/Mining)
 
 ## Trading
 - [Trading](https://t.me/ERGtrading)
@@ -36,7 +37,6 @@ Ergo has a vibrant grassroots community scattered across Reddit, [Telegram](http
 - [Ergo x Cardano](https://t.me/ERGOxCARDANO)
 - [Ergo Off-Topic](https://t.me/ErgoOfftopic)
 - [Ergo Agora (Polics/Economics/etc)](https://t.me/ErgoAgora)
-- [Ergo Platform Facebook Group](facebook.com/groups/ergoplatform)
 
 ## Tokens & dApps
 - [ErgoDex](https://t.me/ergodex)
@@ -54,7 +54,7 @@ Ergo has a vibrant grassroots community scattered across Reddit, [Telegram](http
 - [Arabic](https://t.me/ergoplatform_arabic)
 - [Chinese](https://t.me/ergoplatform_CH)
 - [German](https://t.me/ergoplatform_german)
-- [Spanish](https://t.me/ergoplatform_ES) | [Ergo Platform Twitter Espanol (Community-ran)](https://twitter.com/ErgoPlatformES)
+- [Spanish](https://t.me/ergoplatform_ES)
 - [Indonesia](https://t.me/Ergo_Indonesian)
 - [Vietnam](https://t.me/ErgoPlatform_Vietnam)
 - [Bharat(India) and Bangladesh](https://t.me/ergoplatform_bangla_hindi)
@@ -68,6 +68,15 @@ Ergo has a vibrant grassroots community scattered across Reddit, [Telegram](http
 - [Portugues](https://t.me/ErgoPortuguese)
 
 # Community-ran resources
+
+
+# Community Channels
+- [Ergo Platform Facebook Page](https://www.facebook.com/Ergo-Platform-108753484685015)
+- [Ergo Platform Instagram](https://www.instagram.com/ergo_platform/)
+- [Ergo News Twitter](https://twitter.com/NewsErgo)
+- [Ergo Platform Twitter Espanol (Community-ran)](https://twitter.com/ErgoPlatformES)
+- [Ergo Platform Facebook Group](facebook.com/groups/ergoplatform)
+
 
 ## Deep Dives
 - [ergonaut.space](https://ergonaut.space/en/home) | Community gathered resources for the Ergo blockchain (in markdown format)
