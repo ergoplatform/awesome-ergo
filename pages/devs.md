@@ -48,8 +48,8 @@ The Appkit library is also compatible with [GraalVM](https://www.graalvm.org/) -
 **Tutorials**
 - [Tutorial starting with Appkit on Gradle projects](https://github.com/ergoplatform/ergo-appkit/wiki/Tutorial-starting-with-Appkit-on-Gradle-projects)
 - [AppKit by Example (Video)](https://www.youtube.com/watch?v=Md5s-XV6-Hs)
-- [Ergo Appkit (Polyglot library)](https://github.com/aslesarenko/ergo-appkit) | Appkit: A Library for Polyglot Development of Ergo Applications using either [GraalVM](https://www.graalvm.org/) or stock Java 1.7 and above. Read the [introduction](https://ergoplatform.org/en/blog/2019_12_03_top5/).
-- [Appkit Examples](https://github.com/aslesarenko/ergo-appkit-examples) | Examples of using Ergo Appkit for Polyglot Development of Ergo Applications
+- [Appkit: A Library for Polyglot Development of Ergo Applications](https://github.com/aslesarenko/ergo-appkit)  using either [GraalVM](https://www.graalvm.org/) or stock Java 1.7 and above. Read the [introduction](https://ergoplatform.org/en/blog/2019_12_03_top5/).
+- [Appkit Examples](https://github.com/aslesarenko/ergo-appkit-examples)
 
 **Tools**
 - [ErgoTool](https://github.com/aslesarenko/ergo-tool) | A Command Line Interface for Ergo based on Appkit and [GraalVM](https://www.graalvm.org/) native-image. Read the [introduction and overview](https://ergoplatform.org/en/blog/2019_12_31_ergo_tool/).
@@ -83,6 +83,8 @@ Learn [Ergoscript by example](https://github.com/ergoplatform/ergoscript-by-exam
 
 
 # Languages
+
+
 ## Scala
 
 - [Sigmastate-Interpreter](https://github.com/ScorexFoundation/sigmastate-interpreter) | The Sigmastate-Interpreter is a ErgoScript compiler and ErgoTree Interpreter implementation for Ergo blockchain's *Sigma Language*  For development of Ergo applications using JVM languages a better alternative is to use [Appkit](#appkit).
@@ -106,7 +108,7 @@ To get better understanding on how to use it in your project check out how its b
 - [Yoroi wallet](https://github.com/Emurgo/yoroi-frontend) (WASM bindings)
 - [Ergo Desktop Wallet](https://github.com/ErgoWallet/ergowallet-desktop) (WASM bindings)
 
-[Ergo Utilities](https://github.com/robkorn/ergo-utilities-rust/) - General utilities to make writing off-chain Ergo code in Rust simpler 
+[Ergo Utilities](https://github.com/robkorn/ergo-utilities-rust/) | simplify writing off-chain code in Rust.
 
 
 ## JS/TS
@@ -117,7 +119,7 @@ To get better understanding on how to use it in your project check out how its b
 
 ## C#
 
-There is a great video series by Razor-sharp Solution | [Ergo with C# 101](https://www.youtube.com/watch?v=aUuki-fAxwc&list=PLUWruihtE-HtL-JZk8Vb4Yn_H18aE3rb6)
+- [Ergo with C# 101](https://www.youtube.com/watch?v=aUuki-fAxwc&list=PLUWruihtE-HtL-JZk8Vb4Yn_H18aE3rb6)
 
 
 # Resources
