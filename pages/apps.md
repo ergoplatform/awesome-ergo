@@ -1,16 +1,27 @@
 
 # dApps
-- [sigmaverse.io](sigmaverse.io/) - *your portal to the Ergo Universe*
+- [sigmaverse.io](https://sigmaverse.io/) - *your portal to the Ergo Universe*
+- [ErgoFaucet.org](https://github.com/zargarzadehm/ergo-faucet)
+
+## Tokenisation
+
+This service will provide a way for dapps to distribute gains among dapps' token holders.
+
+The first user of this service will be the ErgoMixer. 
+
+Ergomixer's income (in ERG and other tokens) is currently received by its creator, aka 'anon2020s', since it has only one stakeholder at the moment. He has announced that he is willing to create and sell some tokens in the near future to obtain more stakeholders; let's call this token MIX. later, anyone having the MIX tokens can stake these tokens in the Profit Sharing contract and obtain the mixer's incomes proportional to their staked tokens.
+
+So, it is NOT a way to stake ERG at first. But, it CAN BE USED in the future in some creative services to provide ERG-staking.
+
+- [A solution for staking](https://www.ergoforum.org/t/a-solution-for-staking/1057)
 - [Ergo Profit Sharing dApp](https://github.com/mhssamadani/ErgoProfitSharingDapp)
-- [ErgoFaucet](https://github.com/zargarzadehm/ergo-faucet)
 
 
 # ErgoMixer
 
-> [ErgoMixer](https://github.com/ergoMixer/ergoMixBack)  is the first working non-custodial, programmable, non-interactive mixer in the cryptocurrency space. 
+[ErgoMixer](https://github.com/ergoMixer/ergoMixBack) is the first working non-custodial, programmable, non-interactive mixer in the cryptocurrency space. 
 
 **Resources**
-- Tokenisation of the mixer | [A solution for staking](https://www.ergoforum.org/t/a-solution-for-staking/1057)
 - Technical Slides: [ZeroJoin: Combining Zerocoin and Coinjoin](https://ergoplatform.org/docs/CBT_2020_ZeroJoin_Combining_Zerocoin_and_CoinJoin_v3.pdf)
 - [Video tutorial](https://www.youtube.com/watch?v=03_2HH82Plw)
 
@@ -21,6 +32,7 @@
 The [Ergo Auction House](http://ergoauctions.org/#/auction/active) lets you buy and sell collectible tokens, art and much more.
 
 - [Source code](https://github.com/anon-real/ErgoAuctionHouse)
+- [v2 contracts](https://github.com/ergoplatform/eips/pull/39/files)
 - More information available at [ergonaut.space/en/ErgoAuctions](https://ergonaut.space/en/ErgoAuctions)
 
 # Stablecoins
@@ -48,15 +60,6 @@ The [ErgoLabs](https://github.com/ergolabs) contains all the related code for Er
 - [Single-Chain Swap Contracts (DEX basis) by Alex Chepurnoy](https://www.youtube.com/watch)
 
 
-# ErgoFund
-
-- [Ergo Crowdfunding CLI](https://github.com/robkorn/ergo-crowdfunding-cli) | Command-line tool which enables participating and interacting with crowdfunding campaigns on Ergo
-- [Scanner](https://github.com/ergoplatform/scanner) 
-- ZK Treasury |  a tool for joint spendings with on-chain privacy 
-  - [Server](https://github.com/anon-real/DistributedSigsServer) 
-  - [Client](https://github.com/anon-real/DistributedSigsClient)
-- 'A Collective Spending Appproach' | In development, [more details](https://www.reddit.com/r/ergonauts/comments/ohftim/ergoteam_a_simpler_collective_spending_approach/)
-
 # Oracles
 
 See this [overview](https://github.com/Emurgo/Emurgo-Research/blob/master/oracles/Oracle-Pools.md) by Robert Kornacki.
@@ -83,6 +86,16 @@ When external oracle data is posted on-chain, it needs to be encoded in a very p
 - [First steps towards interoperability with Cardano oracles](https://ergoplatform.org/en/blog/2020-11-09-first-steps-towards-interoperability-with-cardano-oracles/)
 - [Ergo Blockchain: Oracle Pool Governance Update](https://curiaregiscrypto.medium.com/ergo-blockchain-oracle-pool-governance-update-d078d58571b0)
 - [The role of Ergo Oracles](https://veriumfellow.medium.com/oracle-special-4e36cfa6a852)
+
+# ErgoFund
+
+- [Ergo Crowdfunding CLI](https://github.com/robkorn/ergo-crowdfunding-cli) | Command-line tool which enables participating and interacting with crowdfunding campaigns on Ergo
+- [Scanner](https://github.com/ergoplatform/scanner) 
+- ZK Treasury |  a tool for joint spendings with on-chain privacy 
+  - [Server](https://github.com/anon-real/DistributedSigsServer) 
+  - [Client](https://github.com/anon-real/DistributedSigsClient)
+- 'A Collective Spending Appproach' | In development, [more details](https://www.reddit.com/r/ergonauts/comments/ohftim/ergoteam_a_simpler_collective_spending_approach/)
+
 
 # ErgoLend
 - [ErgoLend](https://github.com/Ergo-Lend/)

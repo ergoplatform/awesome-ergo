@@ -6,13 +6,12 @@ Ergo has a vibrant grassroots community scattered across Reddit, [Telegram](http
 # Official Channels
 
 - [Website](https://ergoplatform.org/en/)
-- [Discord](https://discordapp.com/invite/gYrVrjS)
 - [Blog](https://ergoplatform.org/en/blog/)
 - [Forum](https://www.ergoforum.org/)
 - [YouTube](https://www.youtube.com/channel/UC7cht_rw6ofX3wTirrQG8kw)
 - [Twitter](https://twitter.com/ergoplatformorg)
 - [GitHub](https://github.com/ergoplatform)
-- [Telegram](https://t.me/ergoplatform)
+
 
 **Official Chatrooms**
 - [Telegram Announcement Channel](https://t.me/ergo_news)
