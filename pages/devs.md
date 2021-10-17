@@ -16,12 +16,8 @@ For most developers, [Appkit](#appkit) is the best entry point unless you're wan
 
 - See [wallets.md](wallets.md) for developer resources within that area.
 - See [apps.md](apps.md) for developer resources relating to any existing dApps built ontop Ergo.
-- [docs.md](docs.md) for related whitepapers.
+- [docs.md](docs.md) for related whitepapers and Ergo Improvement Proposals (EIPs)
 
-**Resources** 
-- [ErgoWiki](https://github.com/ergoplatform/ergo/wiki) | The official ergoplatform GitHub wiki
-- [ergosites.github.io](https://ergosites.github.io/) | Resource page which links to various websites and utilities. 
-- [ergohack.io](https://ergohack.io/resources) | Your introduction to developing on Ergo.
 
 **ERGOHACK** 
 - [ERGOHACK I](https://ergoplatform.org/en/blog/2021-06-19-ergohack/) (May, 2021)
@@ -30,6 +26,10 @@ For most developers, [Appkit](#appkit) is the best entry point unless you're wan
 
 Join the [Discord](https://discord.gg/qxdrHM2eHv) server to participate. 
 
+**Bounties**
+
+- Make sure to check out the [Grow Ergo](https://github.com/ergoplatform/grow-ergo/) repository to see developer bounties available on Ergo.
+- or the #jobs-and-bounties channel on - [Discord](https://discordapp.com/invite/gYrVrjS)
 
 # Appkit
 
@@ -51,7 +51,6 @@ The Appkit library is also compatible with [GraalVM](https://www.graalvm.org/) -
 **Tools**
 - [ErgoTool](https://github.com/aslesarenko/ergo-tool) | A Command Line Interface for Ergo based on Appkit and [GraalVM](https://www.graalvm.org/) native-image. Read the [introduction and overview](https://ergoplatform.org/en/blog/2019_12_31_ergo_tool/).
 - [Ergo Android](https://github.com/aslesarenko/ergo-android) | Example Android application which demonstrates how Ergo Appkit can be used to develop Ergo applications running on Android.
-
 
 # ErgoScript
 
@@ -138,5 +137,7 @@ To get better understanding on how to use it in your project check out how its b
  - [Miner rewards script](https://github.com/lorien/ergotools) Simple command-line tool to find miner rewards not spent and form withdrawing transaction requests for them
  - [Ergo P2S Playground](https://wallet.plutomonkey.com/p2s/?source=dHJ1ZQ==) | A web-based tool to quickly get the address corresponding to some script  
 
-
-
+**Resources** 
+- [ErgoWiki](https://github.com/ergoplatform/ergo/wiki) | The official ergoplatform GitHub wiki
+- [ergosites.github.io](https://ergosites.github.io/) | Resource page which links to various websites and utilities. 
+- [ergohack.io](https://ergohack.io/resources) | Your introduction to developing on Ergo.
