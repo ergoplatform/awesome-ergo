@@ -10,7 +10,6 @@
   - [C](#c)
 - [Resources](#resources-1)
   - [Services](#services)
-  - [Utilities](#utilities)
 
 # Getting Started
 
@@ -95,7 +94,7 @@ This library is used internally in [Ergo Node](https://github.com/ergoplatform/e
 ## Rust
 [sigma-rust](https://github.com/ergoplatform/sigma-rust) is an alternative and simple implementation of ErgoTree interpreter and transaction building tools. The goal for the Rust version is to be on par with Scala version feature-wise. Now Rust version is still significantly behind. Also the goal for the Rust version is to have bindings for web, iOS and Android. The Scala version will continue to be the primary choice for JVM ecosystem with Rust version covering the rest.
 
-> A list of "*good first*" issues for Sigma-Rust is [available on GitHub](https://github.com/ergoplatform/sigma-rust/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) - @greenhat on [Discord](https://discord.gg/Q86PNMwRsu) is ready to assist anyone who is interested.
+> A list of "*good first*" issues is [available on GitHub](https://github.com/ergoplatform/sigma-rust/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) - @greenhat on [Discord](https://discord.gg/Q86PNMwRsu) is ready to assist anyone who is interested.
 
 
 To get better understanding on how to use it in your project check out how its being used in the following projects:
@@ -136,7 +135,7 @@ There is a great video series by Razor-sharp Solution | [Ergo with C# 101](https
 - [Ergo transaction serialization](https://git.io/fjqwX)
 - [Signature scheme](https://git.io/fjqwH)
 
-## Utilities 
+**Utilities** 
  - [Miner rewards script](https://github.com/lorien/ergotools) Simple command-line tool to find miner rewards not spent and form withdrawing transaction requests for them
  - [Ergo P2S Playground](https://wallet.plutomonkey.com/p2s/?source=dHJ1ZQ==) | A web-based tool to quickly get the address corresponding to some script  
 
