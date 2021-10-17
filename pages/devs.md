@@ -1,6 +1,4 @@
 - [Getting Started](#getting-started)
-  - [Resources](#resources)
-  - [ERGOHACK](#ergohack)
 - [Appkit](#appkit)
 - [ErgoScript](#ergoscript)
 - [Languages](#languages)
@@ -8,7 +6,7 @@
   - [Rust](#rust)
   - [JS/TS](#jsts)
   - [C](#c)
-- [Resources](#resources-1)
+- [Resources](#resources)
   - [Services](#services)
 
 # Getting Started
@@ -16,17 +14,16 @@
 For most developers, [Appkit](#appkit) is the best entry point unless you're wanting to dive straight into [ErgoScript](#ergoscript).
 
 
-
-- See [wallets.md](/wallets.md) for developer resources within that area
+- See [wallets.md](/wallets.md) for developer resources within that area.
 - See [apps.md](/apps.md) for developer resources relating to any existing dApps built ontop Ergo.
-- [Documentation](pages/docs.md) | Whitepapers
+- [docs.md](pages/docs.md) for related whitepapers.
 
-## Resources
+**Resources** 
 - [ErgoWiki](https://github.com/ergoplatform/ergo/wiki) | The official ergoplatform GitHub wiki
 - [ergosites.github.io](https://ergosites.github.io/) | Resource page which links to various websites and utilities. 
-- [ergohack.io/resources](https://ergohack.io/resources) | Your introduction to developing on Ergo.
+- [ergohack.io](https://ergohack.io/resources) | Your introduction to developing on Ergo.
 
-## ERGOHACK
+**ERGOHACK** 
 - [ERGOHACK I](https://ergoplatform.org/en/blog/2021-06-19-ergohack/) (May, 2021)
 - [ERGOHACK II](https://ergoplatform.org/en/blog/2021-10-15-ergohack-ii-wrap-up/) (Oct 8-10, 2021)
 - ERGOHACK III Q1 2022 (TBC)
