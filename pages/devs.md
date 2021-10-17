@@ -18,18 +18,21 @@ For most developers, [Appkit](#appkit) is the best entry point unless you're wan
 - See [apps.md](apps.md) for developer resources relating to any existing dApps built ontop Ergo.
 - [docs.md](docs.md) for related whitepapers and Ergo Improvement Proposals (EIPs)
 
+**Bounties**
+
+- Make sure to check out the [Grow Ergo](https://github.com/ergoplatform/grow-ergo/) repository to see developer bounties available on Ergo.
+- or the #jobs-and-bounties channel on [Discord](https://discordapp.com/invite/gYrVrjS)
 
 **ERGOHACK** 
+
+See overviews of the past two ERGOHACKs below and start preparing for ERGOHACK III!
+
 - [ERGOHACK I](https://ergoplatform.org/en/blog/2021-06-19-ergohack/) (May, 2021)
 - [ERGOHACK II](https://ergoplatform.org/en/blog/2021-10-15-ergohack-ii-wrap-up/) (Oct 8-10, 2021)
 - ERGOHACK III Q1 2022 (TBC)
 
 Join the [Discord](https://discord.gg/qxdrHM2eHv) server to participate. 
 
-**Bounties**
-
-- Make sure to check out the [Grow Ergo](https://github.com/ergoplatform/grow-ergo/) repository to see developer bounties available on Ergo.
-- or the #jobs-and-bounties channel on - [Discord](https://discordapp.com/invite/gYrVrjS)
 
 # Appkit
 
