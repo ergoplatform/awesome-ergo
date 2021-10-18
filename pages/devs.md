@@ -10,28 +10,30 @@
 
 # Getting Started
 
-For most developers, [Appkit](#appkit) is the best entry point unless you're wanting to dive straight into [ErgoScript](#ergoscript).
+For most developers, [Appkit](#appkit) is the best entry point unless you're wanting to dive straight into [ErgoScript](#ergoscript) smart-contract development.
 
+- Make sure to check out the [Grow Ergo](https://github.com/ergoplatform/grow-ergo/) repository or the `#jobs-and-bounties` channel on [Discord](https://discordapp.com/invite/gYrVrjS) to see developer bounties available on Ergo.
+- There are grants available from both [DarkFund0 (privacy-focus)](https://github.com/ergoplatform/grow-ergo/issues/1) or upto $20k per grant from the ['Good Whales Grant Fund'](https://github.com/ergoplatform/grow-ergo/issues/13)
+
+Start completing bounties to refine your skills - or submit a proposal directly to the [Ergo Foundation](https://ergoplatform.org/en/foundation/). Current job openings can be found at [ergoplatform.org/en/careers/](https://ergoplatform.org/en/careers/)
+
+
+**Resources**
 - See [wallets.md](wallets.md) for developer resources within that area.
 - See [apps.md](apps.md) for developer resources relating to any existing dApps built ontop Ergo.
 - [docs.md](docs.md) for related whitepapers and Ergo Improvement Proposals (EIPs)
-
-**Bounties**
-
-- Make sure to check out the [Grow Ergo](https://github.com/ergoplatform/grow-ergo/) repository to see developer bounties available on Ergo.
-- or the `#jobs-and-bounties` channel on [Discord](https://discordapp.com/invite/gYrVrjS)
 
 **ERGOHACK** 
 
 See overviews of the past two ERGOHACKs below and start preparing for ERGOHACK III!
 
+Join the [Discord](https://discord.gg/qxdrHM2eHv) server to participate. 
+
 - [ERGOHACK I](https://ergoplatform.org/en/blog/2021-06-19-ergohack/) (May, 2021)
 - [ERGOHACK II](https://ergoplatform.org/en/blog/2021-10-15-ergohack-ii-wrap-up/) (Oct 8-10, 2021)
 - ERGOHACK III Q1 2022 (TBC)
 
-Join the [Discord](https://discord.gg/qxdrHM2eHv) server to participate. 
-
-See [apps.md](apps.md) for repositories from previous ERGOHACKs
+See [apps.md](apps.md) for associated repositories from previous ERGOHACKs
 
 # Appkit
 
