@@ -96,6 +96,9 @@ When external oracle data is posted on-chain, it needs to be encoded in a very p
   - [Client](https://github.com/anon-real/DistributedSigsClient)
 - 'A Collective Spending Appproach' | In development, [more details](https://www.reddit.com/r/ergonauts/comments/ohftim/ergoteam_a_simpler_collective_spending_approach/)
 
+# ergo.watch
+
+- [abchrisxyz/ergowatch](https://github.com/abchrisxyz/ergowatch)
 
 # ERGOHACK
 
