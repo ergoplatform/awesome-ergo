@@ -18,10 +18,12 @@ For most developers, [Appkit](#appkit) is the best entry point unless you're wan
 Start completing bounties to refine your skills - or submit a proposal directly to the [Ergo Foundation](https://ergoplatform.org/en/foundation/). Current job openings can be found at [ergoplatform.org/en/careers/](https://ergoplatform.org/en/careers/)
 
 
+
 **Resources**
 - See [wallets.md](wallets.md) for developer resources within that area.
 - See [apps.md](apps.md) for developer resources relating to any existing dApps built ontop Ergo.
 - [docs.md](docs.md) for related whitepapers and Ergo Improvement Proposals (EIPs)
+- [`#dev-support`](https://discord.gg/dTphd7uG) on Discord.
 
 **ERGOHACK** 
 
