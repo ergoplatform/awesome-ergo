@@ -6,6 +6,7 @@
   - [Rust](#rust)
   - [JS/TS](#jsts)
   - [C](#c)
+  - [Other Languages](#other-languages)
 - [Resources](#resources)
 
 # Getting Started
@@ -113,6 +114,11 @@ This library is used internally in [Ergo Node](https://github.com/ergoplatform/e
 ## C#
 
 - [Ergo with C# 101](https://www.youtube.com/watch?v=aUuki-fAxwc&list=PLUWruihtE-HtL-JZk8Vb4Yn_H18aE3rb6)
+
+## Other Languages
+
+- GraalVM
+- Othe rexamples
 
 
 # Resources

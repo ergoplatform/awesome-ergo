@@ -1,7 +1,7 @@
 
 # Community
 
-Ergo has a vibrant grassroots community scattered across [Reddit](https://www.reddit.com/r/ergonauts), [Telegram](https://t.me/ergoplatform), [Discord](https://discord.gg/yDdb6yH3Zz) and [The Ergo Platform Forums](https://www.ergoforum.org). 
+Ergo has a vibrant grassroots community scattered across the web.
 
 
 # Official Channels

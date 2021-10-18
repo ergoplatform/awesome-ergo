@@ -1,10 +1,15 @@
 
 # Applications
 
-[sigmaverse.io](https://sigmaverse.io/) - *your portal to the Ergo Universe* | lists all currently operational applications.
+Check out [sigmaverse.io](https://sigmaverse.io/) - *your portal to the Ergo Universe* 
 
-- Various utilities are listed on [ergosites.github.io](https://ergosites.github.io/#ex2-tabs-3)
-- [ergo.watch](https://ergo.watch) | [Git](https://github.com/abchrisxyz/ergowatch)
+
+# ErgoDex
+
+The [ErgoLabs](https://github.com/ergolabs) repositorty contains all the related code for ErgoDex
+
+- [EIP-0014: Decentalized Exchange Contracts](https://github.com/ergoplatform/eips/pull/27)
+- [Single-Chain Swap Contracts (DEX basis) by Alex Chepurnoy](https://www.youtube.com/watch)
 
 
 # ErgoProfitSharingDapp
@@ -51,13 +56,6 @@ The UI for the front-end is available at [anon-real/sigma-usd](https://github.co
 
 - [Dexy: USD Simplest Stablecoin](https://www.ergoforum.org/t/dexy-usd-simplest-stablecoin-design/1430
 )
-# ErgoDex
-
-The [ErgoLabs](https://github.com/ergolabs) contains all the related code for ErgoDex
-
-
-- [EIP-0014: Decentalized Exchange Contracts](https://github.com/ergoplatform/eips/pull/27)
-- [Single-Chain Swap Contracts (DEX basis) by Alex Chepurnoy](https://www.youtube.com/watch)
 
 
 # Oracles
@@ -68,9 +66,9 @@ See this [overview](https://github.com/Emurgo/Emurgo-Research/blob/master/oracle
 
 **Resources**
 - [eth/usd connector](https://github.com/Luivatra/oracle-core/tree/eth-connector)
-- [Ergo oracles](https://github.com/sininen-taivas/ergo-oracle) - simple command-line tool to launch oracles. Inbuilt implementations for USD/ERG, EUR/ERG, BTC/ERG, AUG/ERG (gold) prices delivery. 
+- [Ergo oracles](https://github.com/sininen-taivas/ergo-oracle) | simple command-line tool to launch oracles. Inbuilt implementations for USD/ERG, EUR/ERG, BTC/ERG, AUG/ERG (gold) prices delivery. 
 - Learn about data inputs and the truly novel innovations they bring to UTXO-based Blockchains like #Cardano by reading our latest research [here](https://github.com/Emurgo/Emurgo-Research/blob/master/smart-contracts/Unlocking%20The%20Potential%20Of%20The%20UTXO%20Model.md)
- - [Ergo oracles](https://github.com/sininen-taivas/ergo-oracle) - simple command-line tool to launch oracles. Inbuilt implementations for USD/ERG, EUR/ERG, BTC/ERG, AUG/ERG (gold) prices delivery. See also a [forum topic with example](https://www.ergoforum.org/t/erg-usd-oracle-on-top-of-ergo/119)
+ - [Ergo oracles](https://github.com/sininen-taivas/ergo-oracle) | simple command-line tool to launch oracles. Inbuilt implementations for USD/ERG, EUR/ERG, BTC/ERG, AUG/ERG (gold) prices delivery. See also a [forum topic with example](https://www.ergoforum.org/t/erg-usd-oracle-on-top-of-ergo/119)
   
 
 ### v2
@@ -95,13 +93,12 @@ See this [overview](https://github.com/Emurgo/Emurgo-Research/blob/master/oracle
 - ['A Collective Spending Appproach'](https://www.reddit.com/r/ergonauts/comments/ohftim/ergoteam_a_simpler_collective_spending_approach/)
 
 
-
-
 # Misc
 
 - [ErgoFaucet.org](https://github.com/zargarzadehm/ergo-faucet)
-  
-  
+- Various utilities are listed on [ergosites.github.io](https://ergosites.github.io/#ex2-tabs-3)
+- [ergo.watch](https://ergo.watch) | [Git](https://github.com/abchrisxyz/ergowatch)
+
 # ERGOHACK
 
 **ERGOHACK I**
