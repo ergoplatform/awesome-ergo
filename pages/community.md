@@ -35,12 +35,22 @@ Ergo has a vibrant grassroots community scattered across [Reddit](https://www.re
 - [r/ErgoTrading](https://reddit.com/r/ErgoTrading)
 
 ## Tokens & dApps
-- [ErgoDex](https://t.me/ergodex)
-- [Ergo Token Centre](https://t.me/ErgoTokenCentre)
-- [Erdoge](https://t.me/ErdogeCommunity)
-- [NFTs](https://t.me/ergo_nft_trading)
-- [SigmaUSD](https://t.me/SigmaUSD)
-- [ErgoLend](https://t.me/ErgoLend)
+
+- [Ergo Token Centre](https://t.me/ErgoTokenCentre) (Telegram)
+- [Erdoge](https://t.me/ErdogeCommunity) (Telegram)
+- [SigmaUSD](https://t.me/SigmaUSD) (Telegram)
+- [ErgoLend ](https://t.me/ErgoLend) (Telegram)
+- [ShrimpCoin Discord](https://discord.gg/uRRtjGZPbB) (Discord)
+
+**NFTs**
+- [NFTs](https://t.me/ergo_nft_trading) (Telegram)
+- [ErgoNFT](https://discord.gg/eu3PQHgmmu) (Discord)
+- [Ergnomes](https://discord.gg/Pt46npwj6z) (Discord)
+
+**ErgoDEX**
+- [Discord](https://discord.gg/vrUCaygy59)
+- [Telegram](https://t.me/ergodex)
+- [r/ergodex](https://ergodex.io)
 
 ## Marketing
 - Logos, infographics and more available in [graphics](graphics). 
