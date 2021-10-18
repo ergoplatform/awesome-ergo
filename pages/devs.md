@@ -7,7 +7,6 @@
   - [JS/TS](#jsts)
   - [C](#c)
 - [Resources](#resources)
-  - [Services](#services)
 
 # Getting Started
 
@@ -57,13 +56,14 @@ The Appkit library is also compatible with [GraalVM](https://www.graalvm.org/) -
 
 # ErgoScript
 
-ErgoScript, a Cryptocurrency Scripting Language Supporting Noninteractive Zero-Knowledge Proofs | [Whitepaper](https://ergoplatform.org/docs/ErgoScript.pdf)
-
-If you ever need clarity about how specific types/functions/operators in ErgoScript work, please reference the [ErgoScript Language Description](https://github.com/ScorexFoundation/sigmastate-interpreter/blob/develop/docs/LangSpec.md). For an overarching summary, please reference this [video](https://www.youtube.com/watch?v=8l2v1asHgyA)
+- ErgoScript, a Cryptocurrency Scripting Language Supporting Noninteractive Zero-Knowledge Proofs | [Whitepaper](https://ergoplatform.org/docs/ErgoScript.pdf)
+-  If you ever need clarity about how specific types/functions/operators in ErgoScript work, please reference the [ErgoScript Language Description](https://github.com/ScorexFoundation/sigmastate-interpreter/blob/develop/docs/LangSpec.md). 
+-  For an overarching summary, please reference this [video](https://www.youtube.com/watch?v=8l2v1asHgyA)
 
 **Introductionary Tutorials**
 
-Learn [Ergoscript by example](https://github.com/ergoplatform/ergoscript-by-example) powered by the [Ergo Playground](https://scastie.scala-lang.org/). Each contract example includes a link which allows you to instantly edit and run the smart contract code inside of your browser.
+- Learn [Ergoscript by example](https://github.com/ergoplatform/ergoscript-by-example) powered by the [Ergo Playground](https://scastie.scala-lang.org/). 
+- Each contract example includes a link which allows you to instantly edit and run the smart contract code inside of your browser.
 
 **Advanced Tutorials**
 - [ErgoScript tutorial](https://ergoplatform.org/docs/ErgoScript.pdf)
@@ -96,18 +96,8 @@ This library is used internally in [Ergo Node](https://github.com/ergoplatform/e
 [sigma-rust](https://github.com/ergoplatform/sigma-rust) is an alternative and simple implementation of ErgoTree interpreter and transaction building tools. The goal for the Rust version is to be on par with Scala version feature-wise. Now Rust version is still significantly behind. Also the goal for the Rust version is to have bindings for web, iOS and Android. The Scala version will continue to be the primary choice for JVM ecosystem with Rust version covering the rest.
 
 > A list of "*good first*" issues is [available on GitHub](https://github.com/ergoplatform/sigma-rust/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) - @greenhat on [Discord](https://discord.gg/Q86PNMwRsu) is ready to assist anyone who is interested.
-
-
-To get better understanding on how to use it in your project check out how its being used in the following projects:
-
-- [Ergo Headless dApp Framework](https://github.com/Emurgo/ergo-headless-dapp-framework)
-- [Ergo Node Interface Library](https://github.com/Emurgo/ergo-node-interface)
-- [Oracle Core](https://github.com/ergoplatform/oracle-core)
-- [AgeUSD Stablecoin Protocol](https://github.com/Emurgo/age-usd)
-- [Yoroi wallet](https://github.com/Emurgo/yoroi-frontend) (WASM bindings)
-- [Ergo Desktop Wallet](https://github.com/ErgoWallet/ergowallet-desktop) (WASM bindings)
-
-[Ergo Utilities](https://github.com/robkorn/ergo-utilities-rust/) | simplify writing off-chain code in Rust.
+> 
+- [Ergo Utilities](https://github.com/robkorn/ergo-utilities-rust/) | simplify writing off-chain code in Rust.
 
 
 ## JS/TS
@@ -123,11 +113,15 @@ To get better understanding on how to use it in your project check out how its b
 
 # Resources
 
-## Services
+**Explorer**
 - [Mainnet explorer](https://explorer.ergoplatform.com/)
+
+**Testnet**
 - [Testnet explorer](https://testnet.ergoplatform.com/)
   - [Using Ergo-Testnet](https://github.com/ergoplatform/ergo/wiki/Ergo-Testnet)
   - [Testnet Faucet](https://testnet.ergofaucet.org/)
+
+**API**
 - [API Docs](https://api.ergoplatform.com/api/v1/docs/)
   - [Node API](https://git.io/fjqwb)
   - [Explorer API](https://git.io/fjqwN)
@@ -137,7 +131,7 @@ To get better understanding on how to use it in your project check out how its b
 - [Signature scheme](https://git.io/fjqwH)
 
 **Utilities** 
- - [Miner rewards script](https://github.com/lorien/ergotools) Simple command-line tool to find miner rewards not spent and form withdrawing transaction requests for them
+ - [Miner rewards script](https://github.com/lorien/ergotools) | Simple command-line tool to find miner rewards not spent and form withdrawing transaction requests for them
  - [Ergo P2S Playground](https://wallet.plutomonkey.com/p2s/?source=dHJ1ZQ==) | A web-based tool to quickly get the address corresponding to some script  
 
 **Resources** 

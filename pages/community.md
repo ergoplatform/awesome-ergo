@@ -1,7 +1,8 @@
 
 # Community
 
-Ergo has a vibrant grassroots community scattered across Reddit, [Telegram](https://t.me/ergoplatform), [Discord](https://discord.gg/yDdb6yH3Zz) and [The Ergo Platform Forums](www.ergoforum.org). Come join the main [Ergo Community-based marketing](https://t.me/ErgoSocials) chat on Telegram. 
+Ergo has a vibrant grassroots community scattered across [Reddit](https://www.reddit.com), [Telegram](https://t.me/ergoplatform), [Discord](https://discord.gg/yDdb6yH3Zz) and [The Ergo Platform Forums](www.ergoforum.org). 
+
 
 # Official Channels
 
@@ -18,6 +19,8 @@ Ergo has a vibrant grassroots community scattered across Reddit, [Telegram](http
 - [Ergo Platform Telegram](https://t.me/ergoplatform)
 - [Ergo Platform Discord](https://discord.gg/yDdb6yH3Zz)
 - [Support Telegram](https://t.me/ergosupport)
+
+# Community Discussions
 
 ## Mining
   
@@ -39,9 +42,14 @@ Ergo has a vibrant grassroots community scattered across Reddit, [Telegram](http
 - [SigmaUSD](https://t.me/SigmaUSD)
 - [ErgoLend](https://t.me/ErgoLend)
 
+## Marketing
+- Logos, infographics and more available in [graphics](graphics). 
+- Make sure to check out the [Grow Ergo](https://github.com/ergoplatform/grow-ergo/) repository to see bounties available on Ergo.
+- [Ergo Community-based marketing](https://t.me/ErgoSocials)
+
+
 ## Misc
 - [Ergo Agora (Polics/Economics/etc)](https://t.me/ErgoAgora)
-- [Ergo Community-based marketing](https://t.me/ErgoSocials)
 - [Ergo x Cardano](https://t.me/ERGOxCARDANO)
 - [Ergo Off-Topic](https://t.me/ErgoOfftopic)
 
@@ -67,7 +75,7 @@ Ergo has a vibrant grassroots community scattered across Reddit, [Telegram](http
 - [Brazil](https://t.me/ergobrazil)
 - [Portugues](https://t.me/ErgoPortuguese)
 
-# Community-ran resources
+# Community channels
 
 
 ##  Community Channels
