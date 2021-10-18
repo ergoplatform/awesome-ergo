@@ -1,6 +1,8 @@
 # awesome-ergo
 
-A curated list of awesome and useful Ergo resources. If you think your project should be listed here, please make a pull request.
+A curated list of awesome and useful Ergo resources. 
+
+If you think something else should be listed here, please make a pull request.
  
 # Pages
 
@@ -8,7 +10,7 @@ A curated list of awesome and useful Ergo resources. If you think your project s
 - [Developers](pages/devs.md)
     - [Documentation](pages/docs.md)
     - [Applications](pages/apps.md) 
-- [Wallets](pages/wallets.md)
+    - [Wallets](pages/wallets.md)
 
 # Official Channels
 

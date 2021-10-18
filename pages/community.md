@@ -46,6 +46,7 @@ Ergo has a vibrant grassroots community scattered across [Reddit](https://www.re
 - Logos, infographics and more available in [graphics](graphics). 
 - Make sure to check out the [Grow Ergo](https://github.com/ergoplatform/grow-ergo/) repository to see bounties available on Ergo.
 - [Ergo Community-based marketing](https://t.me/ErgoSocials)
+- [Figma Shared Graphic Space](https://www.figma.com/file/pd92vgB3xNFThaacIKodYs/Guide-ID?node-id=1%3A756)
 
 
 ## Misc

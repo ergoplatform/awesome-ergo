@@ -12,7 +12,6 @@
 
 For most developers, [Appkit](#appkit) is the best entry point unless you're wanting to dive straight into [ErgoScript](#ergoscript).
 
-
 - See [wallets.md](wallets.md) for developer resources within that area.
 - See [apps.md](apps.md) for developer resources relating to any existing dApps built ontop Ergo.
 - [docs.md](docs.md) for related whitepapers and Ergo Improvement Proposals (EIPs)
@@ -35,7 +34,7 @@ Join the [Discord](https://discord.gg/qxdrHM2eHv) server to participate.
 
 # Appkit
 
-[Appkit: A Library for Polyglot Development of Ergo Applications](https://github.com/aslesarenko/ergo-appkit) has an idiomatic Java API and is written in Java/Scala. It is a thin wrapper around core components provided by the ErgoScript interpreter and Ergo protocol implementations which are written in Scala. It is published on [maven repository](https://mvnrepository.com/artifact/org.ergoplatform/ergo-appkit)) and cross compiled to both Java 7 and Java 8+ jars.
+[Appkit: A Library for Polyglot Development of Ergo Applications](https://github.com/aslesarenko/ergo-appkit) has an idiomatic Java API and is written in Java/Scala. It is a thin wrapper around core components provided by the ErgoScript interpreter and Ergo protocol implementations which are written in Scala. It is published on [maven repository](https://mvnrepository.com/artifact/org.ergoplatform/ergo-appkit) and cross compiled to both Java 7 and Java 8+ jars.
 
 Using Appkit Ergo applications can be written in one of the languages supported by GraalVM (i.e. Java, JavaScript, C/C++, Python, Ruby, R) and using this library applications can communicate with Ergo nodes via unified API and programming model provided by Appkit. In addition Appkit based Ergo applications can be compiled into native code using native-image ahead of time compiler and then executed without Java VM with very fast startup time and lower runtime memory overhead compared to a Java VM. This is attractive option for high-performance low-latency microservices.
 
