@@ -15,24 +15,24 @@ Ergo has a vibrant grassroots community scattered across [Reddit](https://www.re
 
 
 **Official Chatrooms**
-- [Telegram Announcement Channel](https://t.me/ergo_news)
-- [Ergo Platform Telegram](https://t.me/ergoplatform)
-- [Ergo Platform Discord](https://discord.gg/yDdb6yH3Zz)
-- [Support Telegram](https://t.me/ergosupport)
+- [Telegram Announcement Channel](https://t.me/ergo_news) (Telegram)
+- [Ergo Platform](https://t.me/ergoplatform) (Telegram) 
+- [Ergo Platform ](https://discord.gg/yDdb6yH3Zz) (Discord)
+- [Support](https://t.me/ergosupport) (Telegram)
 
 # Community Discussions
 
 ## Mining
   
-- [Telegram Mining Chat](https://t.me/ergo_mining)
-- [Facebook Group : Ergo Coin (ERG) GPU MINING](https://www.facebook.com/groups/779328612722261/)
-- [r/erg_miners](https://reddit.com/r/erg_miners)
+- [Telegram Mining Chat](https://t.me/ergo_mining) (Telegram)
+- [Ergo Coin (ERG) GPU MINING](https://www.facebook.com/groups/779328612722261/) (Facebook)
+- [r/erg_miners](https://reddit.com/r/erg_miners) (Reddit)
 - Make sure to check out [The Complete Ergo Mining Handbook](https://ergonaut.space/en/Mining)
 
 ## Trading
-- [Trading](https://t.me/ERGtrading)
-- [Technical Analysis & Botting](https://t.me/ERGTechnicalAnalysis)
-- [r/ErgoTrading](https://reddit.com/r/ErgoTrading)
+- [Trading](https://t.me/ERGtrading) (Telegram)
+- [Technical Analysis & Botting](https://t.me/ERGTechnicalAnalysis) (Telegram)
+- [r/ErgoTrading](https://reddit.com/r/ErgoTrading) (Reddit)
 
 ## Tokens & dApps
 
@@ -48,21 +48,21 @@ Ergo has a vibrant grassroots community scattered across [Reddit](https://www.re
 - [Ergnomes](https://discord.gg/Pt46npwj6z) (Discord)
 
 **ErgoDEX**
-- [Discord](https://discord.gg/vrUCaygy59)
-- [Telegram](https://t.me/ergodex)
-- [r/ergodex](https://ergodex.io)
+- [ErgoDEX](https://discord.gg/vrUCaygy59) (Discord)
+- [ErgoDex](https://t.me/ergodex) (Telegram)
+- [r/ergodex](https://ergodex.io) (Reddit)
 
 ## Marketing
 - Logos, infographics and more available in [graphics](graphics). 
 - Make sure to check out the [Grow Ergo](https://github.com/ergoplatform/grow-ergo/) repository to see bounties available on Ergo.
-- [Ergo Community-based marketing](https://t.me/ErgoSocials)
+- [Ergo Community-based marketing](https://t.me/ErgoSocials) (Telegram)
 - [Figma Shared Graphic Space](https://www.figma.com/file/pd92vgB3xNFThaacIKodYs/Guide-ID?node-id=1%3A756)
 
 
 ## Misc
-- [Ergo Agora (Polics/Economics/etc)](https://t.me/ErgoAgora)
-- [Ergo x Cardano](https://t.me/ERGOxCARDANO)
-- [Ergo Off-Topic](https://t.me/ErgoOfftopic)
+- [Ergo Agora (Polics/Economics/etc)](https://t.me/ErgoAgora) (Telegram)
+- [Ergo x Cardano](https://t.me/ERGOxCARDANO) (Telegram)
+- [Ergo Off-Topic](https://t.me/ErgoOfftopic) (Telegram)
 
 
 ## Regional Telegrams
