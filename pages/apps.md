@@ -3,7 +3,7 @@
 - [sigmaverse.io](https://sigmaverse.io/) - *your portal to the Ergo Universe*
 - [ErgoFaucet.org](https://github.com/zargarzadehm/ergo-faucet)
 
-## Tokenisation
+# ErgoProfitSharingDapp
 
 This service will provide a way for dapps to distribute gains among dapps' token holders.
 
@@ -94,7 +94,7 @@ When external oracle data is posted on-chain, it needs to be encoded in a very p
 - ZK Treasury |  a tool for joint spendings with on-chain privacy 
   - [Server](https://github.com/anon-real/DistributedSigsServer) 
   - [Client](https://github.com/anon-real/DistributedSigsClient)
-- 'A Collective Spending Appproach' | In development, [more details](https://www.reddit.com/r/ergonauts/comments/ohftim/ergoteam_a_simpler_collective_spending_approach/)
+- ['A Collective Spending Appproach'](https://www.reddit.com/r/ergonauts/comments/ohftim/ergoteam_a_simpler_collective_spending_approach/)
 
 # ergo.watch
 
