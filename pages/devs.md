@@ -19,7 +19,7 @@ For most developers, [Appkit](#appkit) is the best entry point unless you're wan
 **Bounties**
 
 - Make sure to check out the [Grow Ergo](https://github.com/ergoplatform/grow-ergo/) repository to see developer bounties available on Ergo.
-- or the #jobs-and-bounties channel on [Discord](https://discordapp.com/invite/gYrVrjS)
+- or the `#jobs-and-bounties` channel on [Discord](https://discordapp.com/invite/gYrVrjS)
 
 **ERGOHACK** 
 
@@ -31,6 +31,7 @@ See overviews of the past two ERGOHACKs below and start preparing for ERGOHACK I
 
 Join the [Discord](https://discord.gg/qxdrHM2eHv) server to participate. 
 
+See [apps.md](apps.md) for repositories from previous ERGOHACKs
 
 # Appkit
 
