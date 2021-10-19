@@ -1,16 +1,16 @@
 # awesome-ergo
 
-A curated list of awesome and useful Ergo resources. If you think your project should be listed here, please make a pull request.
+A curated list of awesome and useful Ergo resources. 
 
-
-Logos, infographics and more available in [graphics](graphics). Make sure to check out the [Grow Ergo](https://github.com/ergoplatform/grow-ergo/) repository to see bounties available on Ergo.
+If you think something else should be listed here, please make a pull request.
+ 
 # Pages
 
 - [Community Chats and Content](pages/community.md)
 - [Developers](pages/devs.md)
-- [Documentation](pages/docs.md)
-- [Miners](pages/miners.md)
-- [Wallets](pages/wallets.md)
+    - [Documentation](pages/docs.md)
+    - [Applications](pages/apps.md) 
+    - [Wallets](pages/wallets.md)
 
 # Official Channels
 
