@@ -14,7 +14,7 @@
 ### Autolykos
 
 - [Ergo: The Resilient Platform For Contractual Money](https://ergoplatform.org/docs/whitepaper.pdf)
-- [Autolykos PoW scheme specification](https://docs.ergoplatform.com/ErgoPow.pdf)
+- [Autolykos PoW scheme specification](https://ergoplatform.org/docs/ErgoPow.pdf)
 - [Yellow paper (in progress)](https://docs.ergoplatform.com/YellowPaper.pdf)
 - [The Ergo Platform Project Overview](https://ergoplatform.org/docs/teaser.pdf)
 - [Revisiting Difficulty Control for Blockchain Systems](https://eprint.iacr.org/2017/731.pdf)
