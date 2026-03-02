@@ -579,6 +579,7 @@
   - [Token Flight Bot](https://github.com/The-Last-Byte-Bar/Token-Flight-Bot) – Bot associated with the Token Flight protocol.
 - [Sigmanaut Mining Pool UI](https://github.com/marctheshark3/sigmanaut-mining-pool-ui) – Community-developed user interface for the Sigmanauts mining pool. [`JS/TS`] *(Community UI)*
 - [Ergo CYTI Miner](https://github.com/Telefragged/ergo-cyti-miner) – Specialized miner designed to mine NFTs using the CYTI (Choose Your Token ID) contract. [`Rust`] *(Tool, ErgoHack)*
+- [RustChain](https://github.com/Scottcjn/Rustchain) – Proof-of-Antiquity blockchain that anchors miner attestation data to Ergo via register-based transactions. Uses 6-point hardware fingerprinting (clock drift, cache timing, SIMD identity, thermal drift, instruction jitter, anti-emulation) to reward vintage hardware miners. [`Python`] *(Community)*
 
 ### 🧠 Smart Pooling <a id="smart-pooling"></a>
 
